@@ -1,0 +1,6210 @@
+{
+"meta": {
+"texto_activo": "final",
+"fuentes": {
+"final": "set-completo-textos.md",
+"referencia": "Dizaster-Cartas-Referencia-v1.4.md",
+"catalogo": "dz-elevate-data-v14.jsx"
+},
+"mazos": {
+"asalto": {
+"nombre": "Asalto",
+"color": "#35D0DF",
+"gem": "03-mazo-asalto.webp",
+"diseños": 20,
+"copias": 39
+},
+"dominio": {
+"nombre": "Dominio",
+"color": "#8347B6",
+"gem": "08-mazo-dominio.webp",
+"diseños": 34,
+"copias": 54
+},
+"evento": {
+"nombre": "Evento",
+"color": "#E9E4D4",
+"gem": "11-evento.webp",
+"diseños": 43,
+"copias": 43
+}
+},
+"clases": {
+"ataque": {
+"nombre": "Ataque"
+},
+"defensa": {
+"nombre": "Defensa"
+},
+"efecto": {
+"nombre": "Efecto"
+},
+"invocacion": {
+"nombre": "Invocación"
+},
+"conjuro": {
+"nombre": "Conjuro"
+},
+"reaccion": {
+"nombre": "Reacción"
+},
+"aniquilacion": {
+"nombre": "Aniquilación"
+},
+"evento": {
+"nombre": "Evento"
+}
+},
+"tipos": {
+"precursora": {
+"nombre": "Precursora",
+"simbolo": "𖨰",
+"regla": "10.4.1"
+},
+"nexo": {
+"nombre": "Nexo",
+"simbolo": "𐋄",
+"regla": "10.4.2"
+},
+"instantaneo": {
+"nombre": "Instantánea",
+"simbolo": "⚶",
+"regla": "10.4.3"
+},
+"evento": {
+"nombre": "Evento",
+"simbolo": "",
+"regla": "10.2.3"
+}
+},
+"mods": {
+"furia": {
+"nombre": "Furia",
+"simbolo": "𖤗",
+"regla": "10.5.1"
+},
+"vestigio": {
+"nombre": "Vestigio",
+"simbolo": "𖢑",
+"regla": "10.5.2"
+}
+},
+"familias": {
+"general": "Eventos generales",
+"dado": "Movimiento con dado (Primigenio)",
+"especifico": "Movimiento específico (Superviviente y Forjado)"
+}
+},
+"cards": [
+{
+"code": "A01",
+"deck": "asalto",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 1,
+"of": 20,
+"name": {
+"es": "Golpe Demoledor",
+"en": "Demolition Strike"
+},
+"gem": "04-ataque-asalto.webp",
+"color": "#BF3138",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Elimina 3 piezas de categoría C —Exploradores, Defensores o Contendientes— repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 3 piezas de categoría C —Exploradores, Defensores o Contendientes— repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Elimina 3 piezas de categoría C —Exploradores, Defensores o Contendientes— repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 3 piezas de categoría C —Exploradores, Defensores o Contendientes— repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Elimina 3 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"en": "Remove 3 category C pieces, split as you wish among one or more realms. Declare the full split when activating."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Elimina 3 Piezas: Explorador, Defensor y/o Contendiente"
+},
+"propuesta": null
+},
+"uso_html": "Es el ataque de mano más directo del juego: abre la Fase de Resolución, declara su reparto y espera respuestas, sabiendo que cada reino defenderá solo su porción (<a class=\"rref\" href=\"#r-11-5\">11.5</a>) y que lo que te cancelen se pierde sin poderse reasignar (<a class=\"rref\" href=\"#r-11-6\">11.6</a>). Las tres piezas eliminadas bajan a tu Prisión de Guerra, así que esta carta también es media resurrección pagada por el enemigo.",
+"uso_final": false,
+"uso_refs": [
+"11.5",
+"11.6"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra el reino que protege a su Gobernante con una pared de piezas C: tres huecos de golpe abren líneas para tus Atacantes."
+],
+[
+"Combo",
+"Las 3 piezas eliminadas entran en tu Prisión de Guerra (12.1): con 4 prisioneros más ya pagas una resurrección en Primigenio (7; en Superviviente y Forjado, 9) (12.3)."
+],
+[
+"Ojo",
+"Repartir entre varios reinos dificulta que una sola respuesta te anule todo, pero cada porción cancelada se pierde (11.6)."
+]
+],
+"avisos": []
+},
+{
+"code": "A02",
+"deck": "asalto",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 2,
+"of": 20,
+"name": {
+"es": "Fuerza Abrumadora",
+"en": "Overwhelming Force"
+},
+"gem": "04-ataque-asalto.webp",
+"color": "#BF3138",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Elimina 3 piezas de entre Contendientes y Atacantes, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 3 piezas de entre Contendientes y Atacantes, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Elimina 3 piezas de entre Contendientes y Atacantes, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 3 piezas de entre Contendientes y Atacantes, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Elimina 3 piezas de entre Contendientes y Atacantes, repartidas entre uno o varios reinos. Declara el reparto al activarla.",
+"en": "Remove 3 pieces from among Contenders and Attackers, split among one or more realms. Declare the split when activating."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Elimina 3 Piezas: Contendiente y/o Atacante"
+},
+"propuesta": null
+},
+"uso_html": "La gemela de A01 pero con dientes más largos, porque alcanza a los Atacantes: quitárselos a un rival le obliga a pagar 7 prisioneros por cada uno (9 en Superviviente y Forjado) si quiere recuperarlos. Contra un reino que apoya su ofensiva en sus dos Atacantes, esta carta es un cambio de ritmo completo.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando un rival apoya su ofensiva en sus 2 Atacantes: revivir cada uno le cuesta 7 prisioneros, o 9 en Superviviente y Forjado (12.3)."
+],
+[
+"Combo",
+"Lánzala justo después de que alguien gaste su D01/D02 o cuando sepas que no las tiene: la defensa legendaria es escasa."
+],
+[
+"Ojo",
+"En Primigenio los Atacantes tiran D8 y alcanzan 8 casillas (7.2): quitarlos reduce mucho la amenaza de largo alcance."
+]
+],
+"avisos": []
+},
+{
+"code": "A05",
+"deck": "asalto",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 3,
+"of": 20,
+"name": {
+"es": "Ruptura de Ritmo",
+"en": "Rhythm Break"
+},
+"gem": "04-ataque-asalto.webp",
+"color": "#BF3138",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Un oponente que elijas pierde su próximo turno completo: no roba, no mueve, no activa cartas.",
+"reglas": [],
+"completo": "Un oponente que elijas pierde su próximo turno completo: no roba, no mueve, no activa cartas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Un oponente que elijas pierde su próximo turno completo: no roba, no mueve, no activa cartas.",
+"reglas": [],
+"completo": "Un oponente que elijas pierde su próximo turno completo: no roba, no mueve, no activa cartas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Un oponente que elijas pierde su próximo turno completo: no roba, no mueve, no activa cartas.",
+"en": "An opponent of your choice loses their next full turn: no draw, no moves, no cards."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Pierde 1 Turno tu Oponente"
+},
+"propuesta": null
+},
+"uso_html": "Tres ejemplares en el mazo la convierten en la disrupción más frecuente del Asalto. El turno perdido incluye el robo de Asalto (<a class=\"rref\" href=\"#r-8-1\">8.1</a>), así que el castigo real es doble: tiempo y cartas. Elígele el momento: quitarle el turno a quien estaba a una jugada de pisar una casilla de Dominio vale una partida.",
+"uso_final": false,
+"uso_refs": [
+"8.1"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Sobre quien está a un movimiento de terminar en una casilla de Dominio o de capturar a un Gobernante."
+],
+[
+"Combo",
+"El turno perdido incluye su robo de Asalto (8.1): el castigo es tiempo y cartas a la vez."
+]
+],
+"avisos": []
+},
+{
+"code": "A07",
+"deck": "asalto",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 4,
+"of": 20,
+"name": {
+"es": "Desgaste Lento",
+"en": "Slow Attrition"
+},
+"gem": "04-ataque-asalto.webp",
+"color": "#BF3138",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante sus próximos 2 turnos, un oponente que elijas solo puede mover 1 pieza por turno.",
+"reglas": [],
+"completo": "Durante sus próximos 2 turnos, un oponente que elijas solo puede mover 1 pieza por turno."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante sus próximos 2 turnos, un oponente que elijas solo puede mover 1 pieza por turno.",
+"reglas": [],
+"completo": "Durante sus próximos 2 turnos, un oponente que elijas solo puede mover 1 pieza por turno."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante sus próximos 2 turnos, un oponente que elijas solo puede mover 1 pieza por turno.",
+"en": "For their next 2 turns, an opponent of your choice may move only 1 piece per turn."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Un Movimiento por 2 Turnos a tu Oponente"
+},
+"propuesta": null
+},
+"uso_html": "Menos violenta que A05 pero más larga, y especialmente cruel contra quien gobierna varios reinos, porque sus 3 o 4 movimientos se reducen a 1 igual que los de cualquiera. Es la carta de contención por excelencia: no destruye nada, pero deja al rival medio congelado mientras tú maniobras.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra quien gobierna 3 o 4 reinos: sus 3–4 movimientos (8.2.1) caen a 1 durante 2 turnos."
+],
+[
+"Combo",
+"Mientras el rival anda a medio gas, ocupa tú las casillas de Dominio y cobra 1 carta por cada llegada (6.5)."
+]
+],
+"avisos": []
+},
+{
+"code": "D03",
+"deck": "asalto",
+"clase": "defensa",
+"type": "nexo",
+"mods": [],
+"qty": 3,
+"n": 5,
+"of": 20,
+"name": {
+"es": "Redirección Forzada",
+"en": "Forced Redirect"
+},
+"gem": "06-defensa-asalto.webp",
+"color": "#21A0D2",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de Ataque: todo su efecto se desvía hacia el jugador situado a la derecha de quien juega esta carta.",
+"reglas": [],
+"completo": "Responde a una carta de Ataque: todo su efecto se desvía hacia el jugador situado a la derecha de quien juega esta carta."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de Ataque: todo su efecto se desvía hacia el jugador situado a la derecha de quien juega esta carta.",
+"reglas": [],
+"completo": "Responde a una carta de Ataque: todo su efecto se desvía hacia el jugador situado a la derecha de quien juega esta carta."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Ataque: todo su efecto se desvía hacia el jugador a la derecha de quien juega esta carta.",
+"en": "Respond to an Attack card: its whole effect is redirected to the player at the right of whoever plays this card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Se Desvía el Poder de una Carta Ataque Hacia la Derecha"
+},
+"propuesta": null
+},
+"uso_html": "La defensa común del juego, y la única de la baraja de Asalto. No cancela nada: <strong>el golpe cae entero, pero en otra mesa</strong>, concretamente sobre el jugador a tu derecha, así que antes de jugarla mira quién se sienta ahí, porque si a tu derecha está el propio atacante, el golpe vuelve a casa, y si está tu único aliado, acabas de comprarte un enemigo. Puede jugarla <strong>cualquier</strong> jugador dentro de la Fase, no solo el objetivo del ataque (<a class=\"rref\" href=\"#r-10-4-2\">10.4.2</a>).",
+"uso_final": false,
+"uso_refs": [
+"10.4.2"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Antes de jugarla mira quién se sienta a tu derecha: el golpe cae entero sobre él."
+],
+[
+"Combo",
+"Al ser Nexo puede jugarla cualquiera dentro de la Fase (10.4.2): úsala para salvar a un aliado o castigar al líder."
+],
+[
+"Ojo",
+"No sirve contra Ataques con Furia (10.5.1); si apunta a algo que ya fue cancelado, se descarta sin efecto (11.8)."
+]
+],
+"avisos": []
+},
+{
+"code": "E01",
+"deck": "asalto",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 4,
+"n": 6,
+"of": 20,
+"name": {
+"es": "Fortaleza de Hierro",
+"en": "Iron Fortress"
+},
+"gem": "09-efecto-asalto.webp",
+"color": "#DD9913",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Adquieres 6 bloques de Muralla. Constrúyelos en tus casillas frontales; los que no quepan esperan en tu Prisión de Guerra.",
+"reglas": [
+"13.3"
+],
+"completo": "Adquieres 6 bloques de Muralla. Constrúyelos en tus casillas frontales; los que no quepan esperan en tu Prisión de Guerra."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Adquieres 6 bloques de Muralla. Constrúyelos en tus casillas frontales; los que no quepan esperan en tu Prisión de Guerra.",
+"reglas": [
+"13.3"
+],
+"completo": "Adquieres 6 bloques de Muralla. Constrúyelos en tus casillas frontales; los que no quepan esperan en tu Prisión de Guerra (13.3)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Adquieres 6 bloques de Muralla. Los que no quepan esperan en tu Prisión de Guerra.",
+"en": "Gain 6 Wall blocks. Any that do not fit wait in your War Prison."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Adquieres 6 Bloques de Muralla"
+},
+"propuesta": null
+},
+"uso_html": "La carta más repetida de todo el mazo de Asalto, y la fuente principal de muralla del juego (<a class=\"rref\" href=\"#r-13-1\">13.1</a>). No la leas solo como defensa: los bloques en prisión valen como prisioneros para revivir, así que 6 bloques te dejan a un solo prisionero de una resurrección en Primigenio.",
+"uso_final": true,
+"uso_refs": [
+"13.1"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando tus casillas frontales están libres; los bloques que no quepan esperan en tu Prisión (13.3)."
+],
+[
+"Combo",
+"Los bloques valen como prisioneros (12.3): con 6 bloques te falta solo 1 prisionero para una resurrección en Primigenio. Sacrificarlos solo se hace en tu turno (13.6)."
+],
+[
+"Ojo",
+"A04 · Destrucción Latente roba hasta 3 bloques para la prisión del atacante (13.7)."
+]
+],
+"avisos": []
+},
+{
+"code": "E05",
+"deck": "asalto",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 7,
+"of": 20,
+"name": {
+"es": "Líder Explorador",
+"en": "Scout Leader"
+},
+"gem": "09-efecto-asalto.webp",
+"color": "#DD9913",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante este turno, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas.",
+"reglas": [],
+"completo": "Durante este turno, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante este turno, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas.",
+"reglas": [],
+"completo": "Durante este turno, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante este turno, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite.",
+"en": "This turn, your Explorers move like the Conqueror: straight line, no limit."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Tus Exploradores pueden Moverse como el Conquistador por 1 Turno"
+},
+"propuesta": null
+},
+"uso_html": "Convierte por un turno a tus tres piezas más baratas en artillería de largo alcance, y su mejor empleo casi nunca es capturar sino <strong>llegar</strong>: un Explorador lanzado en línea recta cruza media zona común y se planta en una casilla de Dominio en una sola jugada.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para lanzar un Explorador en línea recta hasta una casilla de Dominio y cobrar su carta (6.5)."
+],
+[
+"Ojo",
+"Es tu Precursora del turno (10.4.1): ese turno no abrirás un ataque. Es la Efecto que C13 puede cancelar."
+]
+],
+"avisos": [
+"«Como el Conquistador» en Primigenio implicaría tirar D8; la Referencia no lo precisa."
+]
+},
+{
+"code": "E07",
+"deck": "asalto",
+"clase": "efecto",
+"type": "instantaneo",
+"mods": [],
+"qty": 2,
+"n": 8,
+"of": 20,
+"name": {
+"es": "Expansión Relámpago",
+"en": "Lightning Expansion"
+},
+"gem": "09-efecto-asalto.webp",
+"color": "#DD9913",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Habilita las casillas frontales adicionales de tu Muralla.",
+"reglas": [
+"13.8"
+],
+"completo": "Habilita las casillas frontales adicionales de tu Muralla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Habilita las casillas frontales adicionales de tu Muralla.",
+"reglas": [
+"13.8"
+],
+"completo": "Instantáneo. Habilita las casillas frontales adicionales de tu Muralla (13.8)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Habilita las casillas frontales adicionales de tu Muralla.",
+"en": "Unlock the additional front tiles of your Wall."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Expande tu Muralla a las casillas frontales de tu reino."
+},
+"propuesta": null
+},
+"uso_html": "Es una de las dos únicas vías de expansión de muralla que existen (<a class=\"rref\" href=\"#r-13-8\">13.8</a>), y al ser instantánea puede jugarse en cualquier momento, incluso en mitad del turno de otro, para abrir hueco justo cuando te llegan bloques que no tenían dónde ponerse.",
+"uso_final": false,
+"uso_refs": [
+"13.8"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Juégala justo cuando recibas bloques sin sitio (E01 o Fortificación): más casillas frontales donde construir (13.8)."
+],
+[
+"Ojo",
+"Cuenta para tu tope de 2 Instantáneas por ronda (10.4.3)."
+]
+],
+"avisos": []
+},
+{
+"code": "E08",
+"deck": "asalto",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 9,
+"of": 20,
+"name": {
+"es": "Paso Extra",
+"en": "Extra Step"
+},
+"gem": "09-efecto-asalto.webp",
+"color": "#DD9913",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante este turno, una de tus piezas puede moverse 1 casilla más allá de su límite.",
+"reglas": [],
+"completo": "Durante este turno, una de tus piezas puede moverse 1 casilla más allá de su límite."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante este turno, una de tus piezas puede moverse 1 casilla más allá de su límite.",
+"reglas": [],
+"completo": "Durante este turno, una de tus piezas puede moverse 1 casilla más allá de su límite."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante este turno, una de tus piezas puede moverse 1 casilla más allá de su límite.",
+"en": "This turn, one of your pieces may move 1 tile beyond its limit."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Adquieres 1 Casilla Extra por 1 Turno"
+},
+"propuesta": null
+},
+"uso_html": "Una casilla parece poca cosa hasta el día que tu Contendiente se queda exactamente a una casilla del Gobernante enemigo. Carta de precisión: guárdala para ese día.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada: el original admite leerse como «todas tus piezas»; se eligió «una», la lectura conservadora. Veredicto del autor pendiente."
+],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Guárdala para el turno en que una pieza tuya se queda exactamente a 1 casilla de su objetivo."
+],
+[
+"Combo",
+"En Primigenio, compénsala con una mala tirada: suma 1 casilla al límite de esa pieza."
+],
+[
+"Ojo",
+"La Referencia registra la lectura «una pieza»; veredicto del autor pendiente."
+]
+],
+"avisos": []
+},
+{
+"code": "E09",
+"deck": "asalto",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 10,
+"of": 20,
+"name": {
+"es": "Retroceso Forzado",
+"en": "Forced Retreat"
+},
+"gem": "09-efecto-asalto.webp",
+"color": "#DD9913",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Mueve una pieza enemiga de cualquier categoría hasta 3 casillas continuas. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"reglas": [
+"7.6.2"
+],
+"completo": "Mueve una pieza enemiga de cualquier categoría hasta 3 casillas continuas. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Mueve una pieza enemiga de cualquier categoría hasta 3 casillas continuas. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"reglas": [
+"7.6.2"
+],
+"completo": "Mueve una pieza enemiga de cualquier categoría hasta 3 casillas continuas. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante (7.6.2)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Mueve una pieza enemiga hasta 3 casillas continuas. Solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"en": "Move an enemy piece up to 3 continuous tiles. It may only capture pieces of equal or lower category, and never its own Ruler."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Mueve una pieza enemiga de cualquier categoría hasta 3 casillas continuas."
+},
+"propuesta": null
+},
+"uso_html": "La restricción de captura viene de la fuente original del juego y cierra el abuso obvio (matar a un Gobernante con sus propias piezas). Lo que queda sigue siendo enorme: sacar al Defensor que tapaba el paso, empujar una pieza fuera de una casilla de Dominio, o dejarle una presa servida a tu Conquistador.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para sacar a un enemigo de una casilla de Dominio o mover al Defensor que tapa el paso a tu presa."
+],
+[
+"Combo",
+"Deja la pieza enemiga a tiro de tu Atacante o Conquistador para capturarla en el mismo turno."
+],
+[
+"Ojo",
+"Movida así solo captura piezas de su categoría o inferior y nunca a su propio Gobernante (7.6.2)."
+]
+],
+"avisos": []
+},
+{
+"code": "I01",
+"deck": "asalto",
+"clase": "invocacion",
+"type": "instantaneo",
+"mods": [],
+"qty": 3,
+"n": 11,
+"of": 20,
+"name": {
+"es": "Resurrección Menor",
+"en": "Minor Resurrection"
+},
+"gem": "12-invocacion-asalto.webp",
+"color": "#2ECA76",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Revive sin coste 1 pieza tuya: Explorador, Defensor o Contendiente.",
+"reglas": [
+"12.6"
+],
+"completo": "Revive sin coste 1 pieza tuya: Explorador, Defensor o Contendiente."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Revive sin coste 1 pieza tuya: Explorador, Defensor o Contendiente. Aparece según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Instantáneo. Revive sin coste 1 pieza tuya: Explorador, Defensor o Contendiente. Aparece según 12.6."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Revive sin coste 1 pieza tuya: Explorador, Defensor o Contendiente.",
+"en": "Revive 1 of your pieces at no cost: Explorer, Defender or Contender."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Revive 1 Pieza: Explorador, Defensor o Contendiente"
+},
+"propuesta": null
+},
+"uso_html": "La recuperación básica del juego, y al ser instantánea no gasta tu Precursora del turno ni espera a que sea tu turno. Recuerda la regla de reaparición (<a class=\"rref\" href=\"#r-12-6\">12.6</a>): si tu casilla de origen la ocupa un enemigo, revivir encima <strong>lo captura</strong>, así que esta carta humilde puede ser, en el momento justo, una emboscada.",
+"uso_final": false,
+"uso_refs": [
+"12.6"
+],
+"notas": [
+"Decisión registrada: revivir por carta no cuesta prisioneros — la carta es el coste. Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Revive 1 Necrovante en tu reino.",
+"estado": "regla fija del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Úsala como emboscada: si tu casilla de origen la ocupa un enemigo, la pieza revivida lo captura (12.6)."
+],
+[
+"Ojo",
+"C06 la cancela y R08 cobra 2 cartas al activarla. Gasta una de tus 2 Instantáneas de la ronda."
+]
+],
+"avisos": []
+},
+{
+"code": "C02",
+"deck": "asalto",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 12,
+"of": 20,
+"name": {
+"es": "Llamado Oportuno",
+"en": "Timely Call"
+},
+"gem": "18-conjuro-asalto.webp",
+"color": "#E07921",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Roba 1 carta de cualquier mazo: Asalto, Dominio o Evento, o de la mano de un jugador. No puede robar cartas ya usadas.",
+"reglas": [],
+"completo": "Roba 1 carta de cualquier mazo: Asalto, Dominio o Evento, o de la mano de un jugador. No puede robar cartas ya usadas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Roba 1 carta de cualquier mazo.",
+"reglas": [],
+"completo": "Roba 1 carta de cualquier mazo."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Roba 1 carta de Asalto.",
+"en": "Draw 1 Assault card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba 1 Carta"
+},
+"propuesta": null
+},
+"uso_html": "La carta de robo más flexible del juego: eliges de qué mazo robas —Asalto, Dominio o Evento— o se la quitas directamente de la mano a un jugador. Lo único que no puede tocar son las cartas ya usadas. Su verdadero coste es de oportunidad, porque es tu Precursora del turno y ese turno ya no atacas.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de robar, mueve 1 Necrovante adicional este turno.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"En turnos tranquilos, cuando no tienes un ataque que abrir; también para quitarle a un rival una carta de su mano."
+],
+[
+"Ojo",
+"Es tu Precursora del turno; vigila el límite de 5 cartas al cerrar (8.3)."
+]
+],
+"avisos": []
+},
+{
+"code": "C03",
+"deck": "asalto",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [],
+"qty": 2,
+"n": 13,
+"of": 20,
+"name": {
+"es": "Refuerzo Inmediato",
+"en": "Immediate Reinforcement"
+},
+"gem": "18-conjuro-asalto.webp",
+"color": "#E07921",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Roba 1 carta de Dominio.",
+"reglas": [],
+"completo": "Roba 1 carta de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Roba 1 carta de cualquier mazo.",
+"reglas": [],
+"completo": "Instantáneo. Roba 1 carta de cualquier mazo."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Roba 1 carta de Asalto.",
+"en": "Draw 1 Assault card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba 1 Carta"
+},
+"propuesta": null
+},
+"uso_html": "Una carta de Dominio sin gastar tu Precursora y jugable en cualquier momento: puedes robar justo antes de tu turno para llegar con más opciones, o en mitad de una Fase ajena buscando a la desesperada una respuesta que no tienes. Cuenta para tu tope de Instantáneas de la ronda.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de robar, mueve 1 Necrovante de inmediato, aun fuera de tu turno.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Justo antes de tu turno, o en mitad de una Fase ajena buscando una respuesta que no tienes."
+],
+[
+"Ojo",
+"Gasta una de tus 2 Instantáneas por ronda (10.4.3) y R07/R03 pueden castigar el robo."
+]
+],
+"avisos": []
+},
+{
+"code": "C13",
+"deck": "asalto",
+"clase": "conjuro",
+"type": "nexo",
+"mods": [],
+"qty": 1,
+"n": 14,
+"of": 20,
+"name": {
+"es": "Anulación Selectiva",
+"en": "Selective Nullification"
+},
+"gem": "18-conjuro-asalto.webp",
+"color": "#E07921",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de clase Efecto: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de clase Efecto: queda cancelada."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de clase Efecto: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de clase Efecto: queda cancelada."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Efecto: queda cancelada.",
+"en": "Respond to an Effect card: it is cancelled."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cancela Cualquier Carta Efecto"
+},
+"propuesta": null
+},
+"uso_html": "El único contra-Efecto de toda la baraja, así que decide bien contra qué lo quemas: ¿el E01 que le daría 6 bloques, el E09 que va a arrastrar a tu Defensor, o el E06 que convertirá a sus Exploradores en Conquistadores durante dos turnos? Recuerda <a class=\"rref\" href=\"#r-11-8\">11.8</a>: si cuando le toca resolverse su objetivo ya no existe, la pierdes sin efecto.",
+"uso_final": false,
+"uso_refs": [
+"11.8"
+],
+"notas": [],
+"necro": {
+"texto": "Además, el jugador cancelado entrega 1 prisionero a la Fosa Común.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Resérvala para el Efecto que más duele: E06, E02 o E01 de un rival."
+],
+[
+"Ojo",
+"Es el único contra-Efecto de la baraja; si su objetivo ya no existe al resolverse, se pierde (11.8)."
+]
+],
+"avisos": []
+},
+{
+"code": "C14",
+"deck": "asalto",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 15,
+"of": 20,
+"name": {
+"es": "Pánico Colectivo",
+"en": "Collective Panic"
+},
+"gem": "18-conjuro-asalto.webp",
+"color": "#E07921",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "El próximo turno de un oponente que elijas se juega con la mitad de sus movimientos, redondeando hacia arriba.",
+"reglas": [],
+"completo": "El próximo turno de un oponente que elijas se juega con la mitad de sus movimientos, redondeando hacia arriba."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "El próximo turno de un oponente que elijas se juega con la mitad de sus movimientos, redondeando hacia arriba.",
+"reglas": [],
+"completo": "El próximo turno de un oponente que elijas se juega con la mitad de sus movimientos, redondeando hacia arriba."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "El próximo turno de un oponente que elijas se juega con la mitad de sus movimientos, redondeando hacia arriba.",
+"en": "The next turn of an opponent of your choice is played with half their moves, rounded up."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los movimientos del oponente quedan reducidos a la mitad en el próximo turno."
+},
+"propuesta": null
+},
+"uso_html": "La versión menor de A07: un solo turno afectado, pero suficiente para frenar una ofensiva que dependía de mover dos piezas coordinadas.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el redondeo no estaba definido; se eligió hacia arriba (2→1, 3→2, 4→2). Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Ese jugador tampoco puede capturar Necrovantes en ese turno.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra quien necesita mover 2 piezas coordinadas el próximo turno."
+],
+[
+"Combo",
+"Con 4 movimientos el rival se queda en 2; contra 2 movimientos, en 1 (redondeo hacia arriba)."
+]
+],
+"avisos": []
+},
+{
+"code": "C16",
+"deck": "asalto",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 16,
+"of": 20,
+"name": {
+"es": "Eco Resonante",
+"en": "Resonant Echo"
+},
+"gem": "18-conjuro-asalto.webp",
+"color": "#E07921",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Elige en el descarte de Asalto una carta ya utilizada y actívala en este momento como si fuera tuya. No puede elegir otra Eco Resonante. También puedes guardarla pagando 2 prisioneros a la Fosa Común.",
+"reglas": [
+"11.11"
+],
+"completo": "Elige en el descarte de Asalto una carta ya utilizada y actívala en este momento como si fuera tuya. No puede elegir otra Eco Resonante. También puedes guardarla pagando 2 prisioneros a la Fosa Común."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Elige en el descarte de Asalto una carta ya utilizada y actívala en este momento como si fuera tuya. No puede elegir otra Eco Resonante. Puedes activar después la nueva carta, pero deberás sacrificar 2 prisioneros de guerra a la fosa común.",
+"reglas": [
+"11.11"
+],
+"completo": "Instantáneo. Elige en el descarte de Asalto una carta ya utilizada y actívala en este momento como si fuera tuya. No puede elegir otra Eco Resonante (11.11). Puedes activar después la nueva carta, pero deberás sacrificar 2 prisioneros de guerra a la fosa común."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Activa de nuevo una carta ya usada del descarte de Asalto, como si fuera tuya. No puede elegir otra Eco Resonante.",
+"en": "Activate again a used card from the Assault discard, as if it were yours. It cannot choose another Resonant Echo."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Elige una Carta de Asalto Previamente Utilizada en el Cementerio y Vuelve a Activarla en este Momento"
+},
+"propuesta": null
+},
+"uso_html": "El descarte de Asalto es un menú a la vista de todos, y esta carta te deja pedir el mejor plato que alguien ya pagó: un E01 usado, un A05, lo que la partida haya ido dejando. Si la carta reactivada es respondible, abre su propia tanda de respuestas con normalidad. Puedes guardar la nueva carta en tu mano para su posterior activación, pero deberás pagar 2 prisioneros de guerra o bloques de muralla a la fosa común para guardarla en tu mano.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: la carta reactivada no consume tu Precursora del turno, porque la reactivación es el efecto de C16. Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Solo reactiva cartas de Conjuro, Reacción o Invocación.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando el descarte de Asalto guarda un E01, A05 o A01 ya usado: es un menú a la vista de todos."
+],
+[
+"Ojo",
+"No puede elegir otra Eco Resonante (11.11) ni reactivar cartas con Furia (10.5.1)."
+]
+],
+"avisos": []
+},
+{
+"code": "R01",
+"deck": "asalto",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 17,
+"of": 20,
+"name": {
+"es": "Ojo por Ojo",
+"en": "Eye for an Eye"
+},
+"gem": "16-reaccion-asalto.webp",
+"color": "#ABC034",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B o C sea capturada: elimina una pieza del reino atacante, de categoría igual o menor que la tuya perdida. No puede eliminar Gobernantes.",
+"reglas": [],
+"completo": "Actívala cuando una de tus piezas de categoría B o C sea capturada: elimina una pieza del reino atacante, de categoría igual o menor que la tuya perdida. No puede eliminar Gobernantes."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B o C sea capturada: elimina una pieza del reino atacante, de categoría igual o menor que la tuya perdida. No puede eliminar Gobernantes.",
+"reglas": [],
+"completo": "Actívala cuando una de tus piezas de categoría B o C sea capturada: elimina una pieza del reino atacante, de categoría igual o menor que la tuya perdida. No puede eliminar Gobernantes."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B o C sea capturada: elimina una pieza del reino atacante de categoría igual o menor. No alcanza a Gobernantes.",
+"en": "Activate when one of your B or C pieces is captured: remove a piece of equal or lower category from the attacking realm. It cannot reach Rulers."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si una de tus piezas de categoría B o inferior es capturada, elimina una pieza enemiga de igual o de menor categoría."
+},
+"propuesta": null
+},
+"uso_html": "La venganza automática: te quitan una pieza y la respuesta se cobra otra en el acto, que además baja a <strong>tu</strong> prisión (<a class=\"rref\" href=\"#r-12-1\">12.1</a>), con lo que el intercambio casi siempre te deja en paz o en ganancia. Su límite está escrito en la fuente original: nunca alcanza a un Gobernante.",
+"uso_final": false,
+"uso_refs": [
+"12.1"
+],
+"notas": [],
+"necro": {
+"texto": "Actívala cuando pierdas un Necrovante: elimina una pieza de categoría C del atacante.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Guárdala cuando tus piezas B o C estén expuestas: la venganza se cobra en el acto."
+],
+[
+"Combo",
+"La pieza eliminada va a tu Prisión (12.1): el intercambio te deja a la par o en ganancia."
+],
+[
+"Ojo",
+"Es Instantánea: si ya gastaste tus 2 de la ronda, no podrás usarla (10.4.3). C07 la cancela."
+]
+],
+"avisos": []
+},
+{
+"code": "R04",
+"deck": "asalto",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 18,
+"of": 20,
+"name": {
+"es": "Sacrificio Reforzado",
+"en": "Reinforced Sacrifice"
+},
+"gem": "16-reaccion-asalto.webp",
+"color": "#ABC034",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando una pieza tuya de categoría B sea eliminada: revive de inmediato, sin coste, una pieza tuya de categoría C y colócala en la casilla que quedó libre.",
+"reglas": [],
+"completo": "Actívala cuando una pieza tuya de categoría B sea eliminada: revive de inmediato, sin coste, una pieza tuya de categoría C y colócala en la casilla que quedó libre."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando una pieza tuya de categoría B sea eliminada: revive de inmediato, sin coste, una pieza tuya de categoría C y colócala en la casilla que quedó libre.",
+"reglas": [],
+"completo": "Actívala cuando una pieza tuya de categoría B sea eliminada: revive de inmediato, sin coste, una pieza tuya de categoría C y colócala en la casilla que quedó libre."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando una pieza tuya de categoría B sea eliminada: revive sin coste una pieza tuya de categoría C en la casilla que quedó libre.",
+"en": "Activate when one of your category B pieces is removed: revive at no cost one of your category C pieces on the freed tile."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si una pieza de categoría B ha sido eliminada, reemplázala por una de menor categoría."
+},
+"propuesta": null
+},
+"uso_html": "Pierdes un Atacante o un Conquistador y a cambio mantienes el terreno con un cuerpo más barato: el hueco no se cede, y en Dizaster el terreno cerca de tu Gobernante vale más que la pieza que lo pisa.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el original no dice de dónde sale la pieza menor ni dónde se coloca; se eligió «una caída tuya, en la casilla de la pieza perdida». Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Actívala cuando pierdas un Necrovante: invoca otro en la casilla que dejó.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando pierdes un Atacante o tu Conquistador en una casilla clave cerca de tu Gobernante."
+],
+[
+"Ojo",
+"Necesitas una pieza C caída para revivirla. R02 o C07 pueden cancelarla."
+]
+],
+"avisos": []
+},
+{
+"code": "R05",
+"deck": "asalto",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 19,
+"of": 20,
+"name": {
+"es": "Dulce Sacrificio",
+"en": "Sweet Sacrifice"
+},
+"gem": "16-reaccion-asalto.webp",
+"color": "#ABC034",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B sea capturada: roba 1 carta de Dominio.",
+"reglas": [],
+"completo": "Actívala cuando una de tus piezas de categoría B sea capturada: roba 1 carta de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B sea capturada: roba 1 carta de Dominio.",
+"reglas": [],
+"completo": "Actívala cuando una de tus piezas de categoría B sea capturada: roba 1 carta de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando una de tus piezas de categoría B sea capturada: roba 1 carta de Dominio.",
+"en": "Activate when one of your category B pieces is captured: draw 1 Dominion card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si una de tus Piezas de Categoría B es Capturada, Roba 1 Carta de Dominio"
+},
+"propuesta": null
+},
+"uso_html": "La única manera de conseguir una carta de Dominio <strong>sin pisar el centro del tablero</strong>, y por eso vale la pena guardarla aunque parezca pequeña: conviertes tu peor momento en la mejor carta del juego. Su límite también viene de la fuente: no alcanza a Gobernantes, porque dispara con categoría B.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Actívala cuando pierdas un Necrovante: toma 2 prisioneros de la Fosa Común.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Es la única forma de conseguir Dominio sin pisar el centro: guárdala aunque parezca pequeña."
+],
+[
+"Combo",
+"Si un rival va a capturar tu Atacante de todos modos, conviertes la pérdida en una carta de Dominio."
+]
+],
+"avisos": []
+},
+{
+"code": "R07",
+"deck": "asalto",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 20,
+"of": 20,
+"name": {
+"es": "Espía Oculto",
+"en": "Hidden Spy"
+},
+"gem": "16-reaccion-asalto.webp",
+"color": "#ABC034",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando un oponente robe cartas: míralas antes de que entren a su mano.",
+"reglas": [],
+"completo": "Actívala cuando un oponente robe cartas: míralas antes de que entren a su mano."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando un oponente robe cartas: míralas antes de que entren a su mano.",
+"reglas": [],
+"completo": "Actívala cuando un oponente robe cartas: míralas antes de que entren a su mano."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando un oponente robe cartas: míralas antes de que entren a su mano.",
+"en": "Activate when an opponent draws cards: look at them before they enter their hand."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Observa las cartas que recién haya robado cualquier oponente."
+},
+"propuesta": null
+},
+"uso_html": "Información pura, y en Dizaster la información escasea: la mano se ve pero no se lee (<a class=\"rref\" href=\"#r-9-1\">9.1</a>), así que saber <strong>qué es exactamente</strong> una de las cartas del rival, y poder seguirla con la vista por el dorso el resto de la partida, convierte esta carta menor en un mapa del peligro.",
+"uso_final": false,
+"uso_refs": [
+"9.1"
+],
+"notas": [],
+"necro": {
+"texto": "Además, ese jugador te muestra su mano completa.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando un rival cobra cartas de Dominio en la casilla central: sabrás qué guarda."
+],
+[
+"Combo",
+"La mano se ve pero no se lee (9.1): conocer una carta te deja seguirla por el dorso toda la partida."
+]
+],
+"avisos": []
+},
+{
+"code": "A03",
+"deck": "dominio",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 1,
+"of": 34,
+"name": {
+"es": "Sangrado Letal",
+"en": "Lethal Bleeding"
+},
+"gem": "05-ataque-dominio.webp",
+"color": "#C33238",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Elimina 5 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 5 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Elimina 5 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina 5 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Elimina 5 piezas de categoría C, repartidas como quieras entre uno o varios reinos. Declara el reparto completo al activarla.",
+"en": "Remove 5 category C pieces, split as you wish among one or more realms. Declare the full split when activating."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Elimina 5 Piezas: Explorador, Defensor y Contendiente"
+},
+"propuesta": null
+},
+"uso_html": "Es la carta del ejemplo canónico del Reglamento (<a class=\"rref\" href=\"#r-11-12\">11.12</a>): cinco eliminaciones repartidas, cada reino defendiendo su porción, y lo cancelado perdiéndose sin reasignación. Jugada limpia, son cinco prisioneros de golpe, casi una resurrección entera pagada por tus enemigos; repartida entre dos o tres reinos, es además un mensaje político.",
+"uso_final": true,
+"uso_refs": [
+"11.12"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para desarmar a dos reinos a la vez: el ejemplo de 11.3 reparte 3 + 2."
+],
+[
+"Ojo",
+"Si un rival tiene D01, el paquete invertido puede caer entero sobre ti (decisión registrada en la Referencia)."
+]
+],
+"avisos": []
+},
+{
+"code": "A04",
+"deck": "dominio",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 4,
+"n": 2,
+"of": 34,
+"name": {
+"es": "Destrucción Latente",
+"en": "Latent Destruction"
+},
+"gem": "05-ataque-dominio.webp",
+"color": "#C33238",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Destruye hasta 3 bloques de una o varias Murallas; los bloques destruidos pasan a tu Prisión de Guerra.",
+"reglas": [
+"13.7"
+],
+"completo": "Destruye hasta 3 bloques de una o varias Murallas; los bloques destruidos pasan a tu Prisión de Guerra."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Destruye hasta 3 bloques de una o varias Murallas; los bloques destruidos pasan a tu Prisión de Guerra.",
+"reglas": [
+"13.7"
+],
+"completo": "Destruye hasta 3 bloques de una o varias Murallas; los bloques destruidos pasan a tu Prisión de Guerra (13.7)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Destruye hasta 3 bloques de una o varias Murallas. Los bloques destruidos pasan a tu Prisión de Guerra.",
+"en": "Destroy up to 3 blocks of one or more Walls. Destroyed blocks go to your War Prison."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Destruye 3 bloques de cualquier Muralla"
+},
+"propuesta": null
+},
+"uso_html": "La única carta del juego que rompe muralla, y hay 4 ejemplares: ninguna fortaleza es eterna. Los bloques robados valen como prisioneros desde ya, y desde <strong>tu siguiente turno</strong> puedes construirlos en tu propio reino (<a class=\"rref\" href=\"#r-13-7\">13.7</a>), así que esta carta desviste a un rival para vestirte a ti.",
+"uso_final": false,
+"uso_refs": [
+"13.7"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra quien se encerró tras su muralla o la usa para frenar tu avance."
+],
+[
+"Combo",
+"Los bloques robados son prisioneros tuyos (13.7): pagan resurrecciones y podrás construirlos desde tu siguiente turno."
+]
+],
+"avisos": []
+},
+{
+"code": "A06",
+"deck": "dominio",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 3,
+"of": 34,
+"name": {
+"es": "Parálisis Total",
+"en": "Total Paralysis"
+},
+"gem": "05-ataque-dominio.webp",
+"color": "#C33238",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Un oponente que elijas pierde sus próximos 2 turnos completos: no roba, no mueve, no activa cartas.",
+"reglas": [],
+"completo": "Un oponente que elijas pierde sus próximos 2 turnos completos: no roba, no mueve, no activa cartas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Un oponente que elijas pierde sus próximos 2 turnos completos: no roba, no mueve, no activa cartas.",
+"reglas": [],
+"completo": "Un oponente que elijas pierde sus próximos 2 turnos completos: no roba, no mueve, no activa cartas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Un oponente que elijas pierde sus próximos 2 turnos completos.",
+"en": "An opponent of your choice loses their next 2 full turns."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Pierde 2 Turnos tu Oponente"
+},
+"propuesta": null
+},
+"uso_html": "La versión mayor de A05, y probablemente el castigo de tempo más duro del juego: dos rondas enteras mirando. Como todo Ataque es respondible, y quitarle dos turnos a alguien delante de toda la mesa invita a que otro gaste su defensa por pura conveniencia política.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Sobre el jugador que va primero o que está a punto de rematar a otro: 2 turnos sin robar, mover ni activar."
+],
+[
+"Ojo",
+"Es un Ataque: D01 la invierte y te deja 2 turnos fuera a ti."
+]
+],
+"avisos": []
+},
+{
+"code": "A08",
+"deck": "dominio",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 4,
+"of": 34,
+"name": {
+"es": "Mano Vacía",
+"en": "Empty Hand"
+},
+"gem": "05-ataque-dominio.webp",
+"color": "#C33238",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Un oponente que elijas descarta toda su mano.",
+"reglas": [],
+"completo": "Un oponente que elijas descarta toda su mano."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Un oponente que elijas descarta toda su mano.",
+"reglas": [],
+"completo": "Un oponente que elijas descarta toda su mano."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Un oponente que elijas descarta toda su mano.",
+"en": "An opponent of your choice discards their whole hand."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Tu Oponente Descarta su Mano"
+},
+"propuesta": null
+},
+"uso_html": "El momento lo es todo: jugada tras un turno en que el rival acumuló cartas, o justo después de que pisara Dominio, borra en un gesto lo que le costó rondas construir. La Carta Oculta ya colocada sobre la mesa <strong>no</strong> forma parte de la mano y sobrevive.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra quien acaba de cobrar Dominio o acumula respuestas: le dejas sin defensas para tu siguiente golpe."
+],
+[
+"Combo",
+"Ábrela en un turno y lanza tu gran ataque en el siguiente, cuando ya no pueda responder."
+]
+],
+"avisos": []
+},
+{
+"code": "A09",
+"deck": "dominio",
+"clase": "ataque",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 5,
+"of": 34,
+"name": {
+"es": "Furia Implacable",
+"en": "Relentless Fury"
+},
+"gem": "05-ataque-dominio.webp",
+"color": "#C33238",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Elimina hasta 4 piezas de categoría B o C, repartidas como quieras entre uno o varios reinos. No puede eliminar Gobernantes. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina hasta 4 piezas de categoría B o C, repartidas como quieras entre uno o varios reinos. No puede eliminar Gobernantes. Declara el reparto completo al activarla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Elimina hasta 4 piezas de categoría B o C, repartidas como quieras entre uno o varios reinos. No puede eliminar Gobernantes. Declara el reparto completo al activarla.",
+"reglas": [],
+"completo": "Elimina hasta 4 piezas de categoría B o C, repartidas como quieras entre uno o varios reinos. No puede eliminar Gobernantes. Declara el reparto completo al activarla."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Elimina hasta 4 piezas de categoría B o C, repartidas entre uno o varios reinos. No alcanza a Gobernantes. Declara el reparto al activarla.",
+"en": "Remove up to 4 pieces of category B or C, split among one or more realms. It cannot reach Rulers. Declare the split when activating."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Elimina hasta 4 piezas enemigas de categoría B o inferior."
+},
+"propuesta": null
+},
+"uso_html": "El ataque repartible más pesado de la baraja, y nota el «hasta»: puedes declarar menos de 4 si te conviene afinar. Pese a su nombre, <strong>no lleva el modificador Furia</strong>: es perfectamente respondible, y con este calibre casi siempre lo será.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para arrancar Atacantes y Conquistadores enemigos de una sola vez, repartidos entre varios reinos."
+],
+[
+"Ojo",
+"Su nombre se confunde con el modificador Furia, pero NO lleva Furia: se puede responder."
+]
+],
+"avisos": [
+"El nombre «Furia Implacable» se confunde con el modificador Furia, que esta carta no lleva."
+]
+},
+{
+"code": "D01",
+"deck": "dominio",
+"clase": "defensa",
+"type": "nexo",
+"mods": [],
+"qty": 4,
+"n": 6,
+"of": 34,
+"name": {
+"es": "Reflejo Inquebrantable",
+"en": "Unbreakable Reflection"
+},
+"gem": "07-defensa-dominio.webp",
+"color": "#2A9DCE",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de Ataque: su efecto completo se invierte y cae sobre quien la activó.",
+"reglas": [],
+"completo": "Responde a una carta de Ataque: su efecto completo se invierte y cae sobre quien la activó."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de Ataque: su efecto completo se invierte y cae sobre quien la activó.",
+"reglas": [],
+"completo": "Responde a una carta de Ataque: su efecto completo se invierte y cae sobre quien la activó."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Ataque: su efecto completo se invierte y cae sobre quien la activó.",
+"en": "Respond to an Attack card: its whole effect is inverted and falls upon its activator."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Se Invierte el Poder de una Carta Ataque"
+},
+"propuesta": null
+},
+"uso_html": "Una de las dos defensas legendarias (<strong>2.2</strong>), y la más cruel de las dos, porque no anula el golpe: <strong>se lo sirve al que lo lanzó</strong>. Un Sangrado Letal invertido significa que el atacante pierde 5 piezas propias. Cuatro ejemplares en el mazo de Dominio la hacen la más presente de las legendarias: cuenta con que existe cada vez que ataques en grande.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: si el Ataque estaba repartido entre varios reinos, la inversión devuelve el paquete entero al atacante. Veredicto del autor pendiente."
+],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra el Ataque grande (A03, A09): el atacante sufre su propio golpe."
+],
+[
+"Ojo",
+"No funciona contra cartas con Furia (10.5.1). Puede jugarla cualquiera dentro de la Fase (10.4.2)."
+]
+],
+"avisos": []
+},
+{
+"code": "D02",
+"deck": "dominio",
+"clase": "defensa",
+"type": "nexo",
+"mods": [
+"furia"
+],
+"qty": 2,
+"n": 7,
+"of": 34,
+"name": {
+"es": "Defensa Suprema",
+"en": "Supreme Defense"
+},
+"gem": "07-defensa-dominio.webp",
+"color": "#2A9DCE",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de Ataque: queda cancelada. Furia: esta carta no puede ser cancelada, redirigida, copiada ni reactivada, y se resuelve en el acto.",
+"reglas": [
+"11.9"
+],
+"completo": "Responde a una carta de Ataque: queda cancelada. Furia: esta carta no puede ser cancelada, redirigida, copiada ni reactivada, y se resuelve en el acto."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de Ataque: queda cancelada. Furia: esta carta no puede ser cancelada, redirigida, copiada ni reactivada, y se resuelve en el acto.",
+"reglas": [
+"11.9"
+],
+"completo": "Responde a una carta de Ataque: queda cancelada. Furia: esta carta no puede ser cancelada, redirigida, copiada ni reactivada, y se resuelve en el acto (11.9)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Ataque: queda cancelada. Nada puede responder a esta carta.",
+"en": "Respond to an Attack card: it is cancelled. Nothing can respond to this card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Se Cancela Poder de una Carta Ataque"
+},
+"propuesta": null
+},
+"uso_html": "La única cancelación pura de Ataques del juego, y con Furia: cuando cae sobre la pila, <strong>se acabó la discusión</strong> — el Ataque muere en el acto y todo lo que dependía de él cae sin efecto, exactamente como muestra el ejemplo <a class=\"rref\" href=\"#r-11-13\">11.13</a>. Solo hay 2 en toda la baraja: quien la tiene, guarda un veto absoluto, y quien la ya usó, queda desnudo.",
+"uso_final": false,
+"uso_refs": [
+"11.13"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Tu veto absoluto: guárdala para el Ataque que te costaría el trono."
+],
+[
+"Combo",
+"Con Furia se resuelve en el acto y arrastra a las respuestas que apuntaban al Ataque (11.9, 11.13)."
+],
+[
+"Ojo",
+"Solo hay 2 en toda la baraja: cuando la gastes, todos lo sabrán."
+]
+],
+"avisos": []
+},
+{
+"code": "E02",
+"deck": "dominio",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 8,
+"of": 34,
+"name": {
+"es": "Control de Campo",
+"en": "Field Control"
+},
+"gem": "10-efecto-dominio.webp",
+"color": "#DFA313",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Mueve 1 pieza enemiga usando su propio patrón de movimiento. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"reglas": [
+"7.6.2"
+],
+"completo": "Mueve 1 pieza enemiga usando su propio patrón de movimiento. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Mueve 1 pieza enemiga usando su propio patrón de movimiento. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"reglas": [
+"7.6.2"
+],
+"completo": "Mueve 1 pieza enemiga usando su propio patrón de movimiento. Movida así solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante (7.6.2)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Mueve 1 pieza enemiga usando su propio patrón. Solo puede capturar piezas de su categoría o inferior, y jamás a su propio Gobernante.",
+"en": "Move 1 enemy piece using its own pattern. It may only capture pieces of equal or lower category, and never its own Ruler."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Mueves 1 Pieza Enemiga de cualquier categoría según su movimiento"
+},
+"propuesta": null
+},
+"uso_html": "La hermana mayor de E09: en lugar de 3 casillas, el patrón completo de la pieza, lo que con un Conquistador ajeno significa cruzar el tablero. Las capturas que provoques van a <strong>tu</strong> prisión (<a class=\"rref\" href=\"#r-12-1\">12.1</a>), de modo que puedes usar el ejército del rival como herramienta de recaudación propia.",
+"uso_final": false,
+"uso_refs": [
+"12.1"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para mover una pieza enemiga y servírsela a tus piezas, o para sacarla de una casilla de Dominio."
+],
+[
+"Ojo",
+"En Primigenio, cómo aplicar «su propio patrón» a una pieza que tira dado conviene pactarlo en mesa. Solo captura su categoría o inferior y nunca a su Gobernante (7.6.2)."
+]
+],
+"avisos": [
+"Redactada para movimiento específico («su propio patrón»); en Primigenio (dado) su aplicación no está definida."
+]
+},
+{
+"code": "E03",
+"deck": "dominio",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 9,
+"of": 34,
+"name": {
+"es": "Paso Extraordinario",
+"en": "Extraordinary Step"
+},
+"gem": "10-efecto-dominio.webp",
+"color": "#DFA313",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Adquieres 1 movimiento de pieza adicional este turno. Sigue aplicando la regla de una pieza, un movimiento.",
+"reglas": [
+"7.3"
+],
+"completo": "Adquieres 1 movimiento de pieza adicional este turno. Sigue aplicando la regla de una pieza, un movimiento."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Adquieres 1 movimiento de pieza adicional este turno. Sigue aplicando la regla de una pieza, un movimiento.",
+"reglas": [
+"7.3"
+],
+"completo": "Adquieres 1 movimiento de pieza adicional este turno. Sigue aplicando la regla de una pieza, un movimiento (7.3)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Adquieres 1 movimiento de pieza adicional este turno, con una pieza distinta.",
+"en": "Gain 1 additional piece move this turn, with a different piece."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Adquieres 1 Movimiento Extra"
+},
+"propuesta": null
+},
+"uso_html": "Tres movimientos en un turno rompen la aritmética que toda la mesa tiene interiorizada: la pieza que «no llegaba», llega. El límite que no se rompe es <a class=\"rref\" href=\"#r-7-3\">7.3</a>: la tercera pieza debe ser distinta de las otras dos.",
+"uso_final": false,
+"uso_refs": [
+"7.3"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando necesitas una pieza más en movimiento para cerrar una captura o pisar el Dominio."
+],
+[
+"Ojo",
+"Sigue valiendo «una pieza, un movimiento» (7.3): la pieza extra tiene que ser distinta."
+]
+],
+"avisos": []
+},
+{
+"code": "E04",
+"deck": "dominio",
+"clase": "efecto",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 10,
+"of": 34,
+"name": {
+"es": "Escapada Maestra",
+"en": "Master Escape"
+},
+"gem": "10-efecto-dominio.webp",
+"color": "#DFA313",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Mueve de inmediato una pieza tuya según su patrón, incluso fuera de tu turno. Este movimiento no cuenta para el límite de tu turno.",
+"reglas": [],
+"completo": "Mueve de inmediato una pieza tuya según su patrón, incluso fuera de tu turno. Este movimiento no cuenta para el límite de tu turno."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Mueve de inmediato una pieza tuya según su patrón, incluso fuera de tu turno. Este movimiento no cuenta para el límite de tu turno.",
+"reglas": [],
+"completo": "Instantáneo. Mueve de inmediato una pieza tuya según su patrón, incluso fuera de tu turno. Este movimiento no cuenta para el límite de tu turno."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Mueve de inmediato una pieza tuya según su patrón, incluso fuera de tu turno. No cuenta para el límite de tu turno.",
+"en": "Immediately move one of your pieces by its pattern, even outside your turn. It does not count toward your turn limit."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Adquieres 1 Movimiento Extra"
+},
+"propuesta": null
+},
+"uso_html": "El único movimiento fuera de turno del juego: la pieza que iba a caer, ya no está ahí cuando le llega el golpe. Contra amenazas de captura declaradas a la vista —un Conquistador alineado con tu Gobernante— es, literalmente, la escapada maestra.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el original es idéntico a E03, pero su condición de Instantáneo y su nombre indican un uso reactivo; se redactó como movimiento inmediato fuera de turno. Veredicto del autor pendiente."
+],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para sacar del peligro a una pieza en el turno de otro, justo antes de que la capturen."
+],
+[
+"Combo",
+"Úsala para salvar a tu Gobernante de una amenaza que ya ves venir."
+],
+[
+"Ojo",
+"Gasta una de tus 2 Instantáneas de la ronda. C13 puede cancelarla, y R02 también por ser Instantánea."
+]
+],
+"avisos": []
+},
+{
+"code": "E06",
+"deck": "dominio",
+"clase": "efecto",
+"type": "precursora",
+"mods": [],
+"qty": 3,
+"n": 11,
+"of": 34,
+"name": {
+"es": "Explorador Supremo",
+"en": "Supreme Explorer"
+},
+"gem": "10-efecto-dominio.webp",
+"color": "#DFA313",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante tus próximos 2 turnos, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas.",
+"reglas": [],
+"completo": "Durante tus próximos 2 turnos, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante tus próximos 2 turnos, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas.",
+"reglas": [],
+"completo": "Durante tus próximos 2 turnos, tus Exploradores se mueven como el Conquistador: en línea recta, sin límite de casillas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante tus próximos 2 turnos, tus Exploradores se mueven como el Conquistador: recta, sin límite.",
+"en": "For your next 2 turns, your Explorers move like the Conqueror: straight, no limit."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Tus Exploradores Pueden Moverse como el Conquistador por 2 Turnos"
+},
+"propuesta": null
+},
+"uso_html": "El doble de duración que E05, que ya era fuerte: seis movimientos potenciales de largo alcance con tus piezas más baratas. Dos turnos dan para ir <strong>y volver</strong> del centro, o para sostener una presencia en Dominio que obligue a toda la mesa a reaccionar.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para dos turnos de presión con tus 3 Exploradores en línea recta: llegar al Dominio y amenazar Gobernantes."
+],
+[
+"Ojo",
+"Es la Efecto más temida: C13 está pensada para ella."
+]
+],
+"avisos": [
+"«Como el Conquistador» en Primigenio implicaría tirar D8; la Referencia no lo precisa."
+]
+},
+{
+"code": "I02",
+"deck": "dominio",
+"clase": "invocacion",
+"type": "instantaneo",
+"mods": [],
+"qty": 2,
+"n": 12,
+"of": 34,
+"name": {
+"es": "Llamada de Refuerzos",
+"en": "Call for Reinforcements"
+},
+"gem": "13-invocacion-dominio.webp",
+"color": "#3EC969",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Revive sin coste 2 piezas tuyas de categoría C.",
+"reglas": [
+"12.6"
+],
+"completo": "Revive sin coste 2 piezas tuyas de categoría C."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Revive sin coste 2 piezas tuyas de categoría C. Aparecen según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Instantáneo. Revive sin coste 2 piezas tuyas de categoría C. Aparecen según 12.6."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Revive sin coste 2 piezas tuyas de categoría C.",
+"en": "Revive 2 of your category C pieces at no cost."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Revive 2 Piezas: Explorador, Defensor y/o Contendiente"
+},
+"propuesta": null
+},
+"uso_html": "El doble de I01 y con la misma flexibilidad de instantáneo: dos piezas de categoría C que, pagadas con prisioneros, costarían 14 en Primigenio y 18 en Superviviente y Forjado. Probablemente la Invocación con mejor relación coste-efecto del juego.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [
+"Misma decisión que I01: revivir por carta no cuesta prisioneros."
+],
+"necro": {
+"texto": "Revive 2 Necrovantes en tu reino.",
+"estado": "regla fija del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para rellenar la defensa de tu Gobernante fuera de tu turno."
+],
+[
+"Combo",
+"Si un enemigo ocupa tu casilla de origen, la resurrección lo captura (12.6)."
+]
+],
+"avisos": []
+},
+{
+"code": "I03",
+"deck": "dominio",
+"clase": "invocacion",
+"type": "precursora",
+"mods": [],
+"qty": 2,
+"n": 13,
+"of": 34,
+"name": {
+"es": "Despertar del Reino",
+"en": "Awakening of the Realm"
+},
+"gem": "13-invocacion-dominio.webp",
+"color": "#3EC969",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Revive sin coste 2 piezas tuyas: Exploradores, Defensores, Contendientes o Atacantes. Aparecen según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Revive sin coste 2 piezas tuyas: Exploradores, Defensores, Contendientes o Atacantes. Aparecen según 12.6."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Revive sin coste 2 piezas tuyas: Exploradores, Defensores, Contendientes o Atacantes. Aparecen según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Revive sin coste 2 piezas tuyas: Exploradores, Defensores, Contendientes o Atacantes. Aparecen según 12.6."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Revive sin coste 2 piezas tuyas: Explorador, Defensor, Contendiente o Atacante.",
+"en": "Revive 2 of your pieces at no cost: Explorer, Defender, Contender or Attacker."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Revive 2 Piezas: Explorador, Defensor, Contendiente y/o Atacante"
+},
+"propuesta": null
+},
+"uso_html": "Alcanza a los Atacantes: dos piezas revividas son 14 prisioneros ahorrados en Primigenio, o 18 en Superviviente y Forjado. A cambio es Precursora —gasta tu activación y es respondible—, y existe C06 exactamente para cazarla.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [
+"Misma decisión de coste que I01/I02."
+],
+"necro": {
+"texto": "Revive 2 Necrovantes en tu reino.",
+"estado": "regla fija del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Tras perder un Atacante: es de las pocas formas de revivir un Atacante sin pagar 7 o 9 prisioneros."
+],
+[
+"Ojo",
+"Es Precursora: ese turno no abrirás un ataque. C06 la cancela y R08 te cobra 2 cartas."
+]
+],
+"avisos": []
+},
+{
+"code": "I04",
+"deck": "dominio",
+"clase": "invocacion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 14,
+"of": 34,
+"name": {
+"es": "Renacer del Fénix",
+"en": "Phoenix Rebirth"
+},
+"gem": "13-invocacion-dominio.webp",
+"color": "#3EC969",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Revive un reino: recibe un Gobernante, un Atacante, un Defensor y un Explorador.",
+"reglas": [
+"14.4"
+],
+"completo": "Revive un reino: recibe un Gobernante, un Atacante, un Defensor y un Explorador."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Revive un reino: recibe un Gobernante, un Atacante, un Defensor y un Explorador.",
+"reglas": [
+"14.4"
+],
+"completo": "Instantáneo. Revive un reino: recibe un Gobernante, un Atacante, un Defensor y un Explorador (14.4)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Revive un reino: recibe un Gobernante, un Atacante, un Defensor y un Explorador.",
+"en": "Revive a realm: it receives a Ruler, an Attacker, a Defender and an Explorer."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Revive un Reino: Adquieres un Gobernante, un Atacante, un Defensor y un Explorador."
+},
+"propuesta": null
+},
+"uso_html": "La carta más importante de Dizaster, con sus cuatro usos descritos en <a class=\"rref\" href=\"#r-14-4-1\">14.4.1</a>: salvar tu reino en el instante de la caída —la ventana de <a class=\"rref\" href=\"#r-14-4-2\">14.4.2</a> se cierra en cuanto ocurra cualquier otra cosa—, dejar de ser Necrovante sin importar las rondas caído, adueñarte del reino caído de otro, o reclamar un reino sin dueño. Es la <strong>única</strong> Invocación que un Reino Necrovante puede usar para algo más que revivir Necrovantes, y la única puerta de regreso de un Gobernante (<a class=\"rref\" href=\"#r-7-2\">7.2</a>). Su depredador natural es C06.",
+"uso_final": false,
+"uso_refs": [
+"14.4.1",
+"14.4.2",
+"7.2"
+],
+"notas": [],
+"necro": {
+"texto": "Tu Reino Necrovante vuelve a ser un reino real.",
+"estado": "regla fija del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Guárdala para la ventana de salvación: justo después de que capturen a tu Gobernante (14.4.2)."
+],
+[
+"Combo",
+"También devuelve un Reino Necrovante a la vida o te da el reino caído de otro (14.4.1)."
+],
+[
+"Ojo",
+"La ventana se cierra en cuanto ocurre cualquier otra cosa. C06 es su depredador natural."
+]
+],
+"avisos": []
+},
+{
+"code": "I05",
+"deck": "dominio",
+"clase": "invocacion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 15,
+"of": 34,
+"name": {
+"es": "Sombra Invocada",
+"en": "Summoned Shadow"
+},
+"gem": "13-invocacion-dominio.webp",
+"color": "#3EC969",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Invoca 2 Necrovantes en casillas libres de tu reino.",
+"reglas": [
+"14.3.2",
+"14.3.4"
+],
+"completo": "Invoca 2 Necrovantes en casillas libres de tu reino."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Invoca 2 Necrovantes en casillas libres de tu reino.",
+"reglas": [],
+"completo": "Instantáneo. Invoca 2 Necrovantes en casillas libres de tu reino."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Invoca 2 Necrovantes en casillas libres de tu reino.",
+"en": "Summon 2 Necrovants onto free tiles of your realm."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Invoca 2 Necrovantes a tu Reino"
+},
+"propuesta": null
+},
+"uso_html": "Dos Necrovantes de Marcha Espectral —hasta 7 casillas continuas— al servicio de un reino vivo, sin esperar a caer: probablemente el mejor músculo puntual del juego. Recuerda sus límites (<a class=\"rref\" href=\"#r-14-3-2\">14.3.2</a>): no saltan, no capturan en cadena y no cruzan ninguna muralla, ni siquiera la tuya.",
+"uso_final": true,
+"uso_refs": [
+"14.3.2"
+],
+"notas": [],
+"necro": {
+"texto": "Invoca 3 Necrovantes en vez de 2.",
+"estado": "regla fija del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para meter 2 piezas de Marcha Espectral (7 casillas) en un reino vivo, sin esperar a caer."
+],
+[
+"Ojo",
+"Los Necrovantes no saltan ni cruzan murallas, ni siquiera la tuya (14.3.2)."
+]
+],
+"avisos": []
+},
+{
+"code": "C01",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 16,
+"of": 34,
+"name": {
+"es": "Estrategia Avanzada",
+"en": "Advanced Strategy"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Activa 2 cartas precursoras y/o instantáneas adicionales durante este turno.",
+"reglas": [],
+"completo": "Activa 2 cartas precursoras y/o instantáneas adicionales durante este turno."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Activa 2 cartas precursoras adicionales durante este turno.",
+"reglas": [],
+"completo": "Activa 2 cartas precursoras adicionales durante este turno."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Este turno puedes activar 2 cartas adicionales.",
+"en": "This turn you may activate 2 additional cards."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Activa 2 Cartas adicionales en este turno."
+},
+"propuesta": null
+},
+"uso_html": "La carta-combo por definición. Toda la mesa sabrá que algo grande viene en cuanto la anuncies, así que espera respuestas sobre las cartas que encadenes.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Además, mueve 1 Necrovante adicional este turno.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Para el turno decisivo: suma 2 Precursoras y/o Instantáneas a tus límites de este turno."
+],
+[
+"Combo",
+"Encadena A08 (vaciar la mano) y luego tu gran Ataque cuando el rival ya no tiene respuestas."
+]
+],
+"avisos": []
+},
+{
+"code": "C04",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 17,
+"of": 34,
+"name": {
+"es": "Don del Ladrón",
+"en": "Thief's Gift"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Roba 2 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación.",
+"reglas": [],
+"completo": "Roba 2 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Roba 2 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación.",
+"reglas": [],
+"completo": "Instantáneo. Roba 2 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Roba 2 cartas de los mazos que elijas: Asalto y/o Dominio.",
+"en": "Draw 2 cards from the decks of your choice: Assault and/or Dominion."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba 2 Cartas de cualquier mazo"
+},
+"propuesta": null
+},
+"uso_html": "Dos cartas de Dominio sin pisar el centro es su modo natural de empleo, y al ser instantánea ni siquiera gasta tu Precursora. La versión con robo de Evento no existe: los Eventos no se roban, se sufren.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de robar, invoca 1 Necrovante en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Al final del turno de otro, para llegar al tuyo con más opciones."
+],
+[
+"Ojo",
+"Vigila el límite de 5 cartas al cerrar tu turno (8.3); R03 puede quitarte lo que robes."
+]
+],
+"avisos": []
+},
+{
+"code": "C05",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 18,
+"of": 34,
+"name": {
+"es": "Experto del Robo",
+"en": "Master Thief"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Roba 3 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación.",
+"reglas": [],
+"completo": "Roba 3 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Roba 3 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación.",
+"reglas": [],
+"completo": "Roba 3 cartas de los mazos que elijas: Asalto y/o Dominio, en cualquier combinación."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Roba 3 cartas de los mazos que elijas: Asalto y/o Dominio.",
+"en": "Draw 3 cards from the decks of your choice: Assault and/or Dominion."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba 3 Cartas de cualquier mazo"
+},
+"propuesta": null
+},
+"uso_html": "El robo más grande del juego. Tres de Dominio de una sentada equivale a tres viajes al centro que nadie tuvo que caminar; su contrapeso es ser Precursora: anuncio público y respondible.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de robar, invoca 2 Necrovantes en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando tienes la mano corta y no puedes llegar al centro."
+],
+[
+"Ojo",
+"Al cerrar el turno descartas hasta 5 (8.3); fuera de tu turno, pasarte de 5 puede costarte la mano entera (9.2)."
+]
+],
+"avisos": []
+},
+{
+"code": "C06",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "nexo",
+"mods": [],
+"qty": 2,
+"n": 19,
+"of": 34,
+"name": {
+"es": "Invocación Erradicada",
+"en": "Summoning Eradicated"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de Invocación: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de Invocación: queda cancelada."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de Invocación: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de Invocación: queda cancelada."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Invocación: queda cancelada.",
+"en": "Respond to a Summoning card: it is cancelled."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cancela Cualquier Carta Invocación"
+},
+"propuesta": null
+},
+"uso_html": "El anti-Fénix. Es la única carta capaz de detener un I04 en plena ventana de salvación, y por eso su verdadero valor no es cancelar un I01 cualquiera sino <strong>esperar</strong>: quien guarda una C06 tiene comprada la muerte definitiva de un reino que ya cree haberse salvado.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Además, invoca 1 Necrovante en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Resérvala para I04 · Renacer del Fénix o para I05: cancelar la vuelta de un reino cambia la partida."
+]
+],
+"avisos": []
+},
+{
+"code": "C07",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "nexo",
+"mods": [],
+"qty": 1,
+"n": 20,
+"of": 34,
+"name": {
+"es": "Anulación Total",
+"en": "Total Nullification"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta de Reacción: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de Reacción: queda cancelada."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta de Reacción: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta de Reacción: queda cancelada."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta de Reacción: queda cancelada.",
+"en": "Respond to a Reaction card: it is cancelled."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cancela Cualquier Carta de Reacción."
+},
+"propuesta": null
+},
+"uso_html": "Las Reacciones son emboscadas, y esta carta es la contra-emboscada: el R01 que iba a vengarse, el R10 que iba a maldecir tus movimientos o el R11 que iba a saquear el mazo se apagan antes de nacer.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Además, ese jugador entrega 1 prisionero a la Fosa Común.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra R01, R03 o R05: deja sin castigo tu captura o tu robo."
+]
+],
+"avisos": []
+},
+{
+"code": "C08",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "nexo",
+"mods": [],
+"qty": 2,
+"n": 21,
+"of": 34,
+"name": {
+"es": "Venganza Forzada",
+"en": "Forced Vengeance"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta recién activada por un oponente: copia su poder y aplícalo tú, eligiendo sus objetivos. No puede copiar otra Venganza Forzada ni cartas con Furia.",
+"reglas": [
+"11.11",
+"10.5.1"
+],
+"completo": "Responde a una carta recién activada por un oponente: copia su poder y aplícalo tú, eligiendo sus objetivos. No puede copiar otra Venganza Forzada ni cartas con Furia."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta recién activada por un oponente: copia su poder y aplícalo tú, eligiendo sus objetivos. No puede copiar otra Venganza Forzada ni cartas con Furia.",
+"reglas": [
+"11.11",
+"10.5.1"
+],
+"completo": "Responde a una carta recién activada por un oponente: copia su poder y aplícalo tú, eligiendo sus objetivos. No puede copiar otra Venganza Forzada (11.11) ni cartas con Furia (10.5.1)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta recién activada por un oponente: copia su poder y aplícalo tú, eligiendo objetivos. No copia cartas con Furia ni otra Venganza Forzada.",
+"en": "Respond to a card just activated by an opponent: copy its power and apply it yourself, choosing targets. It cannot copy Fury cards nor another Forced Vengeance."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba el poder de cualquier Carta recién activada por un Oponente y úsala según corresponda."
+},
+"propuesta": null
+},
+"uso_html": "No cancela la carta original —esa se resuelve igual—: <strong>la duplica en tus manos</strong>, con objetivos que eliges tú. Un Sangrado Letal ajeno se convierte también en cinco eliminaciones tuyas. Sus dos vetos son estructurales: nada con Furia y nada de copiarse a sí misma.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Solo copia cartas de Conjuro, Reacción o Invocación.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra el Ataque o el robo grande de un rival: lo copias y eliges tú los objetivos."
+],
+[
+"Ojo",
+"No copia cartas con Furia (10.5.1) ni otra Venganza Forzada (11.11)."
+]
+],
+"avisos": []
+},
+{
+"code": "C09",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [],
+"qty": 2,
+"n": 22,
+"of": 34,
+"name": {
+"es": "Bloqueo de Ruta",
+"en": "Route Block"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando un oponente mueva una pieza: ese movimiento se cancela, la pieza regresa a su casilla de partida y el movimiento se considera gastado.",
+"reglas": [],
+"completo": "Actívala cuando un oponente mueva una pieza: ese movimiento se cancela, la pieza regresa a su casilla de partida y el movimiento se considera gastado."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando un oponente mueva una pieza: ese movimiento se cancela, la pieza regresa a su casilla de partida y el movimiento se considera gastado.",
+"reglas": [],
+"completo": "Instantáneo. Actívala cuando un oponente mueva una pieza: ese movimiento se cancela, la pieza regresa a su casilla de partida y el movimiento se considera gastado."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando un oponente mueva una pieza: el movimiento se cancela, la pieza regresa y el movimiento se considera gastado.",
+"en": "Activate when an opponent moves a piece: the move is cancelled, the piece returns and the move counts as spent."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Movimiento Cancelado"
+},
+"propuesta": null
+},
+"uso_html": "El único freno directo al movimiento que existe: la captura que ya saboreaba el rival, sencillamente, no ocurre, y su movimiento se ha gastado en nada. Nota fina: responde a <strong>movimientos</strong>, no a cartas, así que no participa de las cancelaciones de la pila.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el original tiene dos palabras; se redactó como cancelación reactiva de un movimiento ya declarado. Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Además, esa pieza no puede moverse en el próximo turno de su dueño.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando un rival mueve la pieza que iba a capturar a tu Gobernante o a pisar el Dominio."
+],
+[
+"Ojo",
+"Cuenta para tu tope de 2 Instantáneas por ronda (10.4.3)."
+]
+],
+"avisos": []
+},
+{
+"code": "C10",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 23,
+"of": 34,
+"name": {
+"es": "Escudo Sagrado",
+"en": "Sacred Shield"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Tu reino es inmune hasta el inicio de tu próximo turno: tus piezas no pueden ser capturadas ni afectadas por cartas enemigas.",
+"reglas": [],
+"completo": "Tu reino es inmune hasta el inicio de tu próximo turno: tus piezas no pueden ser capturadas ni afectadas por cartas enemigas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Tu reino es inmune hasta el inicio de tu próximo turno: tus piezas no pueden ser capturadas ni afectadas por cartas enemigas.",
+"reglas": [],
+"completo": "Tu reino es inmune hasta el inicio de tu próximo turno: tus piezas no pueden ser capturadas ni afectadas por cartas enemigas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Tu reino es inmune hasta el inicio de tu próximo turno: tus piezas no pueden ser capturadas ni afectadas por cartas enemigas.",
+"en": "Your realm is immune until the start of your next turn: your pieces cannot be captured nor affected by enemy cards."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Inmunidad por 1 Turno"
+},
+"propuesta": null
+},
+"uso_html": "Un turno de paz absoluta comprado de antemano: la ronda entera pasa de largo sobre tu reino. Ideal con el Gobernante expuesto y toda la mesa oliendo la sangre.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el original no dice quién ni qué queda inmune; se eligió «tu reino, hasta tu próximo turno». Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Tus Necrovantes no pueden ser capturados ni eliminados hasta tu próximo turno.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Antes de cerrar un turno en el que dejaste piezas expuestas o cuando esperas un gran Ataque."
+],
+[
+"Ojo",
+"Dura hasta el inicio de tu próximo turno: no protege lo que hagas después."
+]
+],
+"avisos": []
+},
+{
+"code": "C11",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 24,
+"of": 34,
+"name": {
+"es": "Bloqueo Mental",
+"en": "Mind Block"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Un oponente que elijas no puede activar ninguna carta —ni siquiera en respuesta— hasta el final de su próximo turno.",
+"reglas": [],
+"completo": "Un oponente que elijas no puede activar ninguna carta —ni siquiera en respuesta— hasta el final de su próximo turno."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Un oponente que elijas no puede activar ninguna carta —ni siquiera en respuesta— hasta el final de su próximo turno.",
+"reglas": [],
+"completo": "Un oponente que elijas no puede activar ninguna carta —ni siquiera en respuesta— hasta el final de su próximo turno."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Un oponente que elijas no puede activar ninguna carta —ni en respuesta— hasta el final de su próximo turno.",
+"en": "An opponent of your choice cannot activate any card —not even in response— until the end of their next turn."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Tu Oponente no puede activar cartas por 1 turno"
+},
+"propuesta": null
+},
+"uso_html": "No le quita movimientos ni piezas: le quita <strong>la voz</strong>. Durante una ronda entera ese jugador no puede responder nada, y esa es exactamente la ventana para lanzarle el ataque que llevabas guardando.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: se incluyeron las respuestas en el bloqueo. Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Ese jugador tampoco puede revivir piezas mientras dure el bloqueo.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Antes de lanzar tu gran golpe contra ese oponente: no podrá responder ni con Nexo."
+],
+[
+"Combo",
+"Bloqueo Mental + A03 o A06 sobre el mismo jugador."
+]
+],
+"avisos": []
+},
+{
+"code": "C12",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [
+"furia"
+],
+"qty": 1,
+"n": 25,
+"of": 34,
+"name": {
+"es": "Resurgir del Olvido",
+"en": "Rise from Oblivion"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Reactiva cualquier carta de cualquier descarte —Eventos incluidos— y su efecto se aplica como si la activaras tú. No puede reactivar otra Resurgir del Olvido. Furia: no puede ser cancelada, redirigida ni copiada.",
+"reglas": [
+"11.11"
+],
+"completo": "Reactiva cualquier carta de cualquier descarte —Eventos incluidos— y su efecto se aplica como si la activaras tú. No puede reactivar otra Resurgir del Olvido. Furia: no puede ser cancelada, redirigida ni copiada."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Reactiva cualquier carta de cualquier descarte —Eventos incluidos— y su efecto se aplica como si la activaras tú. No puede reactivar otra Resurgir del Olvido. Furia: no puede ser cancelada, redirigida ni copiada.",
+"reglas": [
+"11.11"
+],
+"completo": "Instantáneo con Furia. Reactiva cualquier carta de cualquier descarte —Eventos incluidos— y su efecto se aplica como si la activaras tú. No puede reactivar otra Resurgir del Olvido (11.11). Furia: no puede ser cancelada, redirigida ni copiada."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Reactiva cualquier carta de cualquier descarte, Eventos incluidos, como si la activaras tú. No puede reactivar otra Resurgir del Olvido.",
+"en": "Reactivate any card from any discard, Events included, as if you activated it. It cannot reactivate another Rise from Oblivion."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Reactiva una carta del Cementerio de cualquier tipo."
+},
+"propuesta": null
+},
+"uso_html": "La carta más peligrosa del juego: todos los descartes de la partida son su munición, incluidos los 43 Eventos, y al llevar Furia <strong>nadie puede impedirlo</strong> —ni siquiera R02—. Si reactiva un Evento, tú lo activas y su efecto cae sobre todos, tú incluido, sin eximir al Canciller del Evento de la ronda siguiente. Elige con el descarte delante: a estas alturas de la partida siempre hay un muerto que vale oro.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Solo reactiva cartas de Conjuro, Reacción o Invocación.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando el descarte guarda una carta decisiva (I04, D02, un Evento favorable)."
+],
+[
+"Ojo",
+"Con Furia, nadie la cancela (11.9); no puede reactivar otra Resurgir del Olvido (11.11)."
+]
+],
+"avisos": []
+},
+{
+"code": "C15",
+"deck": "dominio",
+"clase": "conjuro",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 26,
+"of": 34,
+"name": {
+"es": "Energía de los Caídos",
+"en": "Energy of the Fallen"
+},
+"gem": "19-conjuro-dominio.webp",
+"color": "#D8741E",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Roba 2 cartas de Asalto por cada pieza eliminada durante el turno anterior a su activación, de cualquier reino.",
+"reglas": [],
+"completo": "Roba 2 cartas de Asalto por cada pieza eliminada durante el turno anterior a su activación, de cualquier reino."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Roba 2 cartas de Asalto por cada pieza eliminada durante el turno anterior a su activación, de cualquier reino.",
+"reglas": [],
+"completo": "Instantáneo. Roba 2 cartas de Asalto por cada pieza eliminada durante el turno anterior a su activación, de cualquier reino."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Roba 2 cartas de Asalto por cada pieza eliminada durante el turno anterior, de cualquier reino.",
+"en": "Draw 2 Assault cards for each piece removed during the previous turn, from any realm."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba 2 cartas adicionales por cada pieza eliminada en el último turno."
+},
+"propuesta": null
+},
+"uso_html": "El contador perfecto para las rondas de matanza: jugada tras un Sangrado Letal —tuyo o ajeno—, son diez cartas. Su balance depende por completo de las dos decisiones marcadas, así que es de las primeras que conviene probar en mesa.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: el original no dice de qué mazo ni de quién cuentan las piezas; se eligió «Asalto» y «de cualquier reino». Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "Invoca 1 Necrovante por cada pieza eliminada, hasta un máximo de 4.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Después de un turno sangriento en la mesa: cada pieza eliminada te da 2 cartas de Asalto."
+],
+[
+"Ojo",
+"Vigila el límite de 5 cartas (8.3): un robo enorme puede obligarte a descartar mucho."
+]
+],
+"avisos": []
+},
+{
+"code": "R02",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "nexo",
+"mods": [],
+"qty": 1,
+"n": 27,
+"of": 34,
+"name": {
+"es": "Desactivación Letal",
+"en": "Lethal Deactivation"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a una carta Instantánea: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta Instantánea: queda cancelada."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a una carta Instantánea: queda cancelada.",
+"reglas": [],
+"completo": "Responde a una carta Instantánea: queda cancelada."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a una carta Instantánea: queda cancelada.",
+"en": "Respond to an Instant card: it is cancelled."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cancela cualquier carta instantánea."
+},
+"propuesta": null
+},
+"uso_html": "El único freno del mundo ⚶: la Escapada Maestra no escapa, la Resurrección Menor no revive, el Don del Ladrón no roba. Tiene un agujero estructural, y es que <strong>C12 lleva Furia</strong>, de modo que la única carta pensada para cancelar instantáneos no puede tocar al peor de todos.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Además, invoca 1 Necrovante en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra I04 en su ventana de salvación, o contra cualquier Instantánea que te perjudique."
+]
+],
+"avisos": []
+},
+{
+"code": "R03",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 28,
+"of": 34,
+"name": {
+"es": "Premonición de Saqueo",
+"en": "Premonition of Plunder"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando un oponente robe cartas: todas las que acaba de robar en este turno pasan a tu mano.",
+"reglas": [],
+"completo": "Actívala cuando un oponente robe cartas: todas las que acaba de robar en este turno pasan a tu mano."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando un oponente robe cartas: todas las que acaba de robar en este turno pasan a tu mano.",
+"reglas": [],
+"completo": "Actívala cuando un oponente robe cartas: todas las que acaba de robar en este turno pasan a tu mano."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando un oponente robe cartas: todas las que acaba de robar este turno pasan a tu mano.",
+"en": "Activate when an opponent draws cards: all cards they just drew this turn pass to your hand."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Robas todas las cartas que haya previamente robado cualquier oponente."
+},
+"propuesta": null
+},
+"uso_html": "El depredador natural de C04 y C05: el ladrón roba tres cartas y el saqueador se las quita todas de las manos antes de que las lea. Contra el robo pequeño no la gastes; espérate al botín grande.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [
+"Decisión registrada: se acotó «previamente» al turno en curso. Veredicto del autor pendiente."
+],
+"necro": {
+"texto": "En vez de robar cartas, toma 3 prisioneros de la Fosa Común.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando un rival cobra cartas de Dominio en el centro o roba con C04/C05."
+],
+[
+"Ojo",
+"Cuenta para tu tope de 2 Instantáneas por ronda (10.4.3)."
+]
+],
+"avisos": []
+},
+{
+"code": "R08",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "nexo",
+"mods": [],
+"qty": 1,
+"n": 29,
+"of": 34,
+"name": {
+"es": "Invocación de Ladrón",
+"en": "Thief's Summoning"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Responde a la activación de una carta de Invocación: su dueño te entrega 2 cartas de su mano, a su elección. La Invocación se resuelve con normalidad.",
+"reglas": [],
+"completo": "Responde a la activación de una carta de Invocación: su dueño te entrega 2 cartas de su mano, a su elección. La Invocación se resuelve con normalidad."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Responde a la activación de una carta de Invocación: su dueño te entrega 2 cartas de su mano, a su elección. La Invocación se resuelve con normalidad.",
+"reglas": [],
+"completo": "Responde a la activación de una carta de Invocación: su dueño te entrega 2 cartas de su mano, a su elección. La Invocación se resuelve con normalidad."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Responde a la activación de una carta de Invocación: su dueño te entrega 2 cartas de su mano. La Invocación se resuelve igual.",
+"en": "Respond to the activation of a Summoning card: its owner gives you 2 cards from their hand. The Summoning still resolves."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Roba dos cartas al oponente que recién haya activado alguna carta de Invocación."
+},
+"propuesta": null
+},
+"uso_html": "No cancela la Invocación —para eso está C06—: le pone <strong>precio</strong>. El rival revive sus piezas, sí, pero te paga dos cartas por el privilegio, y contra un I04 ese peaje puede dejar a un reino recién salvado sin mano con la que defenderse.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de 2 cartas, invoca 1 Necrovante en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando alguien activa una Invocación: no la detiene, pero te cobra 2 cartas."
+],
+[
+"Combo",
+"Juégala junto a C06: te llevas las 2 cartas y además la Invocación queda cancelada."
+]
+],
+"avisos": []
+},
+{
+"code": "R09",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 30,
+"of": 34,
+"name": {
+"es": "Llamado de la Oscuridad",
+"en": "Call of Darkness"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando tu Conquistador sea eliminado: invoca un Necrovante en la casilla que dejó.",
+"reglas": [
+"14.3.2"
+],
+"completo": "Actívala cuando tu Conquistador sea eliminado: invoca un Necrovante en la casilla que dejó."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando tu Conquistador sea eliminado: invoca un Necrovante en la casilla que dejó.",
+"reglas": [],
+"completo": "Actívala cuando tu Conquistador sea eliminado: invoca un Necrovante en la casilla que dejó."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando tu Conquistador sea eliminado: invoca un Necrovante en la casilla que dejó.",
+"en": "Activate when your Conqueror is removed: summon a Necrovant on the tile it left."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Actívala cuando tu conquistador haya sido eliminado. Invoca una pieza de Necrovante en su lugar."
+},
+"propuesta": null
+},
+"uso_html": "Tu mejor pieza cae y de su hueco se levanta algo peor: un Necrovante de 7 casillas continuas, exactamente donde el enemigo acaba de meterse. Quien elimina un Conquistador suele haber gastado mucho para lograrlo; esta carta hace que lo lamente en el mismo instante.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "Actívala también cuando pierdas un Necrovante: invoca 2 en su lugar.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Si tu Conquistador está expuesto: su caída deja un Necrovante en su lugar."
+]
+],
+"avisos": []
+},
+{
+"code": "R10",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 31,
+"of": 34,
+"name": {
+"es": "Agonía del Prisionero",
+"en": "Prisoner's Agony"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala sobre un oponente que elijas: durante sus próximos 2 turnos, cada vez que mueva una pieza envía 1 prisionero suyo a la Fosa Común.",
+"reglas": [],
+"completo": "Actívala sobre un oponente que elijas: durante sus próximos 2 turnos, cada vez que mueva una pieza envía 1 prisionero suyo a la Fosa Común."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala sobre un oponente que elijas: durante sus próximos 2 turnos, cada vez que mueva una pieza envía 1 prisionero suyo a la Fosa Común.",
+"reglas": [],
+"completo": "Actívala sobre un oponente que elijas: durante sus próximos 2 turnos, cada vez que mueva una pieza envía 1 prisionero suyo a la Fosa Común."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala sobre un oponente: durante sus próximos 2 turnos, cada vez que mueva una pieza envía 1 prisionero suyo a la Fosa Común.",
+"en": "Activate on an opponent: for their next 2 turns, each time they move a piece they send 1 of their prisoners to the Mass Grave."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cada vez que tu oponente mueva una pieza durante los próximos 2 turnos, deberá enviar a fosa común alguna de sus capturas."
+},
+"propuesta": null
+},
+"uso_html": "Una maldición económica: moverse le cuesta prisioneros, así que hasta 4 desaparecen en dos turnos si juega con normalidad, y si decide no moverse para no pagar, le has congelado el ejército sin tocarlo. De cualquiera de las dos formas, su próxima resurrección se aleja.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "El efecto dura 3 turnos en vez de 2.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Contra quien tiene muchos prisioneros guardados para revivir."
+]
+],
+"avisos": []
+},
+{
+"code": "R11",
+"deck": "dominio",
+"clase": "reaccion",
+"type": "instantaneo",
+"mods": [],
+"qty": 1,
+"n": 32,
+"of": 34,
+"name": {
+"es": "Visión del Profeta",
+"en": "Prophet's Vision"
+},
+"gem": "17-reaccion-dominio.webp",
+"color": "#B5C83F",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Actívala cuando un reino sea eliminado: mira las 5 primeras cartas del mazo de Dominio, quédate 1 en la mano y descarta las otras 4.",
+"reglas": [],
+"completo": "Actívala cuando un reino sea eliminado: mira las 5 primeras cartas del mazo de Dominio, quédate 1 en la mano y descarta las otras 4."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Actívala cuando un reino sea eliminado: mira las 5 primeras cartas del mazo de Dominio, quédate 1 en la mano y descarta las otras 4.",
+"reglas": [],
+"completo": "Actívala cuando un reino sea eliminado: mira las 5 primeras cartas del mazo de Dominio, quédate 1 en la mano y descarta las otras 4."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Actívala cuando un reino sea eliminado: mira las 5 primeras cartas del mazo de Dominio, quédate 1 y descarta el resto.",
+"en": "Activate when a realm is eliminated: look at the top 5 cards of the Dominion deck, keep 1 and discard the rest."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Actívala cuando un Reino haya sido eliminado. Mira las primeras 5 cartas del mazo de Dominio, elige una y descarta las restantes."
+},
+"propuesta": null
+},
+"uso_html": "Dispara con la caída de <strong>cualquier</strong> reino, el tuyo incluido, y filtra de un golpe la quinta parte del mazo más poderoso del juego. Las 4 descartadas quedan además a la vista en el descarte, que es información para toda la mesa — y munición futura para C12 y C16.",
+"uso_final": false,
+"uso_refs": [],
+"notas": [],
+"necro": {
+"texto": "En vez de mirar el mazo, invoca 1 Necrovante en tu reino.",
+"estado": "propuesta pendiente del autor"
+},
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando un reino está a punto de caer (incluso el tuyo): te quedas la mejor de 5 cartas de Dominio."
+],
+[
+"Ojo",
+"Las 4 descartadas quedan a la vista: munición para C12."
+]
+],
+"avisos": []
+},
+{
+"code": "X01",
+"deck": "dominio",
+"clase": "aniquilacion",
+"type": "precursora",
+"mods": [],
+"qty": 1,
+"n": 33,
+"of": 34,
+"name": {
+"es": "Juicio Final",
+"en": "Final Judgment"
+},
+"gem": "02-aniquilacion-dominio.webp",
+"color": "#BC3C93",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Tu reino es el 1 y los demás se numeran hacia tu derecha. Tira el dado según el número de jugadores —D6 hasta 6, D8 con 7 u 8— y el reino que salga deja de existir: sus piezas pasan a ser tuyas. Si sale el 1, pierdes tu reino y tus capturas te quedan para cuando seas reino Necrovante.",
+"reglas": [],
+"completo": "Tu reino es el 1 y los demás se numeran hacia tu derecha. Tira el dado según el número de jugadores —D6 hasta 6, D8 con 7 u 8— y el reino que salga deja de existir: sus piezas pasan a ser tuyas. Si sale el 1, pierdes tu reino y tus capturas te quedan para cuando seas reino Necrovante."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "El jugador que active esta carta será el reino 1 y de ahí a su derecha. El jugador que activó esta carta deberá tirar el dado D6 y el valor del dado obtenido será el reino que dejará de existir. Las piezas de ese reino le pertenecen al que activó esta carta. Si el jugador que activó esta carta es el que cae porque cayó el dado D6 en el valor de 1, él pierde su reino y sus capturas le pertenecen a él, para ser usadas cuando sea reino necrovante.",
+"reglas": [],
+"completo": "El jugador que active esta carta será el reino 1 y de ahí a su derecha. El jugador que activó esta carta deberá tirar el dado D6 y el valor del dado obtenido será el reino que dejará de existir. Las piezas de ese reino le pertenecen al que activó esta carta. Si el jugador que activó esta carta es el que cae porque cayó el dado D6 en el valor de 1, él pierde su reino y sus capturas le pertenecen a él, para ser usadas cuando sea reino necrovante."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Ruleta Rusa: se elimina un Reino. ⛔ Mecánica exacta pendiente del autor.",
+"en": "Russian roulette: a Realm is eliminated. ⛔ Exact mechanic pending from the author."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Ruleta Rusa: Se Elimina un Reino"
+},
+"propuesta": null
+},
+"uso_html": "Una ruleta de reinos: tu reino es el 1 y los demás se numeran hacia tu derecha; se tira D6 hasta 6 jugadores y D8 con 7 u 8. El reino que sale cae y sus piezas pasan a ser tuyas, pero si sale el 1 el que cae eres tú, aunque conservas tus capturas para tu Reino Necrovante. Es Precursora sin Furia: abre Fase y se puede responder.",
+"uso_final": true,
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Tú eres el reino 1: con D6 (hasta 6 jugadores) caes si sale 1, y con D8 (7 u 8 jugadores) el riesgo baja. Úsala cuando perder tu reino te cueste menos que a los demás: tus capturas te quedan para tu Reino Necrovante."
+],
+[
+"Ojo",
+"No lleva Furia: se puede responder."
+]
+],
+"avisos": []
+},
+{
+"code": "X02",
+"deck": "dominio",
+"clase": "aniquilacion",
+"type": "precursora",
+"mods": [
+"furia"
+],
+"qty": 1,
+"n": 34,
+"of": 34,
+"name": {
+"es": "Ritual de Sacrificio",
+"en": "Sacrifice Ritual"
+},
+"gem": "02-aniquilacion-dominio.webp",
+"color": "#BC3C93",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador tira el D6 y pierde la pieza indicada, que pasa a los prisioneros de su propio reino: 1 Gobernante, 2 Conquistador, 3 Atacante, 4 Contendiente, 5 Defensor, 6 Explorador. Quien saque 1 pierde todo su reino: su Gobernante ha muerto.",
+"reglas": [],
+"completo": "Cada jugador tira el D6 y pierde la pieza indicada, que pasa a los prisioneros de su propio reino: 1 Gobernante, 2 Conquistador, 3 Atacante, 4 Contendiente, 5 Defensor, 6 Explorador. Quien saque 1 pierde todo su reino: su Gobernante ha muerto."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Todos los jugadores deberán tirar el dado D6. El valor del dado obtenido por cada tirada representa el tipo de pieza que muere y pasa a ser parte de los prisioneros de guerra del mismo reino. Valor de 1 en dado: Gobernante, 2: Conquistador, 3: Atacante, 4: Contendiente, 5: Defensor, 6: Explorador.",
+"reglas": [],
+"completo": "Todos los jugadores deberán tirar el dado D6. El valor del dado obtenido por cada tirada representa el tipo de pieza que muere y pasa a ser parte de los prisioneros de guerra del mismo reino. Valor de 1 en dado: Gobernante, 2: Conquistador, 3: Atacante, 4: Contendiente, 5: Defensor, 6: Explorador."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Sacrificio de Piezas: elimina a un Gobernante. Nada puede responder a esta carta. ⛔ Mecánica exacta pendiente del autor.",
+"en": "Piece sacrifice: it removes a Ruler. Nothing can respond to this card. ⛔ Exact mechanic pending from the author."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Sacrificio de Piezas"
+},
+"propuesta": null
+},
+"uso_html": "Cada jugador tira el D6 y pierde la pieza que marca el dado, que pasa a los prisioneros de su propio reino. Quien saque 1 pierde a su Gobernante y con él todo su reino, tú incluido. Lleva Furia, así que no admite respuesta alguna (<a class=\"rref\" href=\"#r-11-9\">11.9</a>): cuando se anuncia, ya ocurrió. Úsala cuando tu reino tenga menos que perder que los demás.",
+"uso_final": true,
+"uso_refs": [
+"11.9"
+],
+"notas": [],
+"necro": null,
+"familia": null,
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Cuándo",
+"Cuando tu reino tiene menos que perder que los demás: todos tiran."
+],
+[
+"Ojo",
+"Lleva Furia: no admite respuesta (11.9). Cada jugador que saque 1 pierde todo su reino, tú incluido."
+]
+],
+"avisos": []
+},
+{
+"code": "EV01",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 1,
+"of": 43,
+"name": {
+"es": "Descarta Masiva",
+"en": "Mass Discard"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador descarta 2 cartas de su mano, a su elección; quien tenga 2 o menos, descarta todas.",
+"reglas": [],
+"completo": "Cada jugador descarta 2 cartas de su mano, a su elección; quien tenga 2 o menos, descarta todas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador descarta 2 cartas de su mano, a su elección; quien tenga 2 o menos, descarta todas.",
+"reglas": [],
+"completo": "Cada jugador descarta 2 cartas de su mano, a su elección; quien tenga 2 o menos, descarta todas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador descarta 2 cartas de su mano; quien tenga 2 o menos descarta todas.",
+"en": "Each player discards 2 cards; anyone with 2 or fewer discards them all."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos descartan 2 cartas."
+},
+"propuesta": null
+},
+"uso_html": "La precisión del caso corto es nueva.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Si tienes 2 cartas o menos, las pierdes todas: no te quedes con la mano corta."
+]
+],
+"avisos": []
+},
+{
+"code": "EV02",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 2,
+"of": 43,
+"name": {
+"es": "Redistribución",
+"en": "Redistribution"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Reúne las manos de todos los jugadores, baraja el conjunto y repártelo en partes iguales; las cartas sobrantes van al descarte de su mazo.",
+"reglas": [],
+"completo": "Reúne las manos de todos los jugadores, baraja el conjunto y repártelo en partes iguales; las cartas sobrantes van al descarte de su mazo."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Reúne las manos de todos los jugadores, baraja el conjunto y repártelo en partes iguales; las cartas sobrantes van al descarte de su mazo.",
+"reglas": [],
+"completo": "Reúne las manos de todos los jugadores, baraja el conjunto y repártelo en partes iguales; las cartas sobrantes van al descarte de su mazo."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Reúne las manos de todos, baraja el conjunto y repártelo en partes iguales; las sobrantes van al descarte de su mazo.",
+"en": "Gather all hands, shuffle them together and deal them out equally; leftovers go to their deck’s discard."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Se mezclan las cartas de todos los jugadores y se reparten en partes iguales."
+},
+"propuesta": null
+},
+"uso_html": "El destino de las sobrantes es decisión nueva.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Quien acumula cartas sale perdiendo: no apuestes todo a la mano."
+]
+],
+"avisos": []
+},
+{
+"code": "EV03",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 3,
+"of": 43,
+"name": {
+"es": "Resurgir",
+"en": "Resurgence"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador revive sin coste hasta 2 piezas suyas caídas, que aparecen según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Cada jugador revive sin coste hasta 2 piezas suyas caídas, que aparecen según 12.6."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador revive sin coste hasta 2 piezas suyas caídas, que aparecen según 12.6.",
+"reglas": [
+"12.6"
+],
+"completo": "Cada jugador revive sin coste hasta 2 piezas suyas caídas, que aparecen según 12.6."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador revive sin coste hasta 2 piezas suyas caídas.",
+"en": "Each player revives up to 2 of their fallen pieces at no cost."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos reviven 2 piezas."
+},
+"propuesta": null
+},
+"uso_html": "El «sin coste» y el «hasta» son decisiones registradas.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Momento ideal para reconstruir: no gastes prisioneros justo antes."
+]
+],
+"avisos": []
+},
+{
+"code": "EV04",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 4,
+"of": 43,
+"name": {
+"es": "Exilio de Poder",
+"en": "Exile of Power"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Todos descartan hasta tener solo 1 carta en mano.",
+"reglas": [],
+"completo": "Todos descartan hasta tener solo 1 carta en mano."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Todos descartan hasta tener solo 1 carta en mano.",
+"reglas": [],
+"completo": "Todos descartan hasta tener solo 1 carta en mano."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos descartan hasta quedarse con 1 sola carta en mano.",
+"en": "Everyone discards down to a single card in hand."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos descartan hasta tener solo 1 carta en mano."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: es la purga total, y sobrevivir a ella con la carta correcta en la mano es un arte.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Decide desde antes cuál es tu carta imprescindible."
+]
+],
+"avisos": []
+},
+{
+"code": "EV05",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 5,
+"of": 43,
+"name": {
+"es": "Sacrificio Oscuro",
+"en": "Dark Sacrifice"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Toda pieza que esté fuera de su propio reino es eliminada y enviada a la Fosa Común, sin pasar por ninguna prisión.",
+"reglas": [],
+"completo": "Toda pieza que esté fuera de su propio reino es eliminada y enviada a la Fosa Común, sin pasar por ninguna prisión."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Toda pieza que esté fuera de su propio reino es eliminada y enviada a la Fosa Común, sin pasar por ninguna prisión.",
+"reglas": [],
+"completo": "Toda pieza que esté fuera de su propio reino es eliminada y enviada a la Fosa Común, sin pasar por ninguna prisión."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Toda pieza que esté fuera de su propio reino es eliminada y enviada a la Fosa Común.",
+"en": "Every piece outside its own realm is removed and sent to the Mass Grave."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todas las piezas fuera de un reino son sacrificadas."
+},
+"propuesta": null
+},
+"uso_html": "El destino (Fosa directa, nadie cobra prisioneros) es decisión registrada.  Es el Evento que castiga la expansión: los tímidos no pierden nada.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Castiga la expansión: las piezas fuera de su reino van a la Fosa Común."
+]
+],
+"avisos": []
+},
+{
+"code": "EV06",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 6,
+"of": 43,
+"name": {
+"es": "Ronda sin Refuerzos",
+"en": "Round Without Reinforcements"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Nadie toma cartas de ningún mazo en esta ronda.",
+"reglas": [],
+"completo": "Nadie toma cartas de ningún mazo en esta ronda."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Nadie toma cartas de ningún mazo en esta ronda.",
+"reglas": [],
+"completo": "Nadie toma cartas de ningún mazo en esta ronda."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Nadie roba cartas de ningún mazo en esta ronda, ni siquiera la de Asalto del turno.",
+"en": "No one draws cards from any deck this round, not even the turn’s Assault card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Nadie toma cartas de ningún mazo en esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios. Incluye el robo de Asalto del inicio del turno, que esa ronda sencillamente no existe.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Ni siquiera hay robo de Asalto esta ronda: juega con lo que tienes."
+]
+],
+"avisos": []
+},
+{
+"code": "EV07",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 7,
+"of": 43,
+"name": {
+"es": "Dominio Colectivo",
+"en": "Collective Dominion"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Todos obtienen 1 carta de Dominio.",
+"reglas": [],
+"completo": "Todos obtienen 1 carta de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Todos obtienen 1 carta de Dominio.",
+"reglas": [],
+"completo": "Todos obtienen 1 carta de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos los jugadores roban 1 carta de Dominio.",
+"en": "All players draw 1 Dominion card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos obtienen 1 carta de Dominio."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios. El único momento del juego en que el centro visita a los jugadores.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Todos reciben Dominio: espera más respuestas de lo normal."
+]
+],
+"avisos": []
+},
+{
+"code": "EV08",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 8,
+"of": 43,
+"name": {
+"es": "Fortificación",
+"en": "Fortification"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Todos adquieren 3 bloques de muralla.",
+"reglas": [],
+"completo": "Todos adquieren 3 bloques de muralla."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Todos adquieren 3 bloques de muralla.",
+"reglas": [],
+"completo": "Todos adquieren 3 bloques de muralla."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos los jugadores adquieren 3 bloques de muralla.",
+"en": "All players gain 3 wall blocks."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos adquieren 3 bloques de muralla."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios; es la segunda fuente de muralla del juego (<a class=\"rref\" href=\"#r-13-1\">13.1</a>), y los bloques sin sitio esperan en prisión (<a class=\"rref\" href=\"#r-13-3\">13.3</a>).",
+"uso_refs": [
+"13.1",
+"13.3"
+],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Ten libres tus casillas frontales para construir los 3 bloques."
+]
+],
+"avisos": []
+},
+{
+"code": "EV09",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 9,
+"of": 43,
+"name": {
+"es": "Arsenal Compartido",
+"en": "Shared Arsenal"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Todos reciben 1 carta de Asalto.",
+"reglas": [],
+"completo": "Todos reciben 1 carta de Asalto."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Todos reciben 1 carta de Asalto.",
+"reglas": [],
+"completo": "Todos reciben 1 carta de Asalto."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos los jugadores roban 1 carta de Asalto.",
+"en": "All players draw 1 Assault card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos reciben 1 carta de Asalto."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Una carta extra para todos: cuidado con el límite de 5 al cerrar turno."
+]
+],
+"avisos": []
+},
+{
+"code": "EV10",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 10,
+"of": 43,
+"name": {
+"es": "Sin Contendientes",
+"en": "No Contenders"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador elimina a todos sus Contendientes sobre el tablero y los envía a la Fosa Común.",
+"reglas": [],
+"completo": "Cada jugador elimina a todos sus Contendientes sobre el tablero y los envía a la Fosa Común."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador elimina a todos sus Contendientes sobre el tablero y los envía a la Fosa Común.",
+"reglas": [],
+"completo": "Cada jugador elimina a todos sus Contendientes sobre el tablero y los envía a la Fosa Común."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador elimina a todos sus Contendientes del tablero y los envía a la Fosa Común.",
+"en": "Each player removes all their Contenders from the board and sends them to the Mass Grave."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos sacrifican a sus Contendientes."
+},
+"propuesta": null
+},
+"uso_html": "Destino Fosa como en todo sacrificio: decisión registrada.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Pierdes a tus Contendientes: el frente se abre para todos."
+]
+],
+"avisos": []
+},
+{
+"code": "EV11",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 11,
+"of": 43,
+"name": {
+"es": "Exploración Abandonada",
+"en": "Abandoned Exploration"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Solo los Exploradores pueden moverse esta ronda.",
+"reglas": [],
+"completo": "Solo los Exploradores pueden moverse esta ronda."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Solo los Exploradores pueden moverse esta ronda.",
+"reglas": [],
+"completo": "Solo los Exploradores pueden moverse esta ronda."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda solo los Exploradores pueden moverse.",
+"en": "This round, only Explorers may move."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Solo los Exploradores pueden moverse esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios. Una ronda entera donde las piezas baratas mandan y los Conquistadores miran.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Solo se mueven Exploradores: es la ronda de ocupar casillas de Dominio con ellos."
+]
+],
+"avisos": []
+},
+{
+"code": "EV12",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 12,
+"of": 43,
+"name": {
+"es": "Restablecer Posiciones",
+"en": "Reset Positions"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador elige 2 de sus piezas que estén fuera de su reino y las devuelve a su casilla de origen (si está ocupada, se aplica 12.6).",
+"reglas": [
+"12.6"
+],
+"completo": "Cada jugador elige 2 de sus piezas que estén fuera de su reino y las devuelve a su casilla de origen (si está ocupada, se aplica 12.6)."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador elige 2 de sus piezas que estén fuera de su reino y las devuelve a su casilla de origen (si está ocupada, se aplica 12.6).",
+"reglas": [
+"12.6"
+],
+"completo": "Cada jugador elige 2 de sus piezas que estén fuera de su reino y las devuelve a su casilla de origen (si está ocupada, se aplica 12.6)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador elige 2 de sus piezas fuera de su reino y las devuelve a su casilla de origen.",
+"en": "Each player chooses 2 of their pieces outside their realm and returns them to their origin tile."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Dos piezas fuera de su reino vuelven a su posición inicial."
+},
+"propuesta": null
+},
+"uso_html": "El «cada jugador elige» es decisión registrada; el original no decía quién elegía ni de quién eran las piezas.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Las piezas avanzadas regresan: lo ganado en terreno se pierde."
+]
+],
+"avisos": []
+},
+{
+"code": "EV13",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 13,
+"of": 43,
+"name": {
+"es": "Intercambio de Suerte",
+"en": "Exchange of Luck"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador entrega su mano completa al jugador de su derecha.",
+"reglas": [],
+"completo": "Cada jugador entrega su mano completa al jugador de su derecha."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador entrega su mano completa al jugador de su derecha.",
+"reglas": [],
+"completo": "Cada jugador entrega su mano completa al jugador de su derecha."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador entrega su mano completa al jugador de su derecha.",
+"en": "Each player hands their whole hand to the player on their right."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos pasan sus mazos al jugador de su derecha."
+},
+"propuesta": null
+},
+"uso_html": "«Mazos» significaba manos; aclarado.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Tu mano pasa a la derecha: no guardes cartas que te dañen en manos de tu vecino."
+]
+],
+"avisos": []
+},
+{
+"code": "EV14",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 14,
+"of": 43,
+"name": {
+"es": "Pérdida de Prisioneros",
+"en": "Loss of Prisoners"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador envía 3 prisioneros de su Prisión de Guerra a la Fosa Común; quien tenga menos, los envía todos.",
+"reglas": [],
+"completo": "Cada jugador envía 3 prisioneros de su Prisión de Guerra a la Fosa Común; quien tenga menos, los envía todos."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador envía 3 prisioneros de su Prisión de Guerra a la Fosa Común; quien tenga menos, los envía todos.",
+"reglas": [],
+"completo": "Cada jugador envía 3 prisioneros de su Prisión de Guerra a la Fosa Común; quien tenga menos, los envía todos."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Cada jugador envía 3 prisioneros a la Fosa Común; quien tenga menos, los envía todos.",
+"en": "Each player sends 3 prisoners to the Mass Grave; anyone with fewer sends them all."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos pierden 3 capturas o prisioneros, que se van a la fosa común."
+},
+"propuesta": null
+},
+"uso_html": "El caso corto es nuevo.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Gasta tus prisioneros en resurrecciones antes de que se pierdan."
+]
+],
+"avisos": []
+},
+{
+"code": "EV15",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 15,
+"of": 43,
+"name": {
+"es": "Invocación Suprema",
+"en": "Supreme Summoning"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "La mesa vota qué 3 cartas del descarte de Dominio regresan al mazo, y después el mazo se baraja.",
+"reglas": [
+"16"
+],
+"completo": "La mesa vota qué 3 cartas del descarte de Dominio regresan al mazo, y después el mazo se baraja."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "La mesa vota (16) qué 3 cartas del descarte de Dominio regresan al mazo, y después el mazo se baraja.",
+"reglas": [],
+"completo": "La mesa vota (16) qué 3 cartas del descarte de Dominio regresan al mazo, y después el mazo se baraja."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "La mesa vota qué 3 cartas del descarte de Dominio vuelven al mazo; después se baraja.",
+"en": "The table votes which 3 cards from the Dominion discard return to the deck; then it is shuffled."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Tres cartas del cementerio de Dominio se reintegran a votación y el mazo se barajea."
+},
+"propuesta": null
+},
+"uso_html": "Con la ley de votación de 16, este Evento por fin es jugable sin discusión.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"La mesa decide qué cartas de Dominio vuelven: negocia tu voto (16)."
+]
+],
+"avisos": []
+},
+{
+"code": "EV16",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 16,
+"of": 43,
+"name": {
+"es": "Expansión Defensiva",
+"en": "Defensive Expansion"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Todos pueden expandir su muralla hacia las casillas frontales del reino.",
+"reglas": [],
+"completo": "Todos pueden expandir su muralla hacia las casillas frontales del reino."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Todos pueden expandir su muralla hacia las casillas frontales del reino.",
+"reglas": [],
+"completo": "Todos pueden expandir su muralla hacia las casillas frontales del reino."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos pueden expandir su muralla hacia las casillas frontales adicionales, de forma permanente.",
+"en": "Everyone may expand their wall onto the additional front tiles, permanently."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos pueden expandir su muralla hacia las casillas frontales del reino."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios de fondo: habilita para siempre las casillas frontales adicionales de todos (<a class=\"rref\" href=\"#r-13-8\">13.8</a>).",
+"uso_refs": [
+"13.8"
+],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: la expansión de murallas queda para siempre."
+]
+],
+"avisos": []
+},
+{
+"code": "EV17",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 17,
+"of": 43,
+"name": {
+"es": "Ronda sin Asalto",
+"en": "Round Without Assault"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Nadie toma cartas de Asalto en esta ronda.",
+"reglas": [],
+"completo": "Nadie toma cartas de Asalto en esta ronda."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Nadie toma cartas de Asalto en esta ronda.",
+"reglas": [],
+"completo": "Nadie toma cartas de Asalto en esta ronda."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Nadie roba cartas de Asalto en esta ronda.",
+"en": "No one draws Assault cards this round."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Nadie toma cartas de Asalto en esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Sin robo de Asalto: guarda tus cartas útiles."
+]
+],
+"avisos": []
+},
+{
+"code": "EV18",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 18,
+"of": 43,
+"name": {
+"es": "Ronda sin Dominio",
+"en": "Round Without Dominion"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Nadie puede activar cartas de Dominio.",
+"reglas": [],
+"completo": "Nadie puede activar cartas de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Nadie puede activar cartas de Dominio.",
+"reglas": [],
+"completo": "Nadie puede activar cartas de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Nadie puede activar cartas de Dominio durante esta ronda.",
+"en": "No one may activate Dominion cards this round."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Nadie puede activar cartas de Dominio."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios; ojo al matiz: no impide <strong>robarlas</strong> pisando casilla, impide <strong>activarlas</strong> esta ronda.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Puedes cobrar Dominio, pero no activarlo esta ronda."
+]
+],
+"avisos": []
+},
+{
+"code": "EV19",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 19,
+"of": 43,
+"name": {
+"es": "Muerte Súbita",
+"en": "Sudden Death"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "La partida puede terminar en Ruleta Rusa si la mayoría de jugadores lo aprueba.",
+"reglas": [],
+"completo": "La partida puede terminar en Ruleta Rusa si la mayoría de jugadores lo aprueba."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "La partida puede terminar en Ruleta Rusa si la mayoría de jugadores lo aprueba.",
+"reglas": [],
+"completo": "La partida puede terminar en Ruleta Rusa si la mayoría de jugadores lo aprueba."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "La partida puede terminar en Ruleta Rusa si la mayoría de los jugadores activos lo aprueba. ⛔ Mecánica pendiente del autor.",
+"en": "The game may end in Russian roulette if a majority of active players approves. ⛔ Mechanic pending from the author."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "La partida puede terminar en Ruleta Rusa si la mayoría de jugadores lo aprueba."
+},
+"propuesta": null
+},
+"uso_html": "",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio con mecánica pendiente del autor."
+]
+],
+"avisos": [
+"Mecánica de la Ruleta Rusa pendiente del autor."
+]
+},
+{
+"code": "EV20",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 20,
+"of": 43,
+"name": {
+"es": "Movimiento Limitado",
+"en": "Limited Movement"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Solo se puede mover una pieza por turno, a menos que una carta permita lo contrario.",
+"reglas": [],
+"completo": "Solo se puede mover una pieza por turno, a menos que una carta permita lo contrario."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Solo se puede mover una pieza por turno, a menos que una carta permita lo contrario.",
+"reglas": [],
+"completo": "Solo se puede mover una pieza por turno, a menos que una carta permita lo contrario."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda solo se puede mover 1 pieza por turno, salvo que una carta permita más.",
+"en": "This round only 1 piece may be moved per turn, unless a card allows more."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Solo se puede mover una pieza por turno, a menos que una carta permita lo contrario."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios; su duración es la ronda.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Una sola pieza por turno: elige el movimiento decisivo."
+]
+],
+"avisos": []
+},
+{
+"code": "EV21",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 21,
+"of": 43,
+"name": {
+"es": "Doble Dominio",
+"en": "Double Dominion"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "En esta ronda, al llegar a las casillas de recolección, se obtienen 2 cartas de Dominio en vez de 1.",
+"reglas": [],
+"completo": "En esta ronda, al llegar a las casillas de recolección, se obtienen 2 cartas de Dominio en vez de 1."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "En esta ronda, al llegar a las casillas de recolección, se obtienen 2 cartas de Dominio.",
+"reglas": [],
+"completo": "En esta ronda, al llegar a las casillas de recolección, se obtienen 2 cartas de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, cada llegada a una casilla de Dominio da 2 cartas en vez de 1.",
+"en": "This round, each arrival at a Dominion tile grants 2 cards instead of 1."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "En esta ronda, al llegar a las casillas de recolección, se obtienen 2 cartas de Dominio."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios de fondo: cada llegada a casilla de Dominio da 2 cartas en vez de 1.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Ronda ideal para pisar casillas de Dominio."
+]
+],
+"avisos": []
+},
+{
+"code": "EV22",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 22,
+"of": 43,
+"name": {
+"es": "Inmunidad de Reino",
+"en": "Realm Immunity"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante esta ronda, las piezas que estén dentro de su propio reino no pueden ser capturadas ni afectadas por cartas de Dominio.",
+"reglas": [],
+"completo": "Durante esta ronda, las piezas que estén dentro de su propio reino no pueden ser capturadas ni afectadas por cartas de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante esta ronda, las piezas que estén dentro de su propio reino no pueden ser capturadas ni afectadas por cartas de Dominio.",
+"reglas": [],
+"completo": "Durante esta ronda, las piezas que estén dentro de su propio reino no pueden ser capturadas ni afectadas por cartas de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, las piezas dentro de su propio reino no pueden ser capturadas ni afectadas por cartas de Dominio.",
+"en": "This round, pieces inside their own realm cannot be captured nor affected by Dominion cards."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Durante esta ronda, todas las piezas dentro de un reino son inmunes a ataques directos y cartas de Dominio."
+},
+"propuesta": null
+},
+"uso_html": "«Dentro de un reino» se leyó como «dentro del suyo».",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Dentro de tu reino estás a salvo: es ronda para reagrupar."
+]
+],
+"avisos": []
+},
+{
+"code": "EV23",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 23,
+"of": 43,
+"name": {
+"es": "Destierro del Gobernante",
+"en": "Exile of the Ruler"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio.",
+"reglas": [],
+"completo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio.",
+"reglas": [],
+"completo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio. ⛔ Plazo pendiente del autor.",
+"en": "Rulers must leave their realm and move to a tile outside their territory. ⛔ Deadline pending from the author."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Gobernantes deben abandonar su reino y moverse a una casilla fuera de su territorio."
+},
+"propuesta": null
+},
+"uso_html": "",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Plazo y procedimiento pendientes del autor."
+]
+],
+"avisos": [
+"Plazo pendiente del autor."
+]
+},
+{
+"code": "EV24",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 24,
+"of": 43,
+"name": {
+"es": "Pacto de No Agresión",
+"en": "Non-Aggression Pact"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Nadie puede capturar piezas ni activar cartas de Asalto durante esta ronda.",
+"reglas": [],
+"completo": "Nadie puede capturar piezas ni activar cartas de Asalto durante esta ronda."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Nadie puede capturar piezas ni activar cartas de Asalto durante esta ronda.",
+"reglas": [],
+"completo": "Nadie puede capturar piezas ni activar cartas de Asalto durante esta ronda."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda nadie puede capturar piezas ni activar cartas de Asalto.",
+"en": "This round no one may capture pieces nor activate Assault cards."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Nadie puede capturar piezas ni activar cartas de Asalto durante esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: una ronda de paz forzosa, perfecta para reconstruir — o para posicionarse sonriendo.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "general",
+"modo": [
+"primigenio",
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Ronda de paz: reconstruye o colócate para la siguiente."
+]
+],
+"avisos": []
+},
+{
+"code": "EV25",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 25,
+"of": 43,
+"name": {
+"es": "Destrucción del Dado",
+"en": "Destruction of the Die"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "El dado de 8 caras queda eliminado para el resto de la partida: Atacantes y Conquistadores tiran desde ahora el dado de 6.",
+"reglas": [],
+"completo": "El dado de 8 caras queda eliminado para el resto de la partida: Atacantes y Conquistadores tiran desde ahora el dado de 6."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "El dado de 8 caras queda eliminado para el resto de la partida: Atacantes y Conquistadores tiran desde ahora el dado de 6.",
+"reglas": [],
+"completo": "El dado de 8 caras queda eliminado para el resto de la partida: Atacantes y Conquistadores tiran desde ahora el dado de 6."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "El dado de 8 queda eliminado para el resto de la partida: Atacantes y Conquistadores tiran el de 6.",
+"en": "The 8-sided die is removed for the rest of the game: Attackers and Conquerors roll the 6-sided one."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Se elimina el dado de 8 caras."
+},
+"propuesta": null
+},
+"uso_html": "La consecuencia derivada quedó escrita.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: Atacantes y Conquistadores pierden alcance para siempre."
+]
+],
+"avisos": []
+},
+{
+"code": "EV26",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 26,
+"of": 43,
+"name": {
+"es": "Penalización de Movimiento",
+"en": "Movement Penalty"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante esta ronda, toda tirada mayor que 4 se reduce en 2.",
+"reglas": [],
+"completo": "Durante esta ronda, toda tirada mayor que 4 se reduce en 2."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante esta ronda, toda tirada mayor que 4 se reduce en 2.",
+"reglas": [],
+"completo": "Durante esta ronda, toda tirada mayor que 4 se reduce en 2."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, toda tirada mayor que 4 se reduce en 2.",
+"en": "This round, every roll above 4 is reduced by 2."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Restar -2 puntos de movimiento a tiradas mayores a 4."
+},
+"propuesta": null
+},
+"uso_html": "Duración «esta ronda» registrada (el original no la decía).",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Las tiradas altas pierden 2: planea movimientos cortos."
+]
+],
+"avisos": []
+},
+{
+"code": "EV27",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 27,
+"of": 43,
+"name": {
+"es": "Dado Único",
+"en": "Single Die"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Desde ahora todas las piezas que tiran dado usan el de 8 caras.",
+"reglas": [],
+"completo": "Desde ahora todas las piezas que tiran dado usan el de 8 caras."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Desde ahora todas las piezas que tiran dado usan el de 8 caras.",
+"reglas": [],
+"completo": "Desde ahora todas las piezas que tiran dado usan el de 8 caras."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora, todas las piezas que tiran dado usan el de 8 caras.",
+"en": "From now on, every die-rolling piece uses the 8-sided die."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Solo se usará el dado de 8 caras hasta nuevo aviso."
+},
+"propuesta": null
+},
+"uso_html": "Los Exploradores no se ven afectados: no tiran (<a class=\"rref\" href=\"#r-7-4-2\">7.4.2</a>).",
+"uso_refs": [
+"7.4.2"
+],
+"notas": [],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: Contendientes y Defensores ganan alcance para siempre."
+]
+],
+"avisos": []
+},
+{
+"code": "EV28",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 28,
+"of": 43,
+"name": {
+"es": "Bonificación de Movimiento",
+"en": "Movement Bonus"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante esta ronda, toda tirada menor que 4 aumenta en 2.",
+"reglas": [],
+"completo": "Durante esta ronda, toda tirada menor que 4 aumenta en 2."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante esta ronda, toda tirada menor que 4 aumenta en 2.",
+"reglas": [],
+"completo": "Durante esta ronda, toda tirada menor que 4 aumenta en 2."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, toda tirada menor que 4 aumenta en 2.",
+"en": "This round, every roll below 4 is increased by 2."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Aumentar +2 puntos de movimiento a tiradas menores a 4."
+},
+"propuesta": null
+},
+"uso_html": "Misma decisión de duración que su gemela.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Las tiradas bajas ganan 2: buena ronda para piezas lentas."
+]
+],
+"avisos": []
+},
+{
+"code": "EV29",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 29,
+"of": 43,
+"name": {
+"es": "Sacrificio Colateral",
+"en": "Collateral Sacrifice"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Desde ahora, quien saque un 1 en una tirada de movimiento elimina una pieza suya a su elección y la envía a la Fosa Común.",
+"reglas": [],
+"completo": "Desde ahora, quien saque un 1 en una tirada de movimiento elimina una pieza suya a su elección y la envía a la Fosa Común."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Desde ahora, quien saque un 1 en una tirada de movimiento elimina una pieza suya a su elección y la envía a la Fosa Común.",
+"reglas": [],
+"completo": "Desde ahora, quien saque un 1 en una tirada de movimiento elimina una pieza suya a su elección y la envía a la Fosa Común."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora, quien saque un 1 elimina una pieza suya a su elección y la envía a la Fosa Común.",
+"en": "From now on, whoever rolls a 1 removes one of their pieces of their choice and sends it to the Mass Grave."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si cae un 1 en cualquier dado de movimiento, el jugador debe sacrificar una pieza."
+},
+"propuesta": null
+},
+"uso_html": "«Cuál pieza» y «destino Fosa» son decisiones registradas.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: cada 1 cuesta una pieza; la tirada anticipada (7.4.3) te deja verlo antes de planear."
+]
+],
+"avisos": []
+},
+{
+"code": "EV30",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 30,
+"of": 43,
+"name": {
+"es": "Recompensa Octal",
+"en": "Octal Reward"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Si el dado muestra 8, el jugador toma una carta de Dominio.",
+"reglas": [],
+"completo": "Si el dado muestra 8, el jugador toma una carta de Dominio."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Si el dado muestra 8, el jugador toma una carta de Dominio.",
+"reglas": [],
+"completo": "Si el dado muestra 8, el jugador toma una carta de Dominio."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora, quien saque un 8 roba 1 carta de Dominio.",
+"en": "From now on, whoever rolls an 8 draws 1 Dominion card."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si el dado muestra 8, el jugador toma una carta de Dominio."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios de fondo; desde ahora, cada 8 natural paga una carta de Dominio.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: los Atacantes y el Conquistador (D8) ganan valor, porque solo el D8 saca 8."
+]
+],
+"avisos": []
+},
+{
+"code": "EV31",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 31,
+"of": 43,
+"name": {
+"es": "Doble Riesgo",
+"en": "Double Risk"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada tirada de movimiento requiere dos lanzamientos; se usa el valor menor.",
+"reglas": [],
+"completo": "Cada tirada de movimiento requiere dos lanzamientos; se usa el valor menor."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Cada tirada de movimiento requiere dos lanzamientos; se usa el valor menor.",
+"reglas": [],
+"completo": "Cada tirada de movimiento requiere dos lanzamientos; se usa el valor menor."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, cada tirada se lanza dos veces y se usa el valor menor.",
+"en": "This round, every roll is cast twice and the lower value is used."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Cada tirada de movimiento requiere dos lanzamientos; se usa el valor menor."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios; duración: esta ronda.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Ronda de tiradas bajas: no planees capturas lejanas."
+]
+],
+"avisos": []
+},
+{
+"code": "EV32",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 32,
+"of": 43,
+"name": {
+"es": "Ronda Caótica",
+"en": "Chaotic Round"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Cada jugador lanza su dado una vez; el promedio, redondeado al entero más cercano, es el límite de movimiento de todas las piezas con dado durante esta ronda.",
+"reglas": [],
+"completo": "Cada jugador lanza su dado una vez; el promedio, redondeado al entero más cercano, es el límite de movimiento de todas las piezas con dado durante esta ronda."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Cada jugador lanza su dado una vez; el promedio, redondeado al entero más cercano, es el límite de movimiento de todas las piezas con dado durante esta ronda.",
+"reglas": [],
+"completo": "Cada jugador lanza su dado una vez; el promedio, redondeado al entero más cercano, es el límite de movimiento de todas las piezas con dado durante esta ronda."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Todos lanzan su dado una vez; el promedio, redondeado, es el límite de movimiento de todos esta ronda.",
+"en": "Everyone rolls once; the rounded average is everyone’s movement limit this round."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todos lanzan el dado una vez; el promedio es el límite de movimiento para todos durante esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "El redondeo es decisión registrada.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Todos comparten el mismo límite: los Exploradores y el Gobernante no tiran dado."
+]
+],
+"avisos": []
+},
+{
+"code": "EV33",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 33,
+"of": 43,
+"name": {
+"es": "Movimiento Incremental",
+"en": "Incremental Movement"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Si un jugador obtiene una tirada impar, puede mover una casilla extra.",
+"reglas": [],
+"completo": "Si un jugador obtiene una tirada impar, puede mover una casilla extra."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Si un jugador obtiene una tirada impar, puede mover una casilla extra.",
+"reglas": [],
+"completo": "Si un jugador obtiene una tirada impar, puede mover una casilla extra."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, toda tirada impar permite mover 1 casilla extra.",
+"en": "This round, every odd roll allows moving 1 extra tile."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si un jugador obtiene una tirada impar, puede mover una casilla extra."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios; duración: esta ronda.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "dado",
+"modo": [
+"primigenio"
+],
+"tips": [
+[
+"Prepárate",
+"Las tiradas impares dan 1 casilla extra."
+]
+],
+"avisos": []
+},
+{
+"code": "EV34",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 34,
+"of": 43,
+"name": {
+"es": "Límite de Conquista",
+"en": "Limit of Conquest"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "A partir de ahora, los Conquistadores solo se mueven hasta 10 casillas en línea recta.",
+"reglas": [],
+"completo": "A partir de ahora, los Conquistadores solo se mueven hasta 10 casillas en línea recta."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "A partir de ahora, los Conquistadores solo se mueven hasta 10 casillas en línea recta.",
+"reglas": [],
+"completo": "A partir de ahora, los Conquistadores solo se mueven hasta 10 casillas en línea recta."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora los Conquistadores solo se mueven hasta 10 casillas en línea recta.",
+"en": "From now on Conquerors move at most 10 tiles in a straight line."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "A partir de ahora, los Conquistadores solo se mueven hasta 10 casillas en línea recta."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: la única pieza sin límite pasa a tenerlo, para siempre.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: el Conquistador deja de ser ilimitado."
+]
+],
+"avisos": []
+},
+{
+"code": "EV35",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 35,
+"of": 43,
+"name": {
+"es": "Defensores Avanzados",
+"en": "Advanced Defenders"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Esta ronda, los Defensores pueden capturar hasta 2 piezas en su salto.",
+"reglas": [],
+"completo": "Esta ronda, los Defensores pueden capturar hasta 2 piezas en su salto."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Esta ronda, los Defensores pueden capturar hasta 2 piezas en su salto.",
+"reglas": [],
+"completo": "Esta ronda, los Defensores pueden capturar hasta 2 piezas en su salto."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, los Defensores capturan hasta 2 piezas en su salto.",
+"en": "This round, Defenders capture up to 2 pieces in their jump."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Esta ronda, los Defensores pueden capturar hasta 2 piezas en su salto."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios de fondo: es una <strong>excepción temporal</strong> a la regla de que lo saltado no se captura (<a class=\"rref\" href=\"#r-7-4-5\">7.4.5</a> y <a class=\"rref\" href=\"#r-7-2\">7.2</a>), y esa excepción es exactamente su gracia.",
+"uso_refs": [
+"7.4.5",
+"7.2"
+],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Los Defensores capturan en su salto esta ronda."
+]
+],
+"avisos": []
+},
+{
+"code": "EV36",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 36,
+"of": 43,
+"name": {
+"es": "Movimiento Continuo",
+"en": "Continuous Movement"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Durante esta ronda, toda pieza se mueve tirando el dado de 8: el resultado es su máximo de casillas continuas, con cambio de dirección libre.",
+"reglas": [],
+"completo": "Durante esta ronda, toda pieza se mueve tirando el dado de 8: el resultado es su máximo de casillas continuas, con cambio de dirección libre."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Durante esta ronda, toda pieza se mueve tirando el dado de 8: el resultado es su máximo de casillas continuas, con cambio de dirección libre.",
+"reglas": [],
+"completo": "Durante esta ronda, toda pieza se mueve tirando el dado de 8: el resultado es su máximo de casillas continuas, con cambio de dirección libre."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Durante esta ronda, toda pieza se mueve tirando el dado de 8: casillas continuas con dirección libre.",
+"en": "This round, every piece moves by rolling the 8-sided die: continuous tiles, free direction."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Todas las piezas se mueven en casillas continuas según el valor del dado de 8 caras durante esta ronda."
+},
+"propuesta": null
+},
+"uso_html": "El modo Superviviente prueba por una ronda la sangre del Primigenio.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Una ronda de dado en modo específico: recalcula tus amenazas."
+]
+],
+"avisos": []
+},
+{
+"code": "EV37",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 37,
+"of": 43,
+"name": {
+"es": "Exploración Preventiva",
+"en": "Preventive Exploration"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Los Exploradores pueden moverse hasta 4 casillas en cualquier dirección.",
+"reglas": [],
+"completo": "Los Exploradores pueden moverse hasta 4 casillas en cualquier dirección."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Los Exploradores pueden moverse hasta 4 casillas en cualquier dirección.",
+"reglas": [],
+"completo": "Los Exploradores pueden moverse hasta 4 casillas en cualquier dirección."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora los Exploradores se mueven hasta 4 casillas en cualquier dirección.",
+"en": "From now on Explorers move up to 4 tiles in any direction."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Exploradores pueden moverse hasta 4 casillas en cualquier dirección."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: los Exploradores doblan su alcance para siempre.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: los Exploradores doblan su alcance."
+]
+],
+"avisos": []
+},
+{
+"code": "EV38",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 38,
+"of": 43,
+"name": {
+"es": "Ataque Frenético",
+"en": "Frenzied Attack"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Los Atacantes pueden moverse sin límite de casillas en línea recta (una vez por jugador).",
+"reglas": [],
+"completo": "Los Atacantes pueden moverse sin límite de casillas en línea recta (una vez por jugador)."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Los Atacantes pueden moverse sin límite de casillas en línea recta (una vez por jugador).",
+"reglas": [],
+"completo": "Los Atacantes pueden moverse sin límite de casillas en línea recta (una vez por jugador)."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Una vez por jugador: un Atacante se mueve sin límite de casillas en línea recta.",
+"en": "Once per player: an Attacker moves with no tile limit in a straight line."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Atacantes pueden moverse sin límite de casillas en línea recta (una vez por jugador)."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: un disparo de Conquistador prestado, un solo uso por jugador.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Un solo uso por jugador: elige bien el disparo."
+]
+],
+"avisos": []
+},
+{
+"code": "EV39",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 39,
+"of": 43,
+"name": {
+"es": "Conquista Final",
+"en": "Final Conquest"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Si el Gobernante es la penúltima pieza, puede moverse hasta 8 casillas en cualquier dirección.",
+"reglas": [],
+"completo": "Si el Gobernante es la penúltima pieza, puede moverse hasta 8 casillas en cualquier dirección."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Si el Gobernante es la penúltima pieza, puede moverse hasta 8 casillas en cualquier dirección.",
+"reglas": [],
+"completo": "Si el Gobernante es la penúltima pieza, puede moverse hasta 8 casillas en cualquier dirección."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora, si el Gobernante es la penúltima pieza, se mueve hasta 8 casillas en cualquier dirección.",
+"en": "From now on, if the Ruler is the second-to-last piece, it moves up to 8 tiles in any direction."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si el Gobernante es la penúltima pieza, puede moverse hasta 8 casillas en cualquier dirección."
+},
+"propuesta": null
+},
+"uso_html": "Nota: mientras este Vestigio esté activo, <strong>prevalece sobre el 7 de la tabla 7.2</strong> — el Evento modifica la regla, para eso existe.",
+"uso_refs": [
+"7.2"
+],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: un Gobernante casi solo se vuelve muy móvil."
+]
+],
+"avisos": []
+},
+{
+"code": "EV40",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 40,
+"of": 43,
+"name": {
+"es": "Frontera Derrocada",
+"en": "Overthrown Border"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Los Exploradores pueden atravesar murallas enemigas.",
+"reglas": [],
+"completo": "Los Exploradores pueden atravesar murallas enemigas."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Los Exploradores pueden atravesar murallas enemigas.",
+"reglas": [],
+"completo": "Los Exploradores pueden atravesar murallas enemigas."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora los Exploradores pueden atravesar murallas enemigas.",
+"en": "From now on Explorers may pass through enemy walls."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Exploradores pueden atravesar murallas enemigas."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: la muralla deja de ser frontera para la pieza más barata del juego, y esa grieta ya no se cierra.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: las murallas ya no frenan a los Exploradores enemigos."
+]
+],
+"avisos": []
+},
+{
+"code": "EV41",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 41,
+"of": 43,
+"name": {
+"es": "Ofensiva Ferviente",
+"en": "Fervent Offensive"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Los Atacantes pueden capturar hasta 2 piezas en línea recta continua.",
+"reglas": [],
+"completo": "Los Atacantes pueden capturar hasta 2 piezas en línea recta continua."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Los Atacantes pueden capturar hasta 2 piezas en línea recta continua.",
+"reglas": [],
+"completo": "Los Atacantes pueden capturar hasta 2 piezas en línea recta continua."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora los Atacantes capturan hasta 2 piezas en línea recta continua.",
+"en": "From now on Attackers capture up to 2 pieces in a continuous straight line."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Atacantes pueden capturar hasta 2 piezas en línea recta continua."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios de fondo: excepción permanente a «solo se captura en el destino» (<a class=\"rref\" href=\"#r-7-6-1\">7.6.1</a>), exclusiva del Atacante.",
+"uso_refs": [
+"7.6.1"
+],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: no alinees dos piezas frente a un Atacante."
+]
+],
+"avisos": []
+},
+{
+"code": "EV42",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [],
+"qty": 1,
+"n": 42,
+"of": 43,
+"name": {
+"es": "Defensa Impermeable",
+"en": "Impervious Defense"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Hasta el inicio del próximo turno de cada jugador, sus Defensores y Contendientes no pueden ser capturados ni desplazados por efectos enemigos.",
+"reglas": [],
+"completo": "Hasta el inicio del próximo turno de cada jugador, sus Defensores y Contendientes no pueden ser capturados ni desplazados por efectos enemigos."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · «Ahora»",
+"cuerpo": "Hasta el inicio del próximo turno de cada jugador, sus Defensores y Contendientes no pueden ser capturados ni desplazados por efectos enemigos.",
+"reglas": [],
+"completo": "Hasta el inicio del próximo turno de cada jugador, sus Defensores y Contendientes no pueden ser capturados ni desplazados por efectos enemigos."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Hasta el inicio del próximo turno de cada jugador, sus Defensores y Contendientes no pueden ser capturados ni desplazados por efectos enemigos.",
+"en": "Until the start of each player’s next turn, their Defenders and Contenders cannot be captured nor displaced by enemy effects."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Los Defensores o Contendientes, no pueden ser movidas o capturadas hasta el próximo turno."
+},
+"propuesta": null
+},
+"uso_html": "La lectura «por efectos enemigos» (sus dueños sí pueden moverlos) es decisión registrada.",
+"uso_refs": [],
+"notas": [
+"Decisión de redacción registrada en la Referencia (pendiente del veredicto del autor)."
+],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Defensores y Contendientes quedan a salvo de efectos enemigos hasta tu próximo turno."
+]
+],
+"avisos": []
+},
+{
+"code": "EV43",
+"deck": "evento",
+"clase": "evento",
+"type": "evento",
+"mods": [
+"vestigio"
+],
+"qty": 1,
+"n": 43,
+"of": 43,
+"name": {
+"es": "Juramento del Gobernante",
+"en": "Oath of the Ruler"
+},
+"gem": "11-evento.webp",
+"color": "#E9E4D4",
+"texts": {
+"final": {
+"fuente": "Set impreso · Reglamento v1.5",
+"cuerpo": "Si el Gobernante es la última pieza, puede moverse hasta 12 casillas, ignorando murallas y obstáculos.",
+"reglas": [],
+"completo": "Si el Gobernante es la última pieza, puede moverse hasta 12 casillas, ignorando murallas y obstáculos."
+},
+"referencia": {
+"fuente": "Referencia de Cartas v1.4 · texto original (sin cambios)",
+"cuerpo": "Si el Gobernante es la última pieza, puede moverse hasta 12 casillas, ignorando murallas y obstáculos.",
+"reglas": [],
+"completo": "Si el Gobernante es la última pieza, puede moverse hasta 12 casillas, ignorando murallas y obstáculos."
+},
+"catalogo": {
+"fuente": "dz-elevate-data-v14.jsx",
+"cuerpo": "Desde ahora, si el Gobernante es la última pieza, se mueve hasta 12 casillas ignorando murallas y obstáculos.",
+"en": "From now on, if the Ruler is the last piece, it moves up to 12 tiles ignoring walls and obstacles."
+},
+"original": {
+"fuente": "Referencia de Cartas v1.4 · «Antes»",
+"cuerpo": "Si el Gobernante es la última pieza, puede moverse hasta 12 casillas, ignorando murallas y obstáculos."
+},
+"propuesta": null
+},
+"uso_html": "Sin cambios: el rey solo, desatado para siempre — 12 casillas ignorando todo lo que pise.",
+"uso_refs": [],
+"notas": [],
+"necro": null,
+"familia": "especifico",
+"modo": [
+"superviviente",
+"forjado"
+],
+"tips": [
+[
+"Prepárate",
+"Vestigio: un Gobernante solitario se mueve 12 casillas ignorando murallas."
+]
+],
+"avisos": []
+}
+]
+}

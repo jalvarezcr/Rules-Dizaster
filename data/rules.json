@@ -1,0 +1,1641 @@
+{
+"version": "1.5",
+"titulo": "Dizaster — Reglamento",
+"fuente": "Dizaster-Manual-v1.5.md",
+"intro_html": "<p>Este manual reúne todas las reglas necesarias para jugar a Dizaster, de 2 a 8 jugadores, en sus tres modos de partida y en sus dos tableros. Cada regla está numerada para que la mesa pueda encontrarla y citarla sin discusiones, y cada una se entiende por sí sola. Lo que una carta concreta dice impreso manda sobre la regla general mientras esa carta esté en juego.</p>",
+"novedades": [],
+"chapters": [
+{
+"id": "1",
+"title": "Objetivo del juego",
+"anchor": "r-1"
+},
+{
+"id": "2",
+"title": "Formatos, tableros y modos de partida",
+"anchor": "r-2"
+},
+{
+"id": "3",
+"title": "El Canciller",
+"anchor": "r-3"
+},
+{
+"id": "4",
+"title": "Componentes",
+"anchor": "r-4"
+},
+{
+"id": "5",
+"title": "Preparación de la partida",
+"anchor": "r-5"
+},
+{
+"id": "6",
+"title": "El tablero",
+"anchor": "r-6"
+},
+{
+"id": "7",
+"title": "Las piezas y el movimiento",
+"anchor": "r-7"
+},
+{
+"id": "8",
+"title": "El turno",
+"anchor": "r-8"
+},
+{
+"id": "9",
+"title": "La mano de cartas",
+"anchor": "r-9"
+},
+{
+"id": "10",
+"title": "Las cartas: mazos, clases, tipos y modificadores",
+"anchor": "r-10"
+},
+{
+"id": "11",
+"title": "La Fase de Resolución",
+"anchor": "r-11"
+},
+{
+"id": "12",
+"title": "Capturas, Prisión de Guerra y resurrección",
+"anchor": "r-12"
+},
+{
+"id": "13",
+"title": "La Muralla",
+"anchor": "r-13"
+},
+{
+"id": "14",
+"title": "La caída de un reino y el Reino Necrovante",
+"anchor": "r-14"
+},
+{
+"id": "15",
+"title": "La victoria",
+"anchor": "r-15"
+},
+{
+"id": "16",
+"title": "Votaciones",
+"anchor": "r-16"
+},
+{
+"id": "17",
+"title": "Reglas personalizadas",
+"anchor": "r-17"
+},
+{
+"id": "18",
+"title": "Ajustes del tablero Ko'resh",
+"anchor": "r-18"
+}
+],
+"items": [
+{
+"id": "1",
+"anchor": "r-1",
+"level": 1,
+"title": "Objetivo del juego",
+"chapter": "1",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "1.1",
+"anchor": "r-1-1",
+"level": 2,
+"title": "La meta",
+"chapter": "1",
+"html": "<p>Dizaster es un juego de guerra y conquista para <strong>2 a 8 jugadores</strong>, y también para un solo jugador cuando se juega en su versión de videojuego contra la inteligencia artificial. Tu meta es sencilla de enunciar y muy difícil de conseguir: <strong>debes ser el último jugador en pie</strong>, lo que significa que todos los demás habrán perdido sus reinos o habrán sido exterminados hasta su última pieza.</p>",
+"text": "Dizaster es un juego de guerra y conquista para 2 a 8 jugadores, y también para un solo jugador cuando se juega en su versión de videojuego contra la inteligencia artificial. Tu meta es sencilla de enunciar y muy difícil de conseguir: debes ser el último jugador en pie, lo que significa que todos los demás habrán perdido sus reinos o habrán sido exterminados hasta su última pieza.",
+"parent": "1"
+},
+{
+"id": "1.2",
+"anchor": "r-1-2",
+"level": 2,
+"title": "Lo que tendrás que hacer",
+"chapter": "1",
+"html": "<p>Para llegar hasta ahí gobernarás uno o varios reinos sobre un gran tablero de casillas hexagonales, moverás tus piezas buscando ventaja, jugarás cartas cargadas de poderes y efectos capaces de dar la vuelta a una partida, capturarás piezas enemigas para llenar tu Prisión de Guerra y, sobre todo, protegerás a tu Gobernante, porque en ese instante, se llevará con él a todo tu reino.</p>",
+"text": "Para llegar hasta ahí gobernarás uno o varios reinos sobre un gran tablero de casillas hexagonales, moverás tus piezas buscando ventaja, jugarás cartas cargadas de poderes y efectos capaces de dar la vuelta a una partida, capturarás piezas enemigas para llenar tu Prisión de Guerra y, sobre todo, protegerás a tu Gobernante, porque en ese instante, se llevará con él a todo tu reino.",
+"parent": "1"
+},
+{
+"id": "1.3",
+"anchor": "r-1-3",
+"level": 2,
+"title": "Ninguna partida se parece a otra",
+"chapter": "1",
+"html": "<p>No des nada por sentado cuando te sientes a la mesa, porque según cómo se configure cada partida —el tablero elegido, el modo, la cantidad de reinos que gobierne cada quien y las reglas que la mesa decida añadir— obtendrás un estilo de juego completamente diferente, y una estrategia que fue brillante ayer puede resultar inútil hoy.</p>",
+"text": "No des nada por sentado cuando te sientes a la mesa, porque según cómo se configure cada partida —el tablero elegido, el modo, la cantidad de reinos que gobierne cada quien y las reglas que la mesa decida añadir— obtendrás un estilo de juego completamente diferente, y una estrategia que fue brillante ayer puede resultar inútil hoy.",
+"parent": "1"
+},
+{
+"id": "2",
+"anchor": "r-2",
+"level": 1,
+"title": "Formatos, tableros y modos de partida",
+"chapter": "2",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "2.1",
+"anchor": "r-2-1",
+"level": 2,
+"title": "Los dos formatos",
+"chapter": "2",
+"html": "",
+"text": "",
+"parent": "2"
+},
+{
+"id": "2.1.1",
+"anchor": "r-2-1-1",
+"level": 3,
+"title": "Juego físico",
+"chapter": "2",
+"html": "<p>Admite de <strong>2 a 8 jugadores</strong>, según el tablero que se utilice: el tablero <strong>Vunnar</strong> acepta de 2 a 6 jugadores, mientras que el tablero <strong>Ko'resh</strong> llega hasta 8.</p>",
+"text": "Admite de 2 a 8 jugadores, según el tablero que se utilice: el tablero Vunnar acepta de 2 a 6 jugadores, mientras que el tablero Ko'resh llega hasta 8.",
+"parent": "2.1"
+},
+{
+"id": "2.1.2",
+"anchor": "r-2-1-2",
+"level": 3,
+"title": "Videojuego",
+"chapter": "2",
+"html": "<p>Admite todo lo anterior y además abre tres posibilidades que la mesa física no permite, empezando por el <strong>modo solitario</strong>, en el que un único jugador se enfrenta a la inteligencia artificial; siguiendo por los <strong>reinos con IA</strong>, de manera que los reinos que no ocupe una persona pueden completarse con adversarios artificiales de distinta dificultad; y terminando por las <strong>partidas mixtas</strong>, donde personas e inteligencias artificiales comparten el mismo tablero.</p>",
+"text": "Admite todo lo anterior y además abre tres posibilidades que la mesa física no permite, empezando por el modo solitario, en el que un único jugador se enfrenta a la inteligencia artificial; siguiendo por los reinos con IA, de manera que los reinos que no ocupe una persona pueden completarse con adversarios artificiales de distinta dificultad; y terminando por las partidas mixtas, donde personas e inteligencias artificiales comparten el mismo tablero.",
+"parent": "2.1"
+},
+{
+"id": "2.2",
+"anchor": "r-2-2",
+"level": 2,
+"title": "Los dos tableros",
+"chapter": "2",
+"html": "<p>Existen dos tableros y ambos comparten exactamente las mismas reglas Core, de modo que aprender a jugar en uno es aprender a jugar en los dos.</p>",
+"text": "Existen dos tableros y ambos comparten exactamente las mismas reglas Core, de modo que aprender a jugar en uno es aprender a jugar en los dos.",
+"parent": "2"
+},
+{
+"id": "2.2.1",
+"anchor": "r-2-2-1",
+"level": 3,
+"title": "Vunnar, el tablero de 6 reinos",
+"chapter": "2",
+"html": "<p>Es un tablero hexagonal para <strong>2 a 6 jugadores</strong>, con los reinos <strong>Azul, Morado, Rojo, Naranja, Amarillo y Verde</strong>. En su zona central encontrarás <strong>3 casillas de Dominio</strong> y <strong>1 casilla de Poder</strong>.</p>",
+"text": "Es un tablero hexagonal para 2 a 6 jugadores, con los reinos Azul, Morado, Rojo, Naranja, Amarillo y Verde. En su zona central encontrarás 3 casillas de Dominio y 1 casilla de Poder.",
+"parent": "2.2"
+},
+{
+"id": "2.2.2",
+"anchor": "r-2-2-2",
+"level": 3,
+"title": "Ko'resh, el tablero de 8 reinos",
+"chapter": "2",
+"html": "<p>Es un tablero octogonal para <strong>2 a 8 jugadores</strong>, con los reinos <strong>Blanco, Verde, Azul, Morado, Negro, Rojo, Naranja y Amarillo</strong>. Su zona central es más rica que la de Vunnar, ya que reúne <strong>4 casillas de Dominio</strong> y <strong>1 casilla de Poder</strong>, y con 7 u 8 jugadores los sorteos entre reinos se tiran con el dado de 8 caras.</p>",
+"text": "Es un tablero octogonal para 2 a 8 jugadores, con los reinos Blanco, Verde, Azul, Morado, Negro, Rojo, Naranja y Amarillo. Su zona central es más rica que la de Vunnar, ya que reúne 4 casillas de Dominio y 1 casilla de Poder, y con 7 u 8 jugadores los sorteos entre reinos se tiran con el dado de 8 caras.",
+"parent": "2.2"
+},
+{
+"id": "2.3",
+"anchor": "r-2-3",
+"level": 2,
+"title": "Los tres modos de partida",
+"chapter": "2",
+"html": "<p>Antes de empezar, la mesa debe elegir en cuál de los tres modos quiere jugar, y esa elección <strong>no se puede cambiar a mitad de partida</strong>. Cada modo tiene su propio grado de dificultad, su propio ritmo y su propia configuración de cartas.</p>",
+"text": "Antes de empezar, la mesa debe elegir en cuál de los tres modos quiere jugar, y esa elección no se puede cambiar a mitad de partida. Cada modo tiene su propio grado de dificultad, su propio ritmo y su propia configuración de cartas.",
+"parent": "2"
+},
+{
+"id": "2.3.1",
+"anchor": "r-2-3-1",
+"level": 3,
+"title": "Modo Primigenio",
+"chapter": "2",
+"html": "<p>Todos los jugadores mueven sus piezas con <strong>movimiento con dado</strong>. Es el modo de las partidas casuales e introductorias, pensado para quienes quieren asomarse al juego sin aprenderse todos los patrones de movimiento, y también para quienes disfrutan de la aleatoriedad y de esa sensación constante de adrenalina e incertidumbre que solo puede darte un dado que aún no ha caído.</p>",
+"text": "Todos los jugadores mueven sus piezas con movimiento con dado. Es el modo de las partidas casuales e introductorias, pensado para quienes quieren asomarse al juego sin aprenderse todos los patrones de movimiento, y también para quienes disfrutan de la aleatoriedad y de esa sensación constante de adrenalina e incertidumbre que solo puede darte un dado que aún no ha caído.",
+"parent": "2.3"
+},
+{
+"id": "2.3.2",
+"anchor": "r-2-3-2",
+"level": 3,
+"title": "Modo Superviviente",
+"chapter": "2",
+"html": "<p>Todos los jugadores mueven sus piezas con <strong>movimiento específico</strong>. Es el modo de la estrategia, con mucha menos incertidumbre y un combate más equilibrado tanto sobre el campo de batalla como en el intercambio de poderes entre cartas, ideal para mesas competitivas que quieren control absoluto sobre su turno y un enfrentamiento que se gane pensando.</p>",
+"text": "Todos los jugadores mueven sus piezas con movimiento específico. Es el modo de la estrategia, con mucha menos incertidumbre y un combate más equilibrado tanto sobre el campo de batalla como en el intercambio de poderes entre cartas, ideal para mesas competitivas que quieren control absoluto sobre su turno y un enfrentamiento que se gane pensando.",
+"parent": "2.3"
+},
+{
+"id": "2.3.3",
+"anchor": "r-2-3-3",
+"level": 3,
+"title": "Modo Forjado",
+"chapter": "2",
+"html": "<p>Todos los jugadores mueven con <strong>movimiento específico</strong> y la casilla central del tablero funciona como <strong>casilla de Poder</strong>. Es el modo de la estrategia extrema, reservado a jugadores de alta capacidad bélica que quieran destruir tácticamente a sus adversarios y no solo vencerlos.</p>",
+"text": "Todos los jugadores mueven con movimiento específico y la casilla central del tablero funciona como casilla de Poder. Es el modo de la estrategia extrema, reservado a jugadores de alta capacidad bélica que quieran destruir tácticamente a sus adversarios y no solo vencerlos.",
+"parent": "2.3"
+},
+{
+"id": "3",
+"anchor": "r-3",
+"level": 1,
+"title": "El Canciller",
+"chapter": "3",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "3.1",
+"anchor": "r-3-1",
+"level": 2,
+"title": "Qué es",
+"chapter": "3",
+"html": "<p>El Canciller es el <strong>representante de las reglas de Dizaster</strong>, y conviene entender bien la diferencia, porque no es un árbitro, ni un juez, ni un referí que reparta razones: es quien vela por que la partida mantenga orden y control a lo largo de las rondas y los estados del juego, y por que las reglas aquí definidas se cumplan mientras se juega.</p>",
+"text": "El Canciller es el representante de las reglas de Dizaster, y conviene entender bien la diferencia, porque no es un árbitro, ni un juez, ni un referí que reparta razones: es quien vela por que la partida mantenga orden y control a lo largo de las rondas y los estados del juego, y por que las reglas aquí definidas se cumplan mientras se juega.",
+"parent": "3"
+},
+{
+"id": "3.2",
+"anchor": "r-3-2",
+"level": 2,
+"title": "Siempre existe",
+"chapter": "3",
+"html": "<p>Toda partida de Dizaster tiene Canciller, sin excepción. Si por cualquier motivo el Canciller no puede continuar durante la partida, podrá <strong>delegar su cargo y su responsabilidad</strong> en cualquier otro jugador que quiera asumirlo, de modo que la figura nunca queda vacante.</p>",
+"text": "Toda partida de Dizaster tiene Canciller, sin excepción. Si por cualquier motivo el Canciller no puede continuar durante la partida, podrá delegar su cargo y su responsabilidad en cualquier otro jugador que quiera asumirlo, de modo que la figura nunca queda vacante.",
+"parent": "3"
+},
+{
+"id": "3.3",
+"anchor": "r-3-3",
+"level": 2,
+"title": "Puede ser jugador, o no",
+"chapter": "3",
+"html": "<p>El Canciller puede ser uno de los jugadores de la partida o una persona externa dedicada únicamente a ese papel; en este segundo caso deberá permanecer presente durante toda la partida, garantizando el cumplimiento de las reglas Core y resolviendo cuanto surja de las reglas personalizadas que la mesa haya acordado.</p>",
+"text": "El Canciller puede ser uno de los jugadores de la partida o una persona externa dedicada únicamente a ese papel; en este segundo caso deberá permanecer presente durante toda la partida, garantizando el cumplimiento de las reglas Core y resolviendo cuanto surja de las reglas personalizadas que la mesa haya acordado.",
+"parent": "3"
+},
+{
+"id": "3.4",
+"anchor": "r-3-4",
+"level": 2,
+"title": "Cuándo aplica y cuándo decide",
+"chapter": "3",
+"html": "<p>Cuando el Canciller resuelve algo que ya está escrito en este manual, simplemente <strong>aplica la regla</strong>, y no está poniendo a prueba su criterio sino haciendo valer lo que el Core ya define. Como este manual no deja situaciones sin cubrir dentro de su alcance, <strong>el Canciller solo decide</strong> cuando aparece algo <strong>distinto</strong> a lo aquí escrito, ya sea una adaptación, una regla nueva o un modo de juego que la mesa quiera introducir por encima del Core.</p>",
+"text": "Cuando el Canciller resuelve algo que ya está escrito en este manual, simplemente aplica la regla, y no está poniendo a prueba su criterio sino haciendo valer lo que el Core ya define. Como este manual no deja situaciones sin cubrir dentro de su alcance, el Canciller solo decide cuando aparece algo distinto a lo aquí escrito, ya sea una adaptación, una regla nueva o un modo de juego que la mesa quiera introducir por encima del Core.",
+"parent": "3"
+},
+{
+"id": "3.5",
+"anchor": "r-3-5",
+"level": 2,
+"title": "Los Eventos son su responsabilidad",
+"chapter": "3",
+"html": "<p>El Canciller es el encargado de <strong>invocar las cartas de Evento</strong> y de asegurarse de que todos los jugadores cumplan lo que la carta establece antes de que comience la ronda, o durante ella si así lo indica el propio Evento.</p>",
+"text": "El Canciller es el encargado de invocar las cartas de Evento y de asegurarse de que todos los jugadores cumplan lo que la carta establece antes de que comience la ronda, o durante ella si así lo indica el propio Evento.",
+"parent": "3"
+},
+{
+"id": "3.6",
+"anchor": "r-3-6",
+"level": 2,
+"title": "Imparcialidad",
+"chapter": "3",
+"html": "<p>El Canciller debe mantenerse siempre imparcial, sin mostrar preferencia por ningún reino, comportándose de manera coherente durante toda la partida y sin aprovecharse jamás de su papel.</p>",
+"text": "El Canciller debe mantenerse siempre imparcial, sin mostrar preferencia por ningún reino, comportándose de manera coherente durante toda la partida y sin aprovecharse jamás de su papel.",
+"parent": "3"
+},
+{
+"id": "3.7",
+"anchor": "r-3-7",
+"level": 2,
+"title": "Cómo se elige",
+"chapter": "3",
+"html": "<p>Todos los jugadores lanzan el <strong>dado de 8 caras</strong>, y quien obtenga el número más alto será el Canciller y también quien comience la partida; si hay empate, los empatados vuelven a lanzar hasta que uno destaque.</p>",
+"text": "Todos los jugadores lanzan el dado de 8 caras, y quien obtenga el número más alto será el Canciller y también quien comience la partida; si hay empate, los empatados vuelven a lanzar hasta que uno destaque.",
+"parent": "3"
+},
+{
+"id": "3.8",
+"anchor": "r-3-8",
+"level": 2,
+"title": "Cómo se revoca",
+"chapter": "3",
+"html": "<p>Si la mayoría de los jugadores considera que el Canciller no está cumpliendo con lo anterior, podrán <strong>volver a elegir Canciller en cualquier momento de la partida</strong>, y para ello basta con repetir el procedimiento de elección: todos lanzan el dado de 8 caras y el resultado más alto ocupa el cargo.</p>",
+"text": "Si la mayoría de los jugadores considera que el Canciller no está cumpliendo con lo anterior, podrán volver a elegir Canciller en cualquier momento de la partida, y para ello basta con repetir el procedimiento de elección: todos lanzan el dado de 8 caras y el resultado más alto ocupa el cargo.",
+"parent": "3"
+},
+{
+"id": "4",
+"anchor": "r-4",
+"level": 1,
+"title": "Componentes",
+"chapter": "4",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "4.1",
+"anchor": "r-4-1",
+"level": 2,
+"title": "Los tableros",
+"chapter": "4",
+"html": "<p>Un tablero <strong>Vunnar</strong> de 6 reinos (hexagonal) o un tablero <strong>Ko'resh</strong> de 8 reinos (octogonal), según la partida que vayáis a jugar.</p>",
+"text": "Un tablero Vunnar de 6 reinos (hexagonal) o un tablero Ko'resh de 8 reinos (octogonal), según la partida que vayáis a jugar.",
+"parent": "4"
+},
+{
+"id": "4.2",
+"anchor": "r-4-2",
+"level": 2,
+"title": "Las piezas de cada reino (11 por reino)",
+"chapter": "4",
+"html": "<div class=\"tbl\"><table><thead><tr><th>Cantidad</th><th>Pieza</th><th>Qué representa</th></tr></thead><tbody><tr><td>1</td><td><strong>Gobernante</strong></td><td>Es la pieza más importante de tu reino, y también la más frágil en consecuencias: si una pieza enemiga puede capturarla lo hará sin avisar, y eso significará la caída de todo tu reino. Deberás hacer lo posible por protegerla y resguardarla, porque cuando cae llega la invocación oscura y tu reino renace convertido en Reino Necrovante, hambriento de venganza.</td></tr><tr><td>1</td><td><strong>Conquistador</strong></td><td>Un elemento de un poder enorme, siempre y cuando tenga cobertura de movimiento por delante.</td></tr><tr><td>2</td><td><strong>Atacantes</strong></td><td>Integrantes calificados para destruir a su paso, con un largo alcance operativo.</td></tr><tr><td>2</td><td><strong>Contendientes</strong></td><td>Elementos impecables para el combate y la resistencia equilibrada.</td></tr><tr><td>2</td><td><strong>Defensores</strong></td><td>Indispensables para alcanzar zonas complicadas, y los únicos capaces de saltar por encima de otras piezas.</td></tr><tr><td>3</td><td><strong>Exploradores</strong></td><td>Guerreros sin miedo que, cuando son potenciados, despliegan habilidades únicas de replicación de combate.</td></tr></tbody></table></div>",
+"text": "Cantidad Pieza Qué representa 1 Gobernante Es la pieza más importante de tu reino, y también la más frágil en consecuencias: si una pieza enemiga puede capturarla lo hará sin avisar, y eso significará la caída de todo tu reino. Deberás hacer lo posible por protegerla y resguardarla, porque cuando cae llega la invocación oscura y tu reino renace convertido en Reino Necrovante, hambriento de venganza. 1 Conquistador Un elemento de un poder enorme, siempre y cuando tenga cobertura de movimiento por delante. 2 Atacantes Integrantes calificados para destruir a su paso, con un largo alcance operativo. 2 Contendientes Elementos impecables para el combate y la resistencia equilibrada. 2 Defensores Indispensables para alcanzar zonas complicadas, y los únicos capaces de saltar por encima de otras piezas. 3 Exploradores Guerreros sin miedo que, cuando son potenciados, despliegan habilidades únicas de replicación de combate.",
+"parent": "4"
+},
+{
+"id": "4.3",
+"anchor": "r-4-3",
+"level": 2,
+"title": "Los mazos",
+"chapter": "4",
+"html": "<p>Cada mazo se baraja <strong>boca abajo</strong> y dispone de su propia <strong>pila de descarte</strong> al lado, y nunca se mezclan entre sí.</p>",
+"text": "Cada mazo se baraja boca abajo y dispone de su propia pila de descarte al lado, y nunca se mezclan entre sí.",
+"parent": "4"
+},
+{
+"id": "4.3.1",
+"anchor": "r-4-3-1",
+"level": 3,
+"title": "Mazo de Asalto",
+"chapter": "4",
+"html": "<p>Es tu mazo de acción principal, el que otorga habilidades y efectos para contender y resistir frente a los demás reinos, y es el buen equilibrio que impide que dejes de combatir. Robas una carta de Asalto <strong>al inicio de cada turno</strong>, antes que cualquier otra acción, y de ahí sale la mayor parte de tu juego ronda tras ronda. Lo más importante que debes recordar es que <strong>si no tomas tu carta de Asalto al principio del turno, no podrás tomarla hasta tu siguiente turno</strong>.</p>",
+"text": "Es tu mazo de acción principal, el que otorga habilidades y efectos para contender y resistir frente a los demás reinos, y es el buen equilibrio que impide que dejes de combatir. Robas una carta de Asalto al inicio de cada turno, antes que cualquier otra acción, y de ahí sale la mayor parte de tu juego ronda tras ronda. Lo más importante que debes recordar es que si no tomas tu carta de Asalto al principio del turno, no podrás tomarla hasta tu siguiente turno.",
+"parent": "4.3"
+},
+{
+"id": "4.3.2",
+"anchor": "r-4-3-2",
+"level": 3,
+"title": "Mazo de Dominio",
+"chapter": "4",
+"html": "<p>Otorga habilidades y efectos superiores, con cualidades más dañinas y consecuencias colaterales. No se roba por turno, sino que es la recompensa por controlar el tablero: para obtener cartas de Dominio es obligatorio que una de tus piezas <strong>termine su movimiento en una casilla de Dominio</strong>, y cada vez que lo logres robarás <strong>1 carta</strong>. Conseguirlas es crucial, pero no debes confiar solo en ellas para ganar la partida.</p>",
+"text": "Otorga habilidades y efectos superiores, con cualidades más dañinas y consecuencias colaterales. No se roba por turno, sino que es la recompensa por controlar el tablero: para obtener cartas de Dominio es obligatorio que una de tus piezas termine su movimiento en una casilla de Dominio, y cada vez que lo logres robarás 1 carta. Conseguirlas es crucial, pero no debes confiar solo en ellas para ganar la partida.",
+"parent": "4.3"
+},
+{
+"id": "4.3.3",
+"anchor": "r-4-3-3",
+"level": 3,
+"title": "Mazo de Evento",
+"chapter": "4",
+"html": "<p>Contiene todos los eventos que la partida impone a la mesa, y es el motor que abre cada ronda. Son <strong>43 cartas únicas</strong>, una de cada. Cuando el mazo de Evento se agota, el Canciller <strong>baraja su pila de descarte</strong> y forma con ella un mazo de Evento nuevo, de modo que nunca falta un Evento para abrir la ronda. El Canciller debe leerlas obligatoriamente al comenzar cada nueva ronda, y no puede empezar el turno del primer jugador hasta que todos hayan cumplido el evento o estén enterados de su efecto durante la ronda. Algunos eventos poseen el modificador <strong>Vestigio</strong>, que vuelve su efecto permanente durante el resto de la partida, aunque la carta vuelva al mazo cuando este se rebaraje.</p>",
+"text": "Contiene todos los eventos que la partida impone a la mesa, y es el motor que abre cada ronda. Son 43 cartas únicas, una de cada. Cuando el mazo de Evento se agota, el Canciller baraja su pila de descarte y forma con ella un mazo de Evento nuevo, de modo que nunca falta un Evento para abrir la ronda. El Canciller debe leerlas obligatoriamente al comenzar cada nueva ronda, y no puede empezar el turno del primer jugador hasta que todos hayan cumplido el evento o estén enterados de su efecto durante la ronda. Algunos eventos poseen el modificador Vestigio, que vuelve su efecto permanente durante el resto de la partida, aunque la carta vuelva al mazo cuando este se rebaraje.",
+"parent": "4.3"
+},
+{
+"id": "4.4",
+"anchor": "r-4-4",
+"level": 2,
+"title": "Los dados",
+"chapter": "4",
+"html": "<p>Un <strong>dado de 6 caras</strong> y un <strong>dado de 8 caras</strong>, que se emplean para elegir al Canciller, para el movimiento con dado del modo Primigenio y para las cartas y ritos que piden una tirada. La Fuga del Saqueador emplea además un <strong>dado de 4 caras</strong>.</p>",
+"text": "Un dado de 6 caras y un dado de 8 caras, que se emplean para elegir al Canciller, para el movimiento con dado del modo Primigenio y para las cartas y ritos que piden una tirada. La Fuga del Saqueador emplea además un dado de 4 caras.",
+"parent": "4"
+},
+{
+"id": "4.5",
+"anchor": "r-4-5",
+"level": 2,
+"title": "Otros elementos",
+"chapter": "4",
+"html": "<p>Los <strong>bloques de muralla</strong>, una zona despejada delante de cada jugador que hará las veces de <strong>Prisión de Guerra</strong>, donde se guardan las piezas capturadas; un espacio común en el centro de la mesa para la <strong>Fosa Común</strong>, donde terminan los prisioneros sacrificados; y la <strong>carta de referencia de cada reino</strong>, que resume su turno, su formación y su habilidad especial.</p>",
+"text": "Los bloques de muralla, una zona despejada delante de cada jugador que hará las veces de Prisión de Guerra, donde se guardan las piezas capturadas; un espacio común en el centro de la mesa para la Fosa Común, donde terminan los prisioneros sacrificados; y la carta de referencia de cada reino, que resume su turno, su formación y su habilidad especial.",
+"parent": "4"
+},
+{
+"id": "5",
+"anchor": "r-5",
+"level": 1,
+"title": "Preparación de la partida",
+"chapter": "5",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "5.1",
+"anchor": "r-5-1",
+"level": 2,
+"title": "Definir la modalidad",
+"chapter": "5",
+"html": "<p>Antes de empezar, la mesa debe elegir qué modalidad quiere jugar entre <strong>Primigenio, Superviviente y Forjado</strong>, y esa elección se mantiene durante toda la partida sin poder cambiarse. Es también en este momento cuando se añaden, si así se desea, las reglas adicionales al Core, las expansiones, las reglas locales y las restricciones personales que quieran acordar los jugadores, siempre que cada una quede escrita en una carta de regla y cuente con el acuerdo de todos.</p>",
+"text": "Antes de empezar, la mesa debe elegir qué modalidad quiere jugar entre Primigenio, Superviviente y Forjado, y esa elección se mantiene durante toda la partida sin poder cambiarse. Es también en este momento cuando se añaden, si así se desea, las reglas adicionales al Core, las expansiones, las reglas locales y las restricciones personales que quieran acordar los jugadores, siempre que cada una quede escrita en una carta de regla y cuente con el acuerdo de todos.",
+"parent": "5"
+},
+{
+"id": "5.2",
+"anchor": "r-5-2",
+"level": 2,
+"title": "Reparto de reinos",
+"chapter": "5",
+"html": "",
+"text": "",
+"parent": "5"
+},
+{
+"id": "5.2.1",
+"anchor": "r-5-2-1",
+"level": 3,
+"title": "Cuántos reinos gobierna cada quien",
+"chapter": "5",
+"html": "<p>La cantidad de jugadores determina cuántos reinos puede controlar cada uno, y en todos los casos se cumple una regla que no admite excepciones: <strong>un jugador tiene una sola mano de cartas y un solo turno</strong>, sin importar cuántos reinos gobierne.</p><div class=\"tbl\"><table><thead><tr><th>Jugadores</th><th>Tablero Vunnar (6 reinos)</th><th>Tablero Ko'resh (8 reinos)</th></tr></thead><tbody><tr><td><strong>1 – 2</strong> \\*</td><td>De 1 a 3 reinos cada uno</td><td>De 1 a 4 reinos cada uno</td></tr><tr><td><strong>3</strong></td><td>De 1 a 2 reinos cada uno</td><td>De 1 a 2 reinos cada uno, con la opción de que uno o dos jugadores gestionen 3</td></tr><tr><td><strong>4 o más</strong></td><td>1 reino cada uno</td><td>1 reino cada uno</td></tr></tbody></table></div><p>\\* El caso de <strong>un solo jugador</strong> existe únicamente en el videojuego, jugando en solitario contra la inteligencia artificial; en juego físico el mínimo son <strong>2 jugadores</strong>.</p>",
+"text": "La cantidad de jugadores determina cuántos reinos puede controlar cada uno, y en todos los casos se cumple una regla que no admite excepciones: un jugador tiene una sola mano de cartas y un solo turno, sin importar cuántos reinos gobierne. Jugadores Tablero Vunnar (6 reinos) Tablero Ko'resh (8 reinos) 1 – 2 \\ De 1 a 3 reinos cada uno De 1 a 4 reinos cada uno 3 De 1 a 2 reinos cada uno De 1 a 2 reinos cada uno, con la opción de que uno o dos jugadores gestionen 3 4 o más 1 reino cada uno 1 reino cada uno \\ El caso de un solo jugador existe únicamente en el videojuego, jugando en solitario contra la inteligencia artificial; en juego físico el mínimo son 2 jugadores.",
+"parent": "5.2"
+},
+{
+"id": "5.2.2",
+"anchor": "r-5-2-2",
+"level": 3,
+"title": "Reinos sobrantes y acomodo",
+"chapter": "5",
+"html": "<p>Cada jugador toma su reino o sus reinos y los que sobren quedan <strong>vacíos</strong>, de manera que sus casillas funcionan como casillas normales del tablero. El <strong>acomodo de los reinos es libre</strong>: podéis sentaros en reinos vecinos, enfrentados o intercalados, exactamente como la mesa prefiera.</p>",
+"text": "Cada jugador toma su reino o sus reinos y los que sobren quedan vacíos, de manera que sus casillas funcionan como casillas normales del tablero. El acomodo de los reinos es libre: podéis sentaros en reinos vecinos, enfrentados o intercalados, exactamente como la mesa prefiera.",
+"parent": "5.2"
+},
+{
+"id": "5.2.3",
+"anchor": "r-5-2-3",
+"level": 3,
+"title": "Reinos sin dueño y zonas restringidas",
+"chapter": "5",
+"html": "<p>La mesa puede pactar dejar <strong>reinos sin dueño</strong>, así como <strong>restringir zonas</strong> del tablero. El Gobernante de un reino sin dueño puede ser capturado igual que cualquier otro, y quien lo capture se quedará con sus prisioneros de guerra y pasará además a gobernar el Reino Necrovante que se invoque a partir de él. También es posible que un reino sin dueño sea revivido mediante la carta <strong>I04 · Renacer del Fénix</strong>, en cuyo caso pasará a gobernarlo quien la haya jugado.</p>",
+"text": "La mesa puede pactar dejar reinos sin dueño, así como restringir zonas del tablero. El Gobernante de un reino sin dueño puede ser capturado igual que cualquier otro, y quien lo capture se quedará con sus prisioneros de guerra y pasará además a gobernar el Reino Necrovante que se invoque a partir de él. También es posible que un reino sin dueño sea revivido mediante la carta I04 · Renacer del Fénix, en cuyo caso pasará a gobernarlo quien la haya jugado.",
+"parent": "5.2"
+},
+{
+"id": "5.2.4",
+"anchor": "r-5-2-4",
+"level": 3,
+"title": "Carta de referencia",
+"chapter": "5",
+"html": "<p>Reparte a cada jugador la <strong>carta de referencia de su reino</strong>, que recoge las etapas de su turno, una guía del acomodo de sus piezas y la <strong>habilidad especial</strong> asignada a ese reino.</p>",
+"text": "Reparte a cada jugador la carta de referencia de su reino, que recoge las etapas de su turno, una guía del acomodo de sus piezas y la habilidad especial asignada a ese reino.",
+"parent": "5.2"
+},
+{
+"id": "5.3",
+"anchor": "r-5-3",
+"level": 2,
+"title": "Elegir al Canciller",
+"chapter": "5",
+"html": "<p>Todos los jugadores lanzan el <strong>dado de 8 caras</strong>; quien obtenga el número más alto será el Canciller y también quien comience la partida, y si hay empate los empatados vuelven a lanzar. Recuerda que el Canciller puede ser uno de los jugadores o una persona externa dedicada solo a ese papel.</p>",
+"text": "Todos los jugadores lanzan el dado de 8 caras; quien obtenga el número más alto será el Canciller y también quien comience la partida, y si hay empate los empatados vuelven a lanzar. Recuerda que el Canciller puede ser uno de los jugadores o una persona externa dedicada solo a ese papel.",
+"parent": "5"
+},
+{
+"id": "5.4",
+"anchor": "r-5-4",
+"level": 2,
+"title": "Formación inicial",
+"chapter": "5",
+"html": "<p>Coloca tus piezas desde la punta de tu reino hacia el centro del tablero, apoyándote en la carta de referencia de tu reino:</p><div class=\"tbl\"><table><thead><tr><th>Fila</th><th>Piezas</th></tr></thead><tbody><tr><td><strong>Punta</strong></td><td>Gobernante</td></tr><tr><td><strong>Fila 2</strong></td><td>Atacante · Atacante</td></tr><tr><td><strong>Fila 3</strong></td><td>Contendiente · Conquistador · Contendiente</td></tr><tr><td><strong>Fila 4</strong></td><td>Defensor · Explorador · Explorador · Defensor</td></tr><tr><td><strong>Vanguardia</strong></td><td>El tercer Explorador</td></tr></tbody></table></div>",
+"text": "Coloca tus piezas desde la punta de tu reino hacia el centro del tablero, apoyándote en la carta de referencia de tu reino: Fila Piezas Punta Gobernante Fila 2 Atacante · Atacante Fila 3 Contendiente · Conquistador · Contendiente Fila 4 Defensor · Explorador · Explorador · Defensor Vanguardia El tercer Explorador",
+"parent": "5"
+},
+{
+"id": "5.5",
+"anchor": "r-5-5",
+"level": 2,
+"title": "Los mazos sobre la mesa",
+"chapter": "5",
+"html": "<p>Baraja por separado y coloca boca abajo los mazos de <strong>Asalto</strong>, <strong>Dominio</strong> y <strong>Evento</strong>, y deja al lado de cada uno su pila de descarte. Ten a mano los dos dados y los bloques de muralla, y reserva un espacio delante de cada jugador para su Prisión de Guerra y un espacio común en el centro de la mesa para la Fosa Común.</p>",
+"text": "Baraja por separado y coloca boca abajo los mazos de Asalto, Dominio y Evento, y deja al lado de cada uno su pila de descarte. Ten a mano los dos dados y los bloques de muralla, y reserva un espacio delante de cada jugador para su Prisión de Guerra y un espacio común en el centro de la mesa para la Fosa Común.",
+"parent": "5"
+},
+{
+"id": "6",
+"anchor": "r-6",
+"level": 1,
+"title": "El tablero",
+"chapter": "6",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "6.1",
+"anchor": "r-6-1",
+"level": 2,
+"title": "Forma general",
+"chapter": "6",
+"html": "<p>El tablero está formado por casillas hexagonales y es <strong>hexagonal en Vunnar</strong> u <strong>octogonal en Ko'resh</strong>, con sus <strong>6 u 8 reinos</strong> situados en las puntas.</p>",
+"text": "El tablero está formado por casillas hexagonales y es hexagonal en Vunnar u octogonal en Ko'resh, con sus 6 u 8 reinos situados en las puntas.",
+"parent": "6"
+},
+{
+"id": "6.2",
+"anchor": "r-6-2",
+"level": 2,
+"title": "La zona común",
+"chapter": "6",
+"html": "<p>Los reinos están separados por una <strong>zona común</strong> que no pertenece a nadie, y conviene fijarse en un detalle que decide muchas partidas: <strong>los reinos nunca se tocan entre sí</strong>, porque siempre hay zona común entre ellos.</p>",
+"text": "Los reinos están separados por una zona común que no pertenece a nadie, y conviene fijarse en un detalle que decide muchas partidas: los reinos nunca se tocan entre sí, porque siempre hay zona común entre ellos.",
+"parent": "6"
+},
+{
+"id": "6.3",
+"anchor": "r-6-3",
+"level": 2,
+"title": "Casillas de origen",
+"chapter": "6",
+"html": "<p>Cada reino cuenta con <strong>11 casillas de origen</strong>, que son donde empiezan tus piezas y donde regresan cuando las revives, y la casilla de la punta pertenece siempre al Gobernante.</p>",
+"text": "Cada reino cuenta con 11 casillas de origen, que son donde empiezan tus piezas y donde regresan cuando las revives, y la casilla de la punta pertenece siempre al Gobernante.",
+"parent": "6"
+},
+{
+"id": "6.4",
+"anchor": "r-6-4",
+"level": 2,
+"title": "Casillas de Muralla",
+"chapter": "6",
+"html": "<p>Son las casillas <strong>frontales</strong> de tu reino, marcadas en el tablero, y constituyen el único lugar donde puedes construir tus bloques de muralla.</p>",
+"text": "Son las casillas frontales de tu reino, marcadas en el tablero, y constituyen el único lugar donde puedes construir tus bloques de muralla.",
+"parent": "6"
+},
+{
+"id": "6.5",
+"anchor": "r-6-5",
+"level": 2,
+"title": "Casillas de Dominio",
+"chapter": "6",
+"html": "<p>Se encuentran junto al centro y son <strong>3 en el tablero Vunnar</strong> y <strong>4 en el tablero Ko'resh</strong>. Cuando una de tus piezas <strong>termina</strong> su movimiento sobre una de ellas, robas <strong>1 carta de Dominio</strong>; pasar por encima sin detenerte no te da nada. Son las casillas más valiosas del tablero y por eso están donde más caro sale quedarse: llegar es fácil, sostenerse no.</p>",
+"text": "Se encuentran junto al centro y son 3 en el tablero Vunnar y 4 en el tablero Ko'resh. Cuando una de tus piezas termina su movimiento sobre una de ellas, robas 1 carta de Dominio; pasar por encima sin detenerte no te da nada. Son las casillas más valiosas del tablero y por eso están donde más caro sale quedarse: llegar es fácil, sostenerse no.",
+"parent": "6"
+},
+{
+"id": "6.6",
+"anchor": "r-6-6",
+"level": 2,
+"title": "La Casilla Dual",
+"chapter": "6",
+"html": "<p>Ocupa el centro exacto del tablero y es la única casilla cuyo significado depende del modo: en <strong>Forjado</strong> es la <strong>casilla de Poder</strong>, y en <strong>Superviviente</strong> es el destino del rito de la Fuga del Saqueador. En Primigenio no tiene uso y funciona como una casilla normal.</p>",
+"text": "Ocupa el centro exacto del tablero y es la única casilla cuyo significado depende del modo: en Forjado es la casilla de Poder, y en Superviviente es el destino del rito de la Fuga del Saqueador. En Primigenio no tiene uso y funciona como una casilla normal.",
+"parent": "6"
+},
+{
+"id": "6.6.1",
+"anchor": "r-6-6-1",
+"level": 3,
+"title": "La Fuga del Saqueador",
+"chapter": "6",
+"html": "<p>Cuando una pieza tuya de <strong>categoría B o C</strong> —los Necrovantes incluidos; el Gobernante queda exento— termina su movimiento en una casilla de Dominio y cobra su carta, puede invocar el rito <strong>de inmediato</strong>. La ventana es <strong>ahora o nunca</strong>: si haces cualquier otra cosa antes de invocarlo, se cierra para siempre. Invocarlo es opcional — quien no huye, se queda donde está, sobre la casilla más codiciada del tablero, y esa exposición es castigo suficiente.</p>",
+"text": "Cuando una pieza tuya de categoría B o C —los Necrovantes incluidos; el Gobernante queda exento— termina su movimiento en una casilla de Dominio y cobra su carta, puede invocar el rito de inmediato. La ventana es ahora o nunca: si haces cualquier otra cosa antes de invocarlo, se cierra para siempre. Invocarlo es opcional — quien no huye, se queda donde está, sobre la casilla más codiciada del tablero, y esa exposición es castigo suficiente.",
+"parent": "6.6"
+},
+{
+"id": "6.6.2",
+"anchor": "r-6-6-2",
+"level": 3,
+"title": "La resolución",
+"chapter": "6",
+"html": "<p>La pieza se <strong>teletransporta</strong> a la Casilla Dual. Si hay una pieza enemiga ocupándola, queda <strong>capturada por el teletransporte</strong> y pasa a tu Prisión de Guerra como cualquier otra captura. Acto seguido se tira un <strong>D6</strong>:</p><ul><li><strong>Impar — el sacrificio.</strong> La pieza se retira del tablero y entra en <strong>tu propia Prisión de Guerra</strong> como una ficha más: la moneda de la casa, gastable en revivir como cualquier prisionero. Nadie la ha matado; se ha ofrecido.</li><li><strong>Par — la huida.</strong> Se tira un <strong>D4</strong> y la pieza huye <strong>exactamente esa cantidad</strong> de casillas en <strong>Marcha Espectral</strong>, el mismo andar del Necrovante: casillas continuas, cambiando de dirección si quieres, sin saltar sobre piezas y sin cruzar muralla alguna. La huida <strong>no captura</strong> al aterrizar, <strong>no cobra</strong> cartas de Dominio aunque termine sobre una casilla que paga, y <strong>no gasta</strong> ninguno de los movimientos del turno (<a class=\"rref\" href=\"#r-8-2-1\">8.2.1</a>). Se resuelve en el instante.</li></ul>",
+"text": "La pieza se teletransporta a la Casilla Dual. Si hay una pieza enemiga ocupándola, queda capturada por el teletransporte y pasa a tu Prisión de Guerra como cualquier otra captura. Acto seguido se tira un D6: Impar — el sacrificio. La pieza se retira del tablero y entra en tu propia Prisión de Guerra como una ficha más: la moneda de la casa, gastable en revivir como cualquier prisionero. Nadie la ha matado; se ha ofrecido. Par — la huida. Se tira un D4 y la pieza huye exactamente esa cantidad de casillas en Marcha Espectral, el mismo andar del Necrovante: casillas continuas, cambiando de dirección si quieres, sin saltar sobre piezas y sin cruzar muralla alguna. La huida no captura al aterrizar, no cobra cartas de Dominio aunque termine sobre una casilla que paga, y no gasta ninguno de los movimientos del turno (8.2.1). Se resuelve en el instante.",
+"parent": "6.6"
+},
+{
+"id": "6.6.3",
+"anchor": "r-6-6-3",
+"level": 3,
+"title": "El centro no se pisa por las buenas",
+"chapter": "6",
+"html": "<p>Ningún movimiento normal puede <strong>terminar</strong> en la Casilla Dual en Superviviente: solo el teletransporte del rito la pisa, y solo de paso. Cruzarla sin detenerse sigue siendo legal. Así, nadie puede aparcar una pieza en el centro para escudar a los recolectores del teletransporte ajeno.</p>",
+"text": "Ningún movimiento normal puede terminar en la Casilla Dual en Superviviente: solo el teletransporte del rito la pisa, y solo de paso. Cruzarla sin detenerse sigue siendo legal. Así, nadie puede aparcar una pieza en el centro para escudar a los recolectores del teletransporte ajeno.",
+"parent": "6.6"
+},
+{
+"id": "7",
+"anchor": "r-7",
+"level": 1,
+"title": "Las piezas y el movimiento",
+"chapter": "7",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "7.1",
+"anchor": "r-7-1",
+"level": 2,
+"title": "Categorías",
+"chapter": "7",
+"html": "<p>Cada pieza pertenece a una <strong>categoría (A, B o C)</strong>, y esa categoría determina qué dado tira la pieza. El coste de devolverla al tablero cuando cae no depende de la categoría sino del modo de partida: <strong>7 prisioneros en Primigenio</strong> y <strong>9 en Superviviente y Forjado</strong>, para cualquier pieza que se pueda revivir.</p>",
+"text": "Cada pieza pertenece a una categoría (A, B o C), y esa categoría determina qué dado tira la pieza. El coste de devolverla al tablero cuando cae no depende de la categoría sino del modo de partida: 7 prisioneros en Primigenio y 9 en Superviviente y Forjado, para cualquier pieza que se pueda revivir.",
+"parent": "7"
+},
+{
+"id": "7.2",
+"anchor": "r-7-2",
+"level": 2,
+"title": "Tabla de piezas",
+"chapter": "7",
+"html": "<div class=\"tbl\"><table><thead><tr><th>Pieza</th><th>Cat.</th><th>Movimiento</th><th>Dado</th><th>Revivir</th></tr></thead><tbody><tr><td><strong>Gobernante</strong></td><td>A</td><td>Hasta <strong>3 casillas continuas</strong>, cambiando de dirección en cada una de ellas. Si es la <strong>penúltima</strong> pieza que le queda a su reino, puede moverse hasta <strong>7 casillas</strong>. Nunca tira dado.</td><td>—</td><td>Sin precio \\*</td></tr><tr><td><strong>Conquistador</strong></td><td>B</td><td>En <strong>línea recta, sin límite</strong> de casillas.</td><td>D8</td><td>7 / 9 \\<em>\\</em></td></tr><tr><td><strong>Atacante</strong></td><td>B</td><td>En <strong>línea recta</strong>, de 1 a 8 casillas.</td><td>D8</td><td>7 / 9 \\<em>\\</em></td></tr><tr><td><strong>Contendiente</strong></td><td>C</td><td>En <strong>línea recta</strong>, de 1 a 3 casillas.</td><td>D6</td><td>7 / 9 \\<em>\\</em></td></tr><tr><td><strong>Defensor</strong></td><td>C</td><td>En forma de <strong>«J»</strong>: de 1 a 2 casillas en línea recta y una tercera hacia un lado. <strong>Puede saltar</strong> por encima de piezas aliadas o enemigas, siempre que la casilla de destino esté libre o la ocupe un enemigo al que capturar.</td><td>D6</td><td>7 / 9 \\<em>\\</em></td></tr><tr><td><strong>Explorador</strong></td><td>C</td><td>Hasta <strong>2 casillas continuas</strong>, cambiando de dirección en cada una. Nunca tira dado.</td><td>—</td><td>7 / 9 \\<em>\\</em></td></tr><tr><td><strong>Necrovante</strong></td><td>B</td><td><strong>7 casillas continuas</strong>, cambiando de dirección en cada una. No salta, no captura en cadena y no cruza murallas. Nunca tira dado.</td><td>—</td><td>7 / 9 \\<em>\\</em></td></tr></tbody></table></div><p>\\* El Gobernante no tiene coste de resurrección y no puede recuperarse entregando prisioneros: solo regresa al tablero mediante la carta <strong>I04 · Renacer del Fénix</strong>, que revive un reino entero. El Necrovante, por su parte, aparece cuando un reino cae y se convierte en Reino Necrovante.</p><p>\\<em>\\</em> El coste de revivir es el mismo para todas las piezas y depende del modo de partida: en modo <strong>Primigenio</strong> cuesta <strong>7</strong> prisioneros, y en los modos <strong>Superviviente</strong> y <strong>Forjado</strong> cuesta <strong>9</strong>.</p>",
+"text": "Pieza Cat. Movimiento Dado Revivir Gobernante A Hasta 3 casillas continuas, cambiando de dirección en cada una de ellas. Si es la penúltima pieza que le queda a su reino, puede moverse hasta 7 casillas. Nunca tira dado. — Sin precio \\ Conquistador B En línea recta, sin límite de casillas. D8 7 / 9 \\\\ Atacante B En línea recta, de 1 a 8 casillas. D8 7 / 9 \\\\ Contendiente C En línea recta, de 1 a 3 casillas. D6 7 / 9 \\\\ Defensor C En forma de «J»: de 1 a 2 casillas en línea recta y una tercera hacia un lado. Puede saltar por encima de piezas aliadas o enemigas, siempre que la casilla de destino esté libre o la ocupe un enemigo al que capturar. D6 7 / 9 \\\\ Explorador C Hasta 2 casillas continuas, cambiando de dirección en cada una. Nunca tira dado. — 7 / 9 \\\\ Necrovante B 7 casillas continuas, cambiando de dirección en cada una. No salta, no captura en cadena y no cruza murallas. Nunca tira dado. — 7 / 9 \\\\ \\ El Gobernante no tiene coste de resurrección y no puede recuperarse entregando prisioneros: solo regresa al tablero mediante la carta I04 · Renacer del Fénix, que revive un reino entero. El Necrovante, por su parte, aparece cuando un reino cae y se convierte en Reino Necrovante. \\\\ El coste de revivir es el mismo para todas las piezas y depende del modo de partida: en modo Primigenio cuesta 7 prisioneros, y en los modos Superviviente y Forjado cuesta 9.",
+"parent": "7"
+},
+{
+"id": "7.3",
+"anchor": "r-7-3",
+"level": 2,
+"title": "Una pieza, un movimiento",
+"chapter": "7",
+"html": "<p>Esta regla vale para todos los modos y no depende de cuántos movimientos tengas disponibles, sino de la pieza misma: <strong>una pieza que ya se movió este turno no puede volver a moverse</strong>. Tengas 2, 3 o 4 movimientos, cada uno de ellos debe emplear una <strong>pieza distinta</strong>, y la única forma de saltarse esto es que una carta te lo permita de manera explícita.</p>",
+"text": "Esta regla vale para todos los modos y no depende de cuántos movimientos tengas disponibles, sino de la pieza misma: una pieza que ya se movió este turno no puede volver a moverse. Tengas 2, 3 o 4 movimientos, cada uno de ellos debe emplear una pieza distinta, y la única forma de saltarse esto es que una carta te lo permita de manera explícita.",
+"parent": "7"
+},
+{
+"id": "7.4",
+"anchor": "r-7-4",
+"level": 2,
+"title": "Movimiento con dado",
+"chapter": "7",
+"html": "<p>Es la forma de mover propia del modo <strong>Primigenio</strong>. El Conquistador y los Atacantes tiran el <strong>dado de 8 caras</strong>; los Contendientes y los Defensores, el <strong>dado de 6 caras</strong>.</p>",
+"text": "Es la forma de mover propia del modo Primigenio. El Conquistador y los Atacantes tiran el dado de 8 caras; los Contendientes y los Defensores, el dado de 6 caras.",
+"parent": "7"
+},
+{
+"id": "7.4.1",
+"anchor": "r-7-4-1",
+"level": 3,
+"title": "La tirada",
+"chapter": "7",
+"html": "<p>Siempre se tira el dado antes de mover una pieza, y el resultado marca el <strong>máximo</strong>, de modo que puedes avanzar <strong>desde 1 hasta ese número</strong> de casillas continuas en cualquiera de las seis direcciones, cambiando de dirección en cada casilla.</p>",
+"text": "Siempre se tira el dado antes de mover una pieza, y el resultado marca el máximo, de modo que puedes avanzar desde 1 hasta ese número de casillas continuas en cualquiera de las seis direcciones, cambiando de dirección en cada casilla.",
+"parent": "7.4"
+},
+{
+"id": "7.4.2",
+"anchor": "r-7-4-2",
+"level": 3,
+"title": "Quién no tira",
+"chapter": "7",
+"html": "<p>El <strong>Gobernante</strong>, el <strong>Explorador</strong> y el <strong>Necrovante</strong> no tiran dado nunca, porque emplean siempre su patrón fijo de movimiento: el Gobernante, hasta 3 casillas continuas (7 si es la penúltima pieza de su reino); el Explorador, hasta 2; y el Necrovante, hasta 7.</p>",
+"text": "El Gobernante, el Explorador y el Necrovante no tiran dado nunca, porque emplean siempre su patrón fijo de movimiento: el Gobernante, hasta 3 casillas continuas (7 si es la penúltima pieza de su reino); el Explorador, hasta 2; y el Necrovante, hasta 7.",
+"parent": "7.4"
+},
+{
+"id": "7.4.3",
+"anchor": "r-7-4-3",
+"level": 3,
+"title": "Tirada anticipada",
+"chapter": "7",
+"html": "<p>Al inicio de tu turno puedes tirar <strong>por adelantado</strong> tantas veces como movimientos tengas disponibles, ya sean 2, 3 o 4, de manera que conozcas de una vez los límites de desplazamiento de tus piezas y puedas planear con calma toda tu estrategia de movimiento para el turno.</p>",
+"text": "Al inicio de tu turno puedes tirar por adelantado tantas veces como movimientos tengas disponibles, ya sean 2, 3 o 4, de manera que conozcas de una vez los límites de desplazamiento de tus piezas y puedas planear con calma toda tu estrategia de movimiento para el turno.",
+"parent": "7.4"
+},
+{
+"id": "7.4.4",
+"anchor": "r-7-4-4",
+"level": 3,
+"title": "Tirada sin salida",
+"chapter": "7",
+"html": "<p>Si la tirada no deja ningún camino legal para esa pieza, el movimiento <strong>se pierde y consume</strong> uno de los movimientos de tu turno, así que conviene medir antes de tirar.</p>",
+"text": "Si la tirada no deja ningún camino legal para esa pieza, el movimiento se pierde y consume uno de los movimientos de tu turno, así que conviene medir antes de tirar.",
+"parent": "7.4"
+},
+{
+"id": "7.4.5",
+"anchor": "r-7-4-5",
+"level": 3,
+"title": "El salto del Defensor con dado",
+"chapter": "7",
+"html": "<p>El Defensor conserva su salto también con dado, aunque con límites: puede saltar como máximo <strong>2 piezas</strong>, <strong>cada casilla saltada gasta un punto</strong> de la tirada, y <strong>lo que salta no queda capturado</strong>, porque la captura solo ocurre al terminar el movimiento sobre la casilla de destino.</p>",
+"text": "El Defensor conserva su salto también con dado, aunque con límites: puede saltar como máximo 2 piezas, cada casilla saltada gasta un punto de la tirada, y lo que salta no queda capturado, porque la captura solo ocurre al terminar el movimiento sobre la casilla de destino.",
+"parent": "7.4"
+},
+{
+"id": "7.5",
+"anchor": "r-7-5",
+"level": 2,
+"title": "Movimiento específico",
+"chapter": "7",
+"html": "<p>Es la forma de mover propia de los modos <strong>Superviviente</strong> y <strong>Forjado</strong>, y consiste sencillamente en que cada pieza se mueve exactamente según el patrón de la tabla de piezas, sin intervención de los dados.</p>",
+"text": "Es la forma de mover propia de los modos Superviviente y Forjado, y consiste sencillamente en que cada pieza se mueve exactamente según el patrón de la tabla de piezas, sin intervención de los dados.",
+"parent": "7"
+},
+{
+"id": "7.6",
+"anchor": "r-7-6",
+"level": 2,
+"title": "Bloqueo y captura",
+"chapter": "7",
+"html": "",
+"text": "",
+"parent": "7"
+},
+{
+"id": "7.6.1",
+"anchor": "r-7-6-1",
+"level": 3,
+"title": "Casillas ocupadas",
+"chapter": "7",
+"html": "<p>No puedes moverte a una casilla ocupada, y la única excepción es una <strong>pieza enemiga</strong> cuando se encuentra en tu <strong>casilla de destino</strong>: al posicionarte sobre ella, la <strong>capturas</strong>. Nada de lo que atravieses por el camino se ve afectado, porque en Dizaster solo se captura en el destino.</p>",
+"text": "No puedes moverte a una casilla ocupada, y la única excepción es una pieza enemiga cuando se encuentra en tu casilla de destino: al posicionarte sobre ella, la capturas. Nada de lo que atravieses por el camino se ve afectado, porque en Dizaster solo se captura en el destino.",
+"parent": "7.6"
+},
+{
+"id": "7.6.2",
+"anchor": "r-7-6-2",
+"level": 3,
+"title": "Piezas propias y Gobernantes",
+"chapter": "7",
+"html": "<p>Nunca capturas piezas propias, y <strong>nadie puede capturar a su propio Gobernante</strong>, ni siquiera mediante una carta que controle una pieza enemiga, ya que una pieza controlada por carta solo puede capturar piezas de <strong>categoría igual o inferior</strong> y el Gobernante es categoría A, la más alta de todas.</p>",
+"text": "Nunca capturas piezas propias, y nadie puede capturar a su propio Gobernante, ni siquiera mediante una carta que controle una pieza enemiga, ya que una pieza controlada por carta solo puede capturar piezas de categoría igual o inferior y el Gobernante es categoría A, la más alta de todas.",
+"parent": "7.6"
+},
+{
+"id": "7.6.3",
+"anchor": "r-7-6-3",
+"level": 3,
+"title": "Murallas",
+"chapter": "7",
+"html": "<p>Tu propia muralla la cruzas gratis y sin consumir movimiento, la muralla ajena te bloquea el paso y te obliga a rodearla, y el Necrovante no cruza <strong>ninguna</strong> muralla, ni siquiera la suya.</p>",
+"text": "Tu propia muralla la cruzas gratis y sin consumir movimiento, la muralla ajena te bloquea el paso y te obliga a rodearla, y el Necrovante no cruza ninguna muralla, ni siquiera la suya.",
+"parent": "7.6"
+},
+{
+"id": "7.7",
+"anchor": "r-7-7",
+"level": 2,
+"title": "Regla opcional: «pieza soltada, pieza quedada»",
+"chapter": "7",
+"html": "<p>Si la mesa lo pacta durante la preparación, soltar una pieza <strong>cierra</strong> su movimiento y ya no se puede deshacer, lo que obliga a pensar cada desplazamiento antes de apoyar los dedos sobre el tablero.</p>",
+"text": "Si la mesa lo pacta durante la preparación, soltar una pieza cierra su movimiento y ya no se puede deshacer, lo que obliga a pensar cada desplazamiento antes de apoyar los dedos sobre el tablero.",
+"parent": "7"
+},
+{
+"id": "8",
+"anchor": "r-8",
+"level": 1,
+"title": "El turno",
+"chapter": "8",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "8.1",
+"anchor": "r-8-1",
+"level": 2,
+"title": "Roba tu carta de Asalto, y hazlo primero",
+"chapter": "8",
+"html": "<p>El turno comienza tomando una carta del mazo de Asalto, y esto es lo primero que haces, porque <strong>cualquier otra acción previa anula el robo de ese turno</strong> sin posibilidad de recuperarlo.</p>",
+"text": "El turno comienza tomando una carta del mazo de Asalto, y esto es lo primero que haces, porque cualquier otra acción previa anula el robo de ese turno sin posibilidad de recuperarlo.",
+"parent": "8"
+},
+{
+"id": "8.2",
+"anchor": "r-8-2",
+"level": 2,
+"title": "El resto del turno es tuyo",
+"chapter": "8",
+"html": "<p>A partir de ahí el turno no es una secuencia rígida sino un <strong>conjunto de acciones que puedes realizar en el orden que prefieras</strong>:</p>",
+"text": "A partir de ahí el turno no es una secuencia rígida sino un conjunto de acciones que puedes realizar en el orden que prefieras:",
+"parent": "8"
+},
+{
+"id": "8.2.1",
+"anchor": "r-8-2-1",
+"level": 3,
+"title": "Mover piezas",
+"chapter": "8",
+"html": "<p>Mueves <strong>2 piezas</strong> por turno, o <strong>3</strong> si gestionas tres reinos, o <strong>3 o 4</strong> si gestionas cuatro reinos, según se haya configurado la partida durante el reparto de reinos. Recuerda que una pieza ya movida no vuelve a moverse en el mismo turno, y que si controlas varios reinos repartes esos movimientos entre ellos como mejor te convenga, sin que tener más reinos te dé más movimientos de los indicados.</p>",
+"text": "Mueves 2 piezas por turno, o 3 si gestionas tres reinos, o 3 o 4 si gestionas cuatro reinos, según se haya configurado la partida durante el reparto de reinos. Recuerda que una pieza ya movida no vuelve a moverse en el mismo turno, y que si controlas varios reinos repartes esos movimientos entre ellos como mejor te convenga, sin que tener más reinos te dé más movimientos de los indicados.",
+"parent": "8.2"
+},
+{
+"id": "8.2.2",
+"anchor": "r-8-2-2",
+"level": 3,
+"title": "Activar cartas",
+"chapter": "8",
+"html": "<p>Puedes activar <strong>una carta Precursora</strong> por turno, que será la que abra la Fase de Resolución, y hasta <strong>2 cartas Instantáneas por ronda</strong>, Reacciones instantáneas incluidas, siempre que se cumplan sus condiciones; las cartas <strong>Nexo</strong> no se activan por iniciativa propia sino únicamente como respuesta dentro de una Fase de Resolución ya abierta, incluso cuando no es tu turno. Una carta puede ampliar estos límites solo si lo dice expresamente.</p>",
+"text": "Puedes activar una carta Precursora por turno, que será la que abra la Fase de Resolución, y hasta 2 cartas Instantáneas por ronda, Reacciones instantáneas incluidas, siempre que se cumplan sus condiciones; las cartas Nexo no se activan por iniciativa propia sino únicamente como respuesta dentro de una Fase de Resolución ya abierta, incluso cuando no es tu turno. Una carta puede ampliar estos límites solo si lo dice expresamente.",
+"parent": "8.2"
+},
+{
+"id": "8.2.3",
+"anchor": "r-8-2-3",
+"level": 3,
+"title": "Otras acciones",
+"chapter": "8",
+"html": "<p>También puedes <strong>revivir</strong> piezas entregando prisioneros, <strong>construir</strong>, <strong>reposicionar</strong> o <strong>sacrificar</strong> bloques de muralla, <strong>regalar o intercambiar</strong> cartas y colocar tu <strong>Carta Oculta</strong>, que solo puede usarse una vez en toda la partida.</p>",
+"text": "También puedes revivir piezas entregando prisioneros, construir, reposicionar o sacrificar bloques de muralla, regalar o intercambiar cartas y colocar tu Carta Oculta, que solo puede usarse una vez en toda la partida.",
+"parent": "8.2"
+},
+{
+"id": "8.3",
+"anchor": "r-8-3",
+"level": 2,
+"title": "Cerrar el turno",
+"chapter": "8",
+"html": "<p>Antes de que tu turno se acabe debes quedarte con <strong>5 cartas como máximo</strong> en la mano, descartando tú mismo las que sobren y eligiendo cuáles. Si llegas al final del turno con más de cinco, descartas hasta quedarte con cinco, y eres tú quien elige qué cartas sueltas. Hecho eso, anuncias en voz alta que tu turno ha terminado y el turno pasa <strong>al jugador de tu derecha</strong>, lo que sobre el tablero equivale al sentido contrario a las agujas del reloj.</p>",
+"text": "Antes de que tu turno se acabe debes quedarte con 5 cartas como máximo en la mano, descartando tú mismo las que sobren y eligiendo cuáles. Si llegas al final del turno con más de cinco, descartas hasta quedarte con cinco, y eres tú quien elige qué cartas sueltas. Hecho eso, anuncias en voz alta que tu turno ha terminado y el turno pasa al jugador de tu derecha, lo que sobre el tablero equivale al sentido contrario a las agujas del reloj.",
+"parent": "8"
+},
+{
+"id": "8.4",
+"anchor": "r-8-4",
+"level": 2,
+"title": "La ronda",
+"chapter": "8",
+"html": "<p>Una ronda comienza cuando el Canciller activa una carta de Evento y termina cuando concluye el turno del último jugador, momento en el que se abre un Evento nuevo y todo vuelve a empezar. Conviene distinguir bien los efectos que duran <strong>«un turno»</strong> de los que duran <strong>«esta ronda»</strong>, porque un efecto de ronda no se apaga cuando acaba tu turno sino cuando han jugado todos.</p>",
+"text": "Una ronda comienza cuando el Canciller activa una carta de Evento y termina cuando concluye el turno del último jugador, momento en el que se abre un Evento nuevo y todo vuelve a empezar. Conviene distinguir bien los efectos que duran «un turno» de los que duran «esta ronda», porque un efecto de ronda no se apaga cuando acaba tu turno sino cuando han jugado todos.",
+"parent": "8"
+},
+{
+"id": "8.4.1",
+"anchor": "r-8-4-1",
+"level": 3,
+"title": "Cuánto dura una partida",
+"chapter": "8",
+"html": "<p>Una partida de Dizaster se juega en <strong>100 rondas como máximo</strong>. Si al cerrarse la ronda 100 nadie ha ganado, la partida se considera <strong>fracasada</strong> y no tiene vencedor: no es un empate ni se reparte nada. El tope existe porque una partida que no avanza no la está ganando nadie, y ponerle un final obliga a que el reloj corra para todos.</p>",
+"text": "Una partida de Dizaster se juega en 100 rondas como máximo. Si al cerrarse la ronda 100 nadie ha ganado, la partida se considera fracasada y no tiene vencedor: no es un empate ni se reparte nada. El tope existe porque una partida que no avanza no la está ganando nadie, y ponerle un final obliga a que el reloj corra para todos.",
+"parent": "8.4"
+},
+{
+"id": "8.5",
+"anchor": "r-8-5",
+"level": 2,
+"title": "Si el Canciller olvida el Evento",
+"chapter": "8",
+"html": "<p>Si el Canciller olvida activar la carta de Evento y arranca su turno, deberá elegir una de estas tres penalizaciones: <strong>eliminar 2 piezas</strong> de su reino de entre Exploradores, Defensores y Contendientes; <strong>descartar 2 cartas</strong> cualesquiera de su mano; o <strong>enviar 3 prisioneros</strong> de su Prisión de Guerra a la Fosa Común. Si no puede cumplir una de ellas por completo, deberá <strong>repartirla</strong> entre varias opciones, por ejemplo eliminando una pieza y descartando una carta, y en cualquier caso <strong>esa ronda se quedará sin Evento</strong>.</p>",
+"text": "Si el Canciller olvida activar la carta de Evento y arranca su turno, deberá elegir una de estas tres penalizaciones: eliminar 2 piezas de su reino de entre Exploradores, Defensores y Contendientes; descartar 2 cartas cualesquiera de su mano; o enviar 3 prisioneros de su Prisión de Guerra a la Fosa Común. Si no puede cumplir una de ellas por completo, deberá repartirla entre varias opciones, por ejemplo eliminando una pieza y descartando una carta, y en cualquier caso esa ronda se quedará sin Evento.",
+"parent": "8"
+},
+{
+"id": "9",
+"anchor": "r-9",
+"level": 1,
+"title": "La mano de cartas",
+"chapter": "9",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "9.1",
+"anchor": "r-9-1",
+"level": 2,
+"title": "La mano se ve, pero no se lee",
+"chapter": "9",
+"html": "<p>Todas tus cartas permanecen a la vista de los demás en todo momento, de manera que cualquiera puede ver <strong>cuántas cartas tienes</strong> y <strong>de qué mazo procede cada una</strong> —si de Asalto o de Dominio, porque sus dorsos son distintos—, pero <strong>nadie puede ver su contenido</strong>, que sigue siendo solo tuyo.</p>",
+"text": "Todas tus cartas permanecen a la vista de los demás en todo momento, de manera que cualquiera puede ver cuántas cartas tienes y de qué mazo procede cada una —si de Asalto o de Dominio, porque sus dorsos son distintos—, pero nadie puede ver su contenido, que sigue siendo solo tuyo.",
+"parent": "9"
+},
+{
+"id": "9.2",
+"anchor": "r-9-2",
+"level": 2,
+"title": "Los dos castigos",
+"chapter": "9",
+"html": "<p>Estas dos sanciones no las aplica el juego por sí solo, sino que <strong>otro jugador debe señalarte</strong> para que surtan efecto, así que conviene vigilar tanto tu mano como la de los demás:</p><ul><li>Si <strong>escondes tu mano</strong> y alguien te señala, <strong>descartas toda la mano menos una carta</strong>.</li><li>Si tienes <strong>más de 5 cartas fuera de tu turno</strong> y alguien te señala, <strong>descartas la mano entera</strong>.</li></ul>",
+"text": "Estas dos sanciones no las aplica el juego por sí solo, sino que otro jugador debe señalarte para que surtan efecto, así que conviene vigilar tanto tu mano como la de los demás: Si escondes tu mano y alguien te señala, descartas toda la mano menos una carta. Si tienes más de 5 cartas fuera de tu turno y alguien te señala, descartas la mano entera.",
+"parent": "9"
+},
+{
+"id": "9.3",
+"anchor": "r-9-3",
+"level": 2,
+"title": "Regalar e intercambiar cartas",
+"chapter": "9",
+"html": "<p>En cualquier momento, incluso fuera de tu turno, puedes regalar o intercambiar cartas de cualquier tipo y en cualquier cantidad, y quien las recibe <strong>está obligado a aceptarlas</strong>, lo que convierte un regalo aparentemente generoso en una forma perfectamente legal de hacer que alguien supere las 5 cartas fuera de su turno y, si otro jugador lo señala, deba descartar la mano entera.</p>",
+"text": "En cualquier momento, incluso fuera de tu turno, puedes regalar o intercambiar cartas de cualquier tipo y en cualquier cantidad, y quien las recibe está obligado a aceptarlas, lo que convierte un regalo aparentemente generoso en una forma perfectamente legal de hacer que alguien supere las 5 cartas fuera de su turno y, si otro jugador lo señala, deba descartar la mano entera.",
+"parent": "9"
+},
+{
+"id": "9.4",
+"anchor": "r-9-4",
+"level": 2,
+"title": "La Carta Oculta",
+"chapter": "9",
+"html": "<p>Una sola vez por partida puedes tomar una carta de tu mano y colocarla <strong>boca abajo</strong> delante de ti, y nadie sabrá qué es. En tu siguiente turno deberás decidir entre <strong>activarla</strong>, con lo que entrará en la Fase de Resolución como cualquier otra carta, o <strong>descartarla</strong>, en cuyo caso tendrás que <strong>revelarla a todos</strong> y elegir si la devuelves al mazo al que pertenece o si la retiras por completo de la partida. Solo dispones de una Carta Oculta en toda la partida, la actives o no.</p>",
+"text": "Una sola vez por partida puedes tomar una carta de tu mano y colocarla boca abajo delante de ti, y nadie sabrá qué es. En tu siguiente turno deberás decidir entre activarla, con lo que entrará en la Fase de Resolución como cualquier otra carta, o descartarla, en cuyo caso tendrás que revelarla a todos y elegir si la devuelves al mazo al que pertenece o si la retiras por completo de la partida. Solo dispones de una Carta Oculta en toda la partida, la actives o no.",
+"parent": "9"
+},
+{
+"id": "10",
+"anchor": "r-10",
+"level": 1,
+"title": "Las cartas: mazos, clases, tipos y modificadores",
+"chapter": "10",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "10.1",
+"anchor": "r-10-1",
+"level": 2,
+"title": "Las cuatro cosas que te dice una carta",
+"chapter": "10",
+"html": "<p>Toda carta indica a qué <strong>mazo</strong> pertenece, de qué <strong>clase</strong> es, de qué <strong>tipo</strong> es y qué <strong>modificadores</strong> lleva, y esos cuatro datos responden a cuatro preguntas distintas que conviene no confundir: <strong>de dónde vino</strong>, <strong>qué hace</strong>, <strong>cuándo puedes jugarla</strong> y <strong>cómo se comporta cuando la juegas</strong>.</p>",
+"text": "Toda carta indica a qué mazo pertenece, de qué clase es, de qué tipo es y qué modificadores lleva, y esos cuatro datos responden a cuatro preguntas distintas que conviene no confundir: de dónde vino, qué hace, cuándo puedes jugarla y cómo se comporta cuando la juegas.",
+"parent": "10"
+},
+{
+"id": "10.2",
+"anchor": "r-10-2",
+"level": 2,
+"title": "El mazo: de dónde vino la carta",
+"chapter": "10",
+"html": "",
+"text": "",
+"parent": "10"
+},
+{
+"id": "10.2.1",
+"anchor": "r-10-2-1",
+"level": 3,
+"title": "Asalto",
+"chapter": "10",
+"html": "<p>Es tu fuente constante de cartas: robas una al inicio de cada turno, antes que cualquier otra acción.</p>",
+"text": "Es tu fuente constante de cartas: robas una al inicio de cada turno, antes que cualquier otra acción.",
+"parent": "10.2"
+},
+{
+"id": "10.2.2",
+"anchor": "r-10-2-2",
+"level": 3,
+"title": "Dominio",
+"chapter": "10",
+"html": "<p>Es la recompensa por controlar el centro del tablero: robas 1 carta cada vez que una de tus piezas termina su movimiento en una casilla de Dominio. Cuando el mazo de Dominio se agota, la mesa <strong>vota</strong> si su pila de descarte se rebaraja para formar un mazo nuevo.</p>",
+"text": "Es la recompensa por controlar el centro del tablero: robas 1 carta cada vez que una de tus piezas termina su movimiento en una casilla de Dominio. Cuando el mazo de Dominio se agota, la mesa vota si su pila de descarte se rebaraja para formar un mazo nuevo.",
+"parent": "10.2"
+},
+{
+"id": "10.2.3",
+"anchor": "r-10-2-3",
+"level": 3,
+"title": "Evento",
+"chapter": "10",
+"html": "<p>Es el motor de cada ronda. El Canciller activa un Evento para abrir cada ronda y su efecto <strong>cae sobre todos, él incluido</strong>, de modo que aquí nadie elige nada: se acata. Cuando el mazo de Evento se agota, el Canciller baraja su descarte y forma un mazo nuevo.</p>",
+"text": "Es el motor de cada ronda. El Canciller activa un Evento para abrir cada ronda y su efecto cae sobre todos, él incluido, de modo que aquí nadie elige nada: se acata. Cuando el mazo de Evento se agota, el Canciller baraja su descarte y forma un mazo nuevo.",
+"parent": "10.2"
+},
+{
+"id": "10.3",
+"anchor": "r-10-3",
+"level": 2,
+"title": "La clase: qué hace la carta",
+"chapter": "10",
+"html": "<p>La clase indica la <strong>función general</strong> de una carta, mientras que el efecto exacto lo detalla siempre la carta misma.</p><ul><li><strong>Ataque</strong> — Cartas ofensivas, cuyo efecto <strong>puede repartirse entre varios reinos</strong> a la vez.</li><li><strong>Defensa</strong> — Orientadas a proteger o resistir, ya sea a tus piezas, a tu reino o a tu muralla.</li><li><strong>Efecto</strong> — Alteran el estado del juego de formas muy variadas, sin ser ataque ni defensa directos.</li><li><strong>Invocación</strong> — Traen piezas al tablero o las devuelven a la vida, como hace <strong>I04 · Renacer del Fénix</strong>, que revive un reino entero.</li><li><strong>Conjuro</strong> — Efectos que un jugador lanza sobre la partida para modificar su curso.</li><li><strong>Reacción</strong> — Se juegan en respuesta a otra carta o a otra acción, incluso fuera de tu turno.</li><li><strong>Aniquilación</strong> — Las más letales de la baraja, porque pueden derribar un reino entero de un golpe: <strong>X01 · Juicio Final</strong> y <strong>X02 · Ritual de Sacrificio</strong>.</li></ul>",
+"text": "La clase indica la función general de una carta, mientras que el efecto exacto lo detalla siempre la carta misma. Ataque — Cartas ofensivas, cuyo efecto puede repartirse entre varios reinos a la vez. Defensa — Orientadas a proteger o resistir, ya sea a tus piezas, a tu reino o a tu muralla. Efecto — Alteran el estado del juego de formas muy variadas, sin ser ataque ni defensa directos. Invocación — Traen piezas al tablero o las devuelven a la vida, como hace I04 · Renacer del Fénix, que revive un reino entero. Conjuro — Efectos que un jugador lanza sobre la partida para modificar su curso. Reacción — Se juegan en respuesta a otra carta o a otra acción, incluso fuera de tu turno. Aniquilación — Las más letales de la baraja, porque pueden derribar un reino entero de un golpe: X01 · Juicio Final y X02 · Ritual de Sacrificio.",
+"parent": "10"
+},
+{
+"id": "10.4",
+"anchor": "r-10-4",
+"level": 2,
+"title": "El tipo: cuándo puedes jugarla",
+"chapter": "10",
+"html": "<p>El tipo es lo que decide <strong>en qué momento</strong> una carta puede salir de tu mano, y es la pieza clave para entender la Fase de Resolución. Los tres tipos son <strong>mutuamente excluyentes</strong>, de modo que <strong>toda carta tiene exactamente un tipo</strong> y nunca dos.</p><div class=\"tbl\"><table><thead><tr><th>Símbolo</th><th>Tipo</th><th>Cuándo se activa</th></tr></thead><tbody><tr><td>𖨰</td><td><strong>Precursora</strong></td><td>Solo en <strong>tu turno</strong>, y <strong>abre</strong> la Fase de Resolución.</td></tr><tr><td>𐋄</td><td><strong>Nexo</strong></td><td><strong>Solo dentro</strong> de una Fase de Resolución ya abierta, y siempre <strong>como respuesta</strong>.</td></tr><tr><td>⚶</td><td><strong>Instantáneo</strong></td><td>En <strong>cualquier momento</strong> de la partida, en tu turno o fuera de él.</td></tr></tbody></table></div>",
+"text": "El tipo es lo que decide en qué momento una carta puede salir de tu mano, y es la pieza clave para entender la Fase de Resolución. Los tres tipos son mutuamente excluyentes, de modo que toda carta tiene exactamente un tipo y nunca dos. Símbolo Tipo Cuándo se activa 𖨰 Precursora Solo en tu turno, y abre la Fase de Resolución. 𐋄 Nexo Solo dentro de una Fase de Resolución ya abierta, y siempre como respuesta. ⚶ Instantáneo En cualquier momento de la partida, en tu turno o fuera de él.",
+"parent": "10"
+},
+{
+"id": "10.4.1",
+"anchor": "r-10-4-1",
+"level": 3,
+"title": "Precursora",
+"chapter": "10",
+"html": "<p>Una Precursora es una carta que <strong>propone una acción</strong> y, al hacerlo, abre formalmente la Fase de Resolución. Solo puedes activarla durante tu propio turno, solo puedes activar <strong>una por turno</strong>, y desde el momento en que la pones sobre la mesa <strong>el juego entero se detiene</strong> hasta que la Fase concluya. Toda Precursora puede ser respondida, salvo que además lleve el modificador Furia, que la hace intocable.</p>",
+"text": "Una Precursora es una carta que propone una acción y, al hacerlo, abre formalmente la Fase de Resolución. Solo puedes activarla durante tu propio turno, solo puedes activar una por turno, y desde el momento en que la pones sobre la mesa el juego entero se detiene hasta que la Fase concluya. Toda Precursora puede ser respondida, salvo que además lleve el modificador Furia, que la hace intocable.",
+"parent": "10.4"
+},
+{
+"id": "10.4.2",
+"anchor": "r-10-4-2",
+"level": 3,
+"title": "Nexo",
+"chapter": "10",
+"html": "<p>Una Nexo es, por definición, una carta de respuesta, y fuera de una Fase de Resolución sencillamente <strong>no existe</strong>: no puede activarse por iniciativa propia ni empezar nada. A cambio de esa restricción recibe tres libertades muy notables, porque <strong>puede jugarla cualquier jugador</strong> aunque no sea el objetivo del ataque ni sea su turno, lo que permite alianzas tácticas como defender a un tercero de un golpe que ni siquiera iba dirigido a ti; <strong>no necesita el símbolo de Instantáneo</strong> para jugarse fuera de turno, ya que esa capacidad va implícita en su naturaleza de respuesta; y <strong>no consume tu derecho a jugar una Precursora</strong> en tu propio turno.</p>",
+"text": "Una Nexo es, por definición, una carta de respuesta, y fuera de una Fase de Resolución sencillamente no existe: no puede activarse por iniciativa propia ni empezar nada. A cambio de esa restricción recibe tres libertades muy notables, porque puede jugarla cualquier jugador aunque no sea el objetivo del ataque ni sea su turno, lo que permite alianzas tácticas como defender a un tercero de un golpe que ni siquiera iba dirigido a ti; no necesita el símbolo de Instantáneo para jugarse fuera de turno, ya que esa capacidad va implícita en su naturaleza de respuesta; y no consume tu derecho a jugar una Precursora en tu propio turno.",
+"parent": "10.4"
+},
+{
+"id": "10.4.3",
+"anchor": "r-10-4-3",
+"level": 3,
+"title": "Instantáneo",
+"chapter": "10",
+"html": "<p>Una carta Instantánea puede activarse cuando quieras —en tu turno, en el turno de otro o en mitad de una Fase de Resolución— siempre que se cumpla la condición que la propia carta exige, y su propósito es agilizar acciones que no necesitan abrir una Fase ni ser una respuesta. Un Instantáneo <strong>nunca puede ser también Precursora</strong>, porque son naturalezas incompatibles. La restricción está en que un jugador solo puede activar <strong>hasta 2 cartas Instantáneas por ronda</strong>, salvo que una carta le permita expresamente activar más. Ese tope se cuenta <strong>por el tipo de la carta y no por su clase</strong>, así que alcanza también a las Reacciones que llevan el símbolo de Instantáneo: gastados los dos, no podrás responder con ellas durante el resto de la ronda ni siquiera a algo que te ocurra a ti. Elegir cuándo gastarlos es parte de la decisión.</p>",
+"text": "Una carta Instantánea puede activarse cuando quieras —en tu turno, en el turno de otro o en mitad de una Fase de Resolución— siempre que se cumpla la condición que la propia carta exige, y su propósito es agilizar acciones que no necesitan abrir una Fase ni ser una respuesta. Un Instantáneo nunca puede ser también Precursora, porque son naturalezas incompatibles. La restricción está en que un jugador solo puede activar hasta 2 cartas Instantáneas por ronda, salvo que una carta le permita expresamente activar más. Ese tope se cuenta por el tipo de la carta y no por su clase, así que alcanza también a las Reacciones que llevan el símbolo de Instantáneo: gastados los dos, no podrás responder con ellas durante el resto de la ronda ni siquiera a algo que te ocurra a ti. Elegir cuándo gastarlos es parte de la decisión.",
+"parent": "10.4"
+},
+{
+"id": "10.5",
+"anchor": "r-10-5",
+"level": 2,
+"title": "Los modificadores: cómo se comporta la carta",
+"chapter": "10",
+"html": "<p>A diferencia del tipo, los modificadores <strong>no son excluyentes</strong>: una carta puede llevar uno, los dos o ninguno, y pueden combinarse con cualquiera de los tres tipos.</p><div class=\"tbl\"><table><thead><tr><th>Símbolo</th><th>Modificador</th><th>Qué hace</th></tr></thead><tbody><tr><td>𖤗</td><td><strong>Furia</strong></td><td>La carta <strong>no puede ser cancelada, redirigida, copiada ni reactivada</strong> por ninguna otra.</td></tr><tr><td>𖢑</td><td><strong>Vestigio</strong></td><td>El efecto de la carta <strong>se vuelve permanente</strong> durante el resto de la partida.</td></tr></tbody></table></div>",
+"text": "A diferencia del tipo, los modificadores no son excluyentes: una carta puede llevar uno, los dos o ninguno, y pueden combinarse con cualquiera de los tres tipos. Símbolo Modificador Qué hace 𖤗 Furia La carta no puede ser cancelada, redirigida, copiada ni reactivada por ninguna otra. 𖢑 Vestigio El efecto de la carta se vuelve permanente durante el resto de la partida.",
+"parent": "10"
+},
+{
+"id": "10.5.1",
+"anchor": "r-10-5-1",
+"level": 3,
+"title": "Furia",
+"chapter": "10",
+"html": "<p>Cuando una carta lleva Furia, ninguna otra carta puede tocarla: no se cancela, no se redirige, no se copia y no se reactiva, y cualquier carta que intente afectarla <strong>se descarta sin producir efecto alguno</strong>, perdiéndose sin compensación. Dentro de la Fase de Resolución se resuelve en el acto, sin esperar a que la pila se cierre.</p>",
+"text": "Cuando una carta lleva Furia, ninguna otra carta puede tocarla: no se cancela, no se redirige, no se copia y no se reactiva, y cualquier carta que intente afectarla se descarta sin producir efecto alguno, perdiéndose sin compensación. Dentro de la Fase de Resolución se resuelve en el acto, sin esperar a que la pila se cierre.",
+"parent": "10.5"
+},
+{
+"id": "10.5.2",
+"anchor": "r-10-5-2",
+"level": 3,
+"title": "Vestigio",
+"chapter": "10",
+"html": "<p>Cuando una carta lleva Vestigio, su efecto <strong>no termina nunca</strong>: no se apaga al acabar el turno, ni al acabar la ronda, ni al acabar nada. La carta se va al descarte una vez ejecutada, pero <strong>su efecto se queda sobre la mesa</strong> formando parte del estado de la partida, y la única forma de acabar con él es que <strong>otra carta lo destruya expresamente</strong>.</p>",
+"text": "Cuando una carta lleva Vestigio, su efecto no termina nunca: no se apaga al acabar el turno, ni al acabar la ronda, ni al acabar nada. La carta se va al descarte una vez ejecutada, pero su efecto se queda sobre la mesa formando parte del estado de la partida, y la única forma de acabar con él es que otra carta lo destruya expresamente.",
+"parent": "10.5"
+},
+{
+"id": "10.6",
+"anchor": "r-10-6",
+"level": 2,
+"title": "Combinaciones válidas",
+"chapter": "10",
+"html": "<div class=\"tbl\"><table><thead><tr><th>Combinación</th><th>Estado</th></tr></thead><tbody><tr><td>Precursora 𖨰 · Nexo 𐋄 · Instantáneo ⚶ (por separado)</td><td>Válidas</td></tr><tr><td>Cualquier tipo <strong>+ Furia</strong> 𖤗</td><td>Válida</td></tr><tr><td>Cualquier tipo <strong>+ Vestigio</strong> 𖢑</td><td>Válida</td></tr><tr><td><strong>Furia + Vestigio</strong> sobre un mismo tipo</td><td>Válida</td></tr><tr><td><strong>Precursora + Instantáneo</strong></td><td><strong>Inválida</strong></td></tr><tr><td><strong>Precursora + Nexo</strong></td><td><strong>Inválida</strong></td></tr><tr><td><strong>Nexo + Instantáneo</strong></td><td><strong>Inválida</strong> (sería redundante: una Nexo ya se juega fuera de turno por naturaleza)</td></tr></tbody></table></div>",
+"text": "Combinación Estado Precursora 𖨰 · Nexo 𐋄 · Instantáneo ⚶ (por separado) Válidas Cualquier tipo + Furia 𖤗 Válida Cualquier tipo + Vestigio 𖢑 Válida Furia + Vestigio sobre un mismo tipo Válida Precursora + Instantáneo Inválida Precursora + Nexo Inválida Nexo + Instantáneo Inválida (sería redundante: una Nexo ya se juega fuera de turno por naturaleza)",
+"parent": "10"
+},
+{
+"id": "10.7",
+"anchor": "r-10-7",
+"level": 2,
+"title": "Cuántas cartas puedes activar",
+"chapter": "10",
+"html": "<p>Conviene reunir en un solo sitio los tres límites, porque se confunden con facilidad. Un jugador solo puede activar <strong>una sola Precursora por turno</strong>, y esa es la regla que impide que una mesa se atasque encadenando ataques sin fin; <strong>hasta 2 Instantáneos por ronda</strong>, siempre que se cumplan sus condiciones — y ese tope alcanza a toda carta que lleve el tipo Instantáneo, incluidas las Reacciones que lo llevan; y <strong>todas las Nexo que quieras</strong>, en tu turno o en el de cualquier otro, con la única condición de que haya una Fase de Resolución abierta donde jugarlas. Estos límites solo se amplían cuando una carta lo dice expresamente.</p>",
+"text": "Conviene reunir en un solo sitio los tres límites, porque se confunden con facilidad. Un jugador solo puede activar una sola Precursora por turno, y esa es la regla que impide que una mesa se atasque encadenando ataques sin fin; hasta 2 Instantáneos por ronda, siempre que se cumplan sus condiciones — y ese tope alcanza a toda carta que lleve el tipo Instantáneo, incluidas las Reacciones que lo llevan; y todas las Nexo que quieras, en tu turno o en el de cualquier otro, con la única condición de que haya una Fase de Resolución abierta donde jugarlas. Estos límites solo se amplían cuando una carta lo dice expresamente.",
+"parent": "10"
+},
+{
+"id": "11",
+"anchor": "r-11",
+"level": 1,
+"title": "La Fase de Resolución",
+"chapter": "11",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "11.1",
+"anchor": "r-11-1",
+"level": 2,
+"title": "Para qué existe",
+"chapter": "11",
+"html": "<p>La Fase de Resolución es el corazón del juego de cartas de Dizaster, y su propósito es uno solo: <strong>asegurar que toda acción generada por una carta se resuelva correctamente</strong>, sin atajos, sin malentendidos y sin que nadie se entere tarde de lo que le acaba de pasar. Cuando alguien activa una carta 𖨰 Precursora o ⚶ Instantáneo, el juego <strong>se detiene por completo</strong>: nadie puede realizar cualquier acción permitida durante su turno hasta que lo indicado por la carta activada finalice su acción.</p><p>Esa pausa garantiza tres cosas que sostienen todo lo demás: que <strong>todos sepan</strong> qué se ha jugado y contra quién, que <strong>todos tengan la oportunidad de responder</strong> antes de que el efecto caiga, y que los efectos se apliquen <strong>en un orden claro</strong> que nadie pueda discutir después.</p>",
+"text": "La Fase de Resolución es el corazón del juego de cartas de Dizaster, y su propósito es uno solo: asegurar que toda acción generada por una carta se resuelva correctamente, sin atajos, sin malentendidos y sin que nadie se entere tarde de lo que le acaba de pasar. Cuando alguien activa una carta 𖨰 Precursora o ⚶ Instantáneo, el juego se detiene por completo: nadie puede realizar cualquier acción permitida durante su turno hasta que lo indicado por la carta activada finalice su acción. Esa pausa garantiza tres cosas que sostienen todo lo demás: que todos sepan qué se ha jugado y contra quién, que todos tengan la oportunidad de responder antes de que el efecto caiga, y que los efectos se apliquen en un orden claro que nadie pueda discutir después.",
+"parent": "11"
+},
+{
+"id": "11.2",
+"anchor": "r-11-2",
+"level": 2,
+"title": "Qué abre la Fase",
+"chapter": "11",
+"html": "<p>La Fase de Resolución se abre de dos maneras. La primera y principal es que un jugador active una <strong>𖨰 Precursora</strong> durante su turno, lo cual la abre siempre y sin excepciones. La segunda es que se active un <strong>⚶ Instantáneo</strong> cuyo efecto pueda ser respondido, o implique gestionar recursos y/u otras acciones.</p><p>Una carta con <strong>Furia</strong> es la excepción a todo lo anterior, porque <strong>no abre Fase</strong>: se resuelve en el acto, sin dar a nadie la oportunidad de responderla.</p>",
+"text": "La Fase de Resolución se abre de dos maneras. La primera y principal es que un jugador active una 𖨰 Precursora durante su turno, lo cual la abre siempre y sin excepciones. La segunda es que se active un ⚶ Instantáneo cuyo efecto pueda ser respondido, o implique gestionar recursos y/u otras acciones. Una carta con Furia es la excepción a todo lo anterior, porque no abre Fase: se resuelve en el acto, sin dar a nadie la oportunidad de responderla.",
+"parent": "11"
+},
+{
+"id": "11.3",
+"anchor": "r-11-3",
+"level": 2,
+"title": "La declaración: objetivos y reparto",
+"chapter": "11",
+"html": "<p>Este es el paso más importante de toda la Fase, y el que más partidas decide. Al activar la carta, el jugador debe <strong>anunciarla en voz alta</strong>, colocarla sobre la mesa a la vista de todos y <strong>declarar exactamente contra quién va dirigida</strong>.</p><p>Y aquí aparece la regla que le da a Dizaster su carácter: <strong>cuando el efecto de una carta se puede repartir, el atacante decide cómo repartirlo entre varios reinos</strong>, y debe declarar ese reparto <strong>completo y de una sola vez</strong>, antes de que nadie responda. No se puede dejar nada «para decidirlo después», no se puede guardar una parte del efecto en reserva y no se puede esperar a ver qué hacen los demás: <strong>lo declarado es lo que hay</strong>.</p><blockquote><strong>Ejemplo.</strong> El jugador del reino <strong>Azul</strong> activa una carta que elimina <strong>5 piezas de categoría C</strong>, y declara su reparto: <strong>3 piezas del reino Rojo</strong> y <strong>2 piezas del reino Verde</strong>. Con esa declaración, la carta deja de ser un bloque único y pasa a tener <strong>dos objetivos independientes</strong>, uno contra Rojo y otro contra Verde.</blockquote><p>Cada porción declarada es, a partir de ese momento, un <strong>objetivo</strong> que se defiende por separado, y esa es la razón por la que el reparto debe anunciarse antes de que empiecen las respuestas.</p>",
+"text": "Este es el paso más importante de toda la Fase, y el que más partidas decide. Al activar la carta, el jugador debe anunciarla en voz alta, colocarla sobre la mesa a la vista de todos y declarar exactamente contra quién va dirigida. Y aquí aparece la regla que le da a Dizaster su carácter: cuando el efecto de una carta se puede repartir, el atacante decide cómo repartirlo entre varios reinos, y debe declarar ese reparto completo y de una sola vez, antes de que nadie responda. No se puede dejar nada «para decidirlo después», no se puede guardar una parte del efecto en reserva y no se puede esperar a ver qué hacen los demás: lo declarado es lo que hay. Ejemplo. El jugador del reino Azul activa una carta que elimina 5 piezas de categoría C, y declara su reparto: 3 piezas del reino Rojo y 2 piezas del reino Verde. Con esa declaración, la carta deja de ser un bloque único y pasa a tener dos objetivos independientes, uno contra Rojo y otro contra Verde. Cada porción declarada es, a partir de ese momento, un objetivo que se defiende por separado, y esa es la razón por la que el reparto debe anunciarse antes de que empiecen las respuestas.",
+"parent": "11"
+},
+{
+"id": "11.4",
+"anchor": "r-11-4",
+"level": 2,
+"title": "La pila de respuestas",
+"chapter": "11",
+"html": "<p>Una vez abierta la Fase y declarado el reparto, cualquier jugador puede responder, y para hacerlo dispone de dos herramientas: las cartas <strong>Nexo</strong>, que solo existen aquí dentro, y las cartas <strong>Instantáneas</strong>, que pueden jugarse en cualquier momento y por tanto también aquí.</p><p>Cada respuesta se coloca <strong>encima</strong> de la anterior, formando una pila visible que todos pueden leer de un vistazo, y al colocarla su dueño debe <strong>declarar a qué apunta</strong>: a qué carta de la pila y, si esa carta tiene el efecto repartido, <strong>a cuál de sus objetivos</strong>. Puede apuntarse a cualquier carta que siga en la pila y a la que el efecto sea aplicable, no necesariamente a la última jugada.</p><p>Responder <strong>no consume</strong> tu derecho a jugar una Precursora en tu propio turno, y puede responder <strong>cualquiera</strong>, incluido el jugador que abrió la Fase, así que nada impide que alguien defienda a un rival si le conviene que ese rival sobreviva un turno más.</p>",
+"text": "Una vez abierta la Fase y declarado el reparto, cualquier jugador puede responder, y para hacerlo dispone de dos herramientas: las cartas Nexo, que solo existen aquí dentro, y las cartas Instantáneas, que pueden jugarse en cualquier momento y por tanto también aquí. Cada respuesta se coloca encima de la anterior, formando una pila visible que todos pueden leer de un vistazo, y al colocarla su dueño debe declarar a qué apunta: a qué carta de la pila y, si esa carta tiene el efecto repartido, a cuál de sus objetivos. Puede apuntarse a cualquier carta que siga en la pila y a la que el efecto sea aplicable, no necesariamente a la última jugada. Responder no consume tu derecho a jugar una Precursora en tu propio turno, y puede responder cualquiera, incluido el jugador que abrió la Fase, así que nada impide que alguien defienda a un rival si le conviene que ese rival sobreviva un turno más.",
+"parent": "11"
+},
+{
+"id": "11.5",
+"anchor": "r-11-5",
+"level": 2,
+"title": "La cancelación protege a quien la juega",
+"chapter": "11",
+"html": "<p>Cuando una respuesta cancela un ataque repartido, <strong>solo cancela el objetivo al que apunta</strong>, y el resto del reparto sigue su curso intacto, salvo que el texto de la carta indique expresamente otra cosa. Es la consecuencia directa de que el reparto se declare por adelantado: cada reino se defiende de <strong>su parte</strong>, y la parte de los demás no es asunto suyo.</p><blockquote><strong>Ejemplo, continuación.</strong> Frente al ataque declarado por Azul, el jugador del reino <strong>Rojo</strong> activa una carta de <strong>Defensa de tipo Nexo</strong> para cancelar la parte que le corresponde. El resultado es que Azul <strong>ya no puede eliminar esas 3 piezas del reino Rojo</strong>, y de las 5 eliminaciones con las que abrió la Fase le quedan solo <strong>las 2 declaradas contra el reino Verde</strong>, que se aplican con normalidad porque <strong>Verde no se defendió</strong>.</blockquote>",
+"text": "Cuando una respuesta cancela un ataque repartido, solo cancela el objetivo al que apunta, y el resto del reparto sigue su curso intacto, salvo que el texto de la carta indique expresamente otra cosa. Es la consecuencia directa de que el reparto se declare por adelantado: cada reino se defiende de su parte, y la parte de los demás no es asunto suyo. Ejemplo, continuación. Frente al ataque declarado por Azul, el jugador del reino Rojo activa una carta de Defensa de tipo Nexo para cancelar la parte que le corresponde. El resultado es que Azul ya no puede eliminar esas 3 piezas del reino Rojo, y de las 5 eliminaciones con las que abrió la Fase le quedan solo las 2 declaradas contra el reino Verde, que se aplican con normalidad porque Verde no se defendió.",
+"parent": "11"
+},
+{
+"id": "11.6",
+"anchor": "r-11-6",
+"level": 2,
+"title": "Lo cancelado se pierde: no se reasigna",
+"chapter": "11",
+"html": "<p>Aquí está la otra mitad de la regla, y conviene leerla despacio porque es la que impide todos los abusos: <strong>una vez que una Precursora ha sido respondida, su reparto queda congelado</strong>. El atacante <strong>no puede reasignar</strong> a otro reino la parte que le acaban de cancelar.</p><p>Siguiendo el ejemplo, Azul <strong>no puede</strong> trasladar al reino Verde las 3 eliminaciones que Rojo le anuló, de modo que esas 3 sencillamente <strong>se pierden</strong>. Y esto es lo que hace que defenderse tenga verdadero valor: cuando cancelas tu parte, no estás desviando el golpe hacia otro, estás <strong>destruyendo esa porción del ataque para siempre</strong>.</p>",
+"text": "Aquí está la otra mitad de la regla, y conviene leerla despacio porque es la que impide todos los abusos: una vez que una Precursora ha sido respondida, su reparto queda congelado. El atacante no puede reasignar a otro reino la parte que le acaban de cancelar. Siguiendo el ejemplo, Azul no puede trasladar al reino Verde las 3 eliminaciones que Rojo le anuló, de modo que esas 3 sencillamente se pierden. Y esto es lo que hace que defenderse tenga verdadero valor: cuando cancelas tu parte, no estás desviando el golpe hacia otro, estás destruyendo esa porción del ataque para siempre.",
+"parent": "11"
+},
+{
+"id": "11.7",
+"anchor": "r-11-7",
+"level": 2,
+"title": "Cierre y orden de resolución",
+"chapter": "11",
+"html": "<p>Cuando ningún jugador quiere añadir más respuestas, la pila <strong>se cierra</strong> y se resuelve <strong>de arriba hacia abajo</strong>: la <strong>última carta jugada es la primera en aplicarse</strong>, y la carta que abrió la Fase es siempre <strong>la última</strong>. Es el orden inverso al que se jugaron, y tiene toda la lógica del mundo, porque una respuesta debe surtir efecto antes que aquello a lo que responde.</p><p>Cuando la pila queda vacía, la Fase se cierra, todas las cartas usadas van a la pila de descarte de su mazo y <strong>el turno continúa exactamente donde se había quedado</strong>.</p>",
+"text": "Cuando ningún jugador quiere añadir más respuestas, la pila se cierra y se resuelve de arriba hacia abajo: la última carta jugada es la primera en aplicarse, y la carta que abrió la Fase es siempre la última. Es el orden inverso al que se jugaron, y tiene toda la lógica del mundo, porque una respuesta debe surtir efecto antes que aquello a lo que responde. Cuando la pila queda vacía, la Fase se cierra, todas las cartas usadas van a la pila de descarte de su mazo y el turno continúa exactamente donde se había quedado.",
+"parent": "11"
+},
+{
+"id": "11.8",
+"anchor": "r-11-8",
+"level": 2,
+"title": "Cartas que se quedan sin objetivo",
+"chapter": "11",
+"html": "<p>Si cuando le llega el turno de resolverse una carta descubre que <strong>aquello a lo que apuntaba ya no existe</strong> —porque otro lo canceló antes, porque el objetivo desapareció o porque la porción a la que se dirigía fue anulada—, esa carta <strong>se descarta sin producir ningún efecto</strong> y se pierde por completo. No hay devolución, no hay compensación y no se puede volver a apuntar a otra cosa: quien apuesta tarde, apuesta mal.</p>",
+"text": "Si cuando le llega el turno de resolverse una carta descubre que aquello a lo que apuntaba ya no existe —porque otro lo canceló antes, porque el objetivo desapareció o porque la porción a la que se dirigía fue anulada—, esa carta se descarta sin producir ningún efecto y se pierde por completo. No hay devolución, no hay compensación y no se puede volver a apuntar a otra cosa: quien apuesta tarde, apuesta mal.",
+"parent": "11"
+},
+{
+"id": "11.9",
+"anchor": "r-11-9",
+"level": 2,
+"title": "Furia dentro de la Fase",
+"chapter": "11",
+"html": "<p>Una carta con <strong>Furia</strong> rompe el ritmo de la pila, porque <strong>se resuelve inmediatamente al ser jugada</strong> sin esperar a que la Fase se cierre y sin admitir ninguna respuesta. Nadie puede cancelarla, redirigirla, copiarla ni reactivarla, y <strong>toda carta que lo intente se descarta sin efecto</strong>.</p><p>Su resolución inmediata suele arrastrar a otras cartas por el camino, ya que si la Furia cancela aquello sobre lo que otros habían apoyado sus respuestas, <strong>esas respuestas se quedan sin objetivo</strong> y caen sin efecto: se descartan y se pierden sin compensación.</p><p>Y si dos cartas con Furia entran en conflicto dentro de una misma Fase, <strong>prevalece la que se activó primero</strong>, mientras que la posterior se descarta sin efecto.</p>",
+"text": "Una carta con Furia rompe el ritmo de la pila, porque se resuelve inmediatamente al ser jugada sin esperar a que la Fase se cierre y sin admitir ninguna respuesta. Nadie puede cancelarla, redirigirla, copiarla ni reactivarla, y toda carta que lo intente se descarta sin efecto. Su resolución inmediata suele arrastrar a otras cartas por el camino, ya que si la Furia cancela aquello sobre lo que otros habían apoyado sus respuestas, esas respuestas se quedan sin objetivo y caen sin efecto: se descartan y se pierden sin compensación. Y si dos cartas con Furia entran en conflicto dentro de una misma Fase, prevalece la que se activó primero, mientras que la posterior se descarta sin efecto.",
+"parent": "11"
+},
+{
+"id": "11.10",
+"anchor": "r-11-10",
+"level": 2,
+"title": "Vestigio dentro de la Fase",
+"chapter": "11",
+"html": "<p>Una carta con <strong>Vestigio</strong> se resuelve como cualquier otra dentro de la pila, pero su efecto <strong>no se apaga cuando la Fase termina</strong>: la carta se va al descarte y su efecto <strong>permanece sobre la mesa durante el resto de la partida</strong>, formando parte del estado del juego. La única forma de terminar con un Vestigio es que <strong>otra carta lo destruya expresamente</strong>, así que conviene llevar la cuenta de todos los Vestigios activos, porque se acumulan y cambian el juego de manera silenciosa.</p>",
+"text": "Una carta con Vestigio se resuelve como cualquier otra dentro de la pila, pero su efecto no se apaga cuando la Fase termina: la carta se va al descarte y su efecto permanece sobre la mesa durante el resto de la partida, formando parte del estado del juego. La única forma de terminar con un Vestigio es que otra carta lo destruya expresamente, así que conviene llevar la cuenta de todos los Vestigios activos, porque se acumulan y cambian el juego de manera silenciosa.",
+"parent": "11"
+},
+{
+"id": "11.11",
+"anchor": "r-11-11",
+"level": 2,
+"title": "Ninguna carta se afecta a sí misma",
+"chapter": "11",
+"html": "<p>Cuando una carta tiene el efecto de <strong>reactivar, copiar, invocar o duplicar</strong> otra carta, <strong>nunca puede afectar a una carta con su mismo identificador</strong>. Puede reactivar, copiar o duplicar cualquier otra, pero no una gemela suya, y esta regla existe por un motivo muy práctico: cierra la puerta a los bucles infinitos sin limitar en absoluto las combinaciones interesantes entre cartas distintas.</p>",
+"text": "Cuando una carta tiene el efecto de reactivar, copiar, invocar o duplicar otra carta, nunca puede afectar a una carta con su mismo identificador. Puede reactivar, copiar o duplicar cualquier otra, pero no una gemela suya, y esta regla existe por un motivo muy práctico: cierra la puerta a los bucles infinitos sin limitar en absoluto las combinaciones interesantes entre cartas distintas.",
+"parent": "11"
+},
+{
+"id": "11.12",
+"anchor": "r-11-12",
+"level": 2,
+"title": "Ejemplo completo: el ataque repartido",
+"chapter": "11",
+"html": "<div class=\"tbl\"><table><thead><tr><th>Paso</th><th>Qué ocurre</th><th>Cómo queda</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>Azul</strong> activa una Precursora que elimina 5 piezas de categoría C y declara su reparto: <strong>3 a Rojo</strong>, <strong>2 a Verde</strong>. Se abre la Fase de Resolución.</td><td>Pila: [ Ataque de Azul → 3 Rojo · 2 Verde ]</td></tr><tr><td><strong>2</strong></td><td><strong>Rojo</strong> responde con una <strong>Nexo de Defensa</strong> apuntando al objetivo que va contra él.</td><td>Pila: [ Ataque · <strong>Defensa de Rojo</strong> ]</td></tr><tr><td><strong>3</strong></td><td>Nadie más quiere responder, así que la pila se cierra y se resuelve <strong>de arriba abajo</strong>.</td><td>—</td></tr><tr><td><strong>4</strong></td><td>Se resuelve primero la Defensa de Rojo: <strong>la porción de 3 piezas contra Rojo queda cancelada</strong>.</td><td>Rojo no pierde nada</td></tr><tr><td><strong>5</strong></td><td>Se resuelve después el Ataque de Azul, que conserva <strong>solo</strong> lo que no fue cancelado.</td><td><strong>Verde pierde 2 piezas</strong></td></tr><tr><td><strong>6</strong></td><td>Azul <strong>no puede</strong> reasignar a Verde las 3 eliminaciones anuladas: se pierden.</td><td>Fase cerrada, el turno de Azul continúa</td></tr></tbody></table></div>",
+"text": "Paso Qué ocurre Cómo queda 1 Azul activa una Precursora que elimina 5 piezas de categoría C y declara su reparto: 3 a Rojo, 2 a Verde. Se abre la Fase de Resolución. Pila: [ Ataque de Azul → 3 Rojo · 2 Verde ] 2 Rojo responde con una Nexo de Defensa apuntando al objetivo que va contra él. Pila: [ Ataque · Defensa de Rojo ] 3 Nadie más quiere responder, así que la pila se cierra y se resuelve de arriba abajo. — 4 Se resuelve primero la Defensa de Rojo: la porción de 3 piezas contra Rojo queda cancelada. Rojo no pierde nada 5 Se resuelve después el Ataque de Azul, que conserva solo lo que no fue cancelado. Verde pierde 2 piezas 6 Azul no puede reasignar a Verde las 3 eliminaciones anuladas: se pierden. Fase cerrada, el turno de Azul continúa",
+"parent": "11"
+},
+{
+"id": "11.13",
+"anchor": "r-11-13",
+"level": 2,
+"title": "Ejemplo completo: la Furia lo arrasa todo",
+"chapter": "11",
+"html": "<div class=\"tbl\"><table><thead><tr><th>Paso</th><th>Qué ocurre</th><th>Cómo queda</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>Ana</strong> activa una Precursora de Ataque contra <strong>Luis</strong>. Es su Precursora del turno y se abre la Fase.</td><td>Pila: [ Ataque de Ana ]</td></tr><tr><td><strong>2</strong></td><td><strong>Luis</strong> responde con una <strong>Nexo</strong> que <strong>redirige</strong> el ataque, apuntando a la carta de Ana.</td><td>Pila: [ Ataque · Redirección ]</td></tr><tr><td><strong>3</strong></td><td><strong>Marta</strong>, que no tenía nada que ver en el asunto, responde con una <strong>Nexo con Furia</strong> que <strong>cancela</strong> el Ataque de Ana, apuntando al fondo de la pila.</td><td>Pila: [ Ataque · Redirección · <strong>Cancelación con Furia</strong> ]</td></tr><tr><td><strong>4</strong></td><td>La Furia <strong>no espera a nadie</strong>: se resuelve en el acto y <strong>el Ataque de Ana queda cancelado</strong> de inmediato.</td><td>El Ataque deja de existir</td></tr><tr><td><strong>5</strong></td><td>La Redirección de Luis apuntaba al Ataque, que <strong>ya no existe</strong>, así que se queda sin objetivo y <strong>se descarta sin efecto</strong>.</td><td>Luis pierde su carta</td></tr><tr><td><strong>6</strong></td><td><strong>Carlos</strong> intenta jugar ahora una Nexo sobre el Ataque, pero tampoco existe ya, de modo que su carta <strong>también se descarta sin efecto</strong>.</td><td>Carlos pierde su carta</td></tr><tr><td><strong>7</strong></td><td>Pila vacía, Fase cerrada, y el turno de Ana continúa donde estaba.</td><td>—</td></tr></tbody></table></div><p>Vale la pena contar el destrozo, porque explica mejor que ninguna regla por qué esta Fase importa tanto: <strong>Ana gastó su única Precursora del turno para nada</strong>, <strong>Luis perdió una carta para nada</strong> y <strong>Carlos perdió otra para nada</strong>, mientras que <strong>Marta</strong>, que no era ni la atacante ni la atacada, gastó <strong>una sola carta</strong> y desbarató las tres.</p>",
+"text": "Paso Qué ocurre Cómo queda 1 Ana activa una Precursora de Ataque contra Luis. Es su Precursora del turno y se abre la Fase. Pila: [ Ataque de Ana ] 2 Luis responde con una Nexo que redirige el ataque, apuntando a la carta de Ana. Pila: [ Ataque · Redirección ] 3 Marta, que no tenía nada que ver en el asunto, responde con una Nexo con Furia que cancela el Ataque de Ana, apuntando al fondo de la pila. Pila: [ Ataque · Redirección · Cancelación con Furia ] 4 La Furia no espera a nadie: se resuelve en el acto y el Ataque de Ana queda cancelado de inmediato. El Ataque deja de existir 5 La Redirección de Luis apuntaba al Ataque, que ya no existe, así que se queda sin objetivo y se descarta sin efecto. Luis pierde su carta 6 Carlos intenta jugar ahora una Nexo sobre el Ataque, pero tampoco existe ya, de modo que su carta también se descarta sin efecto. Carlos pierde su carta 7 Pila vacía, Fase cerrada, y el turno de Ana continúa donde estaba. — Vale la pena contar el destrozo, porque explica mejor que ninguna regla por qué esta Fase importa tanto: Ana gastó su única Precursora del turno para nada, Luis perdió una carta para nada y Carlos perdió otra para nada, mientras que Marta, que no era ni la atacante ni la atacada, gastó una sola carta y desbarató las tres.",
+"parent": "11"
+},
+{
+"id": "12",
+"anchor": "r-12",
+"level": 1,
+"title": "Capturas, Prisión de Guerra y resurrección",
+"chapter": "12",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "12.1",
+"anchor": "r-12-1",
+"level": 2,
+"title": "Qué es una captura",
+"chapter": "12",
+"html": "<p>Es cualquier pieza enemiga eliminada del tablero, ya sea por el movimiento de una de tus piezas o por el efecto de una carta.</p>",
+"text": "Es cualquier pieza enemiga eliminada del tablero, ya sea por el movimiento de una de tus piezas o por el efecto de una carta.",
+"parent": "12"
+},
+{
+"id": "12.2",
+"anchor": "r-12-2",
+"level": 2,
+"title": "La Prisión de Guerra",
+"chapter": "12",
+"html": "<p>Toda pieza que capturas pasa a tu Prisión de Guerra, que es la zona reservada delante de ti, y allí queda como <strong>prisionero de guerra</strong> a la espera de un destino que en Dizaster es siempre el mismo: el sacrificio.</p>",
+"text": "Toda pieza que capturas pasa a tu Prisión de Guerra, que es la zona reservada delante de ti, y allí queda como prisionero de guerra a la espera de un destino que en Dizaster es siempre el mismo: el sacrificio.",
+"parent": "12"
+},
+{
+"id": "12.3",
+"anchor": "r-12-3",
+"level": 2,
+"title": "Revivir piezas",
+"chapter": "12",
+"html": "<p>Solo puedes revivir durante tu turno y solo entregando <strong>tus propios</strong> prisioneros. El coste es el mismo para <strong>todas</strong> las piezas que se pueden revivir —Conquistador, Atacante, Contendiente, Defensor, Explorador y Necrovante—: <strong>7</strong> prisioneros en <strong>Primigenio</strong> y <a class=\"rref\" href=\"#r-9\">9</a> en <strong>Superviviente</strong> y <strong>Forjado</strong>. El coste puede cubrirse con <strong>prisioneros y con bloques de muralla</strong> indistintamente, ya que un bloque en tu prisión vale lo mismo que una pieza.</p>",
+"text": "Solo puedes revivir durante tu turno y solo entregando tus propios prisioneros. El coste es el mismo para todas las piezas que se pueden revivir —Conquistador, Atacante, Contendiente, Defensor, Explorador y Necrovante—: 7 prisioneros en Primigenio y 9 en Superviviente y Forjado. El coste puede cubrirse con prisioneros y con bloques de muralla indistintamente, ya que un bloque en tu prisión vale lo mismo que una pieza.",
+"parent": "12"
+},
+{
+"id": "12.4",
+"anchor": "r-12-4",
+"level": 2,
+"title": "La Fosa Común",
+"chapter": "12",
+"html": "<p>Los prisioneros que entregas para revivir bajan a la <strong>Fosa Común</strong>, el espacio común en el centro de la mesa donde se reúnen todos los sacrificados de la partida.</p>",
+"text": "Los prisioneros que entregas para revivir bajan a la Fosa Común, el espacio común en el centro de la mesa donde se reúnen todos los sacrificados de la partida.",
+"parent": "12"
+},
+{
+"id": "12.5",
+"anchor": "r-12-5",
+"level": 2,
+"title": "Recuperar tus propias piezas",
+"chapter": "12",
+"html": "<p>Puedes revivir <strong>cualquier</strong> pieza tuya que haya caído, y si esa pieza se encuentra en la Prisión de Guerra de otro jugador, ese jugador <strong>está obligado a entregártela</strong> sin objeción, tomando a cambio una pieza de la Fosa Común o una pieza que no esté en uso, de modo que su cuenta de prisioneros se mantenga intacta. Cualquier pieza que se encuentre en la Fosa Común puede recuperarse de esta manera.</p>",
+"text": "Puedes revivir cualquier pieza tuya que haya caído, y si esa pieza se encuentra en la Prisión de Guerra de otro jugador, ese jugador está obligado a entregártela sin objeción, tomando a cambio una pieza de la Fosa Común o una pieza que no esté en uso, de modo que su cuenta de prisioneros se mantenga intacta. Cualquier pieza que se encuentre en la Fosa Común puede recuperarse de esta manera.",
+"parent": "12"
+},
+{
+"id": "12.6",
+"anchor": "r-12-6",
+"level": 2,
+"title": "Dónde reaparece la pieza revivida",
+"chapter": "12",
+"html": "<p>La pieza vuelve siempre a su <strong>casilla de origen</strong>, y a partir de ahí caben dos situaciones: si esa casilla la ocupa <strong>una pieza tuya</strong>, la revivida aparecerá en una <strong>casilla adyacente libre</strong> dentro de tu reino; y si la ocupa <strong>una pieza enemiga</strong>, esa pieza <strong>queda capturada</strong> en el acto y la tuya ocupa su lugar, exactamente igual que ocurre cuando renacen los Necrovantes.</p>",
+"text": "La pieza vuelve siempre a su casilla de origen, y a partir de ahí caben dos situaciones: si esa casilla la ocupa una pieza tuya, la revivida aparecerá en una casilla adyacente libre dentro de tu reino; y si la ocupa una pieza enemiga, esa pieza queda capturada en el acto y la tuya ocupa su lugar, exactamente igual que ocurre cuando renacen los Necrovantes.",
+"parent": "12"
+},
+{
+"id": "12.7",
+"anchor": "r-12-7",
+"level": 2,
+"title": "El botín del Gobernante",
+"chapter": "12",
+"html": "<p>Cuando un Gobernante cae, <strong>todas</strong> las piezas de su reino que estuvieran sobre el tablero pasan de golpe a la Prisión de Guerra del atacante, y esa es, con diferencia, la mayor cantidad de prisioneros que cambia de manos en toda la partida.</p>",
+"text": "Cuando un Gobernante cae, todas las piezas de su reino que estuvieran sobre el tablero pasan de golpe a la Prisión de Guerra del atacante, y esa es, con diferencia, la mayor cantidad de prisioneros que cambia de manos en toda la partida.",
+"parent": "12"
+},
+{
+"id": "13",
+"anchor": "r-13",
+"level": 1,
+"title": "La Muralla",
+"chapter": "13",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "13.1",
+"anchor": "r-13-1",
+"level": 2,
+"title": "De dónde salen los bloques",
+"chapter": "13",
+"html": "<p>Los bloques de muralla provienen únicamente de la carta <strong>E01 · Fortaleza de Hierro</strong>, que otorga <strong>6 bloques</strong> a quien la juega, o del evento <strong>Fortificación</strong>, que reparte <strong>3 bloques a todos los jugadores</strong>.</p>",
+"text": "Los bloques de muralla provienen únicamente de la carta E01 · Fortaleza de Hierro, que otorga 6 bloques a quien la juega, o del evento Fortificación, que reparte 3 bloques a todos los jugadores.",
+"parent": "13"
+},
+{
+"id": "13.2",
+"anchor": "r-13-2",
+"level": 2,
+"title": "Dónde se construye",
+"chapter": "13",
+"html": "<p>La muralla se construye exclusivamente en las <strong>casillas frontales</strong> de tu reino, y solo si esas casillas están desocupadas.</p>",
+"text": "La muralla se construye exclusivamente en las casillas frontales de tu reino, y solo si esas casillas están desocupadas.",
+"parent": "13"
+},
+{
+"id": "13.3",
+"anchor": "r-13-3",
+"level": 2,
+"title": "Bloques sin sitio",
+"chapter": "13",
+"html": "<p>Si recibes bloques y no tienes ninguna casilla libre donde colocarlos, esos bloques se guardan en tu <strong>Prisión de Guerra</strong>, donde cuentan como prisioneros hasta que se libere una casilla y puedas construirlos durante tu turno.</p>",
+"text": "Si recibes bloques y no tienes ninguna casilla libre donde colocarlos, esos bloques se guardan en tu Prisión de Guerra, donde cuentan como prisioneros hasta que se libere una casilla y puedas construirlos durante tu turno.",
+"parent": "13"
+},
+{
+"id": "13.4",
+"anchor": "r-13-4",
+"level": 2,
+"title": "Reposicionar",
+"chapter": "13",
+"html": "<p>Durante tu turno puedes <strong>reposicionar libremente</strong> tus bloques entre tus casillas de muralla, y hacerlo no tiene coste alguno.</p>",
+"text": "Durante tu turno puedes reposicionar libremente tus bloques entre tus casillas de muralla, y hacerlo no tiene coste alguno.",
+"parent": "13"
+},
+{
+"id": "13.5",
+"anchor": "r-13-5",
+"level": 2,
+"title": "Qué hace una muralla",
+"chapter": "13",
+"html": "<p>Un bloque <strong>ocupa la casilla</strong>, de manera que ninguna pieza puede entrar en ella mientras esté puesto; <strong>bloquea el avance</strong> de las piezas enemigas, que se ven obligadas a rodearla; <strong>no estorba a las tuyas</strong>, que la cruzan sin consumir movimiento; <strong>detiene siempre al Necrovante</strong>, que no cruza ninguna muralla; y <strong>puede ser capturada</strong> como cualquier otra pieza.</p>",
+"text": "Un bloque ocupa la casilla, de manera que ninguna pieza puede entrar en ella mientras esté puesto; bloquea el avance de las piezas enemigas, que se ven obligadas a rodearla; no estorba a las tuyas, que la cruzan sin consumir movimiento; detiene siempre al Necrovante, que no cruza ninguna muralla; y puede ser capturada como cualquier otra pieza.",
+"parent": "13"
+},
+{
+"id": "13.6",
+"anchor": "r-13-6",
+"level": 2,
+"title": "Sacrificar tu propia muralla",
+"chapter": "13",
+"html": "<p>Solo durante tu turno puedes sacrificar tus bloques, que pasarán a tu Prisión de Guerra y contarán allí como prisioneros, de modo que derribar tu propia defensa para completar una resurrección es una jugada perfectamente válida; y como esos bloques siguen siendo tuyos, podrás volver a construirlos más adelante.</p>",
+"text": "Solo durante tu turno puedes sacrificar tus bloques, que pasarán a tu Prisión de Guerra y contarán allí como prisioneros, de modo que derribar tu propia defensa para completar una resurrección es una jugada perfectamente válida; y como esos bloques siguen siendo tuyos, podrás volver a construirlos más adelante.",
+"parent": "13"
+},
+{
+"id": "13.7",
+"anchor": "r-13-7",
+"level": 2,
+"title": "Destruir la muralla enemiga",
+"chapter": "13",
+"html": "<p>La carta <strong>A04 · Destrucción Latente</strong> destruye hasta <strong>3 bloques</strong> de cualquier muralla. Los bloques que le arrebatas a un rival pasan a <strong>tu</strong> Prisión de Guerra, cuentan como prisioneros y quedan <strong>bloqueados para los demás jugadores</strong>, y podrás construirlos dentro de tu propio reino <strong>a partir de tu siguiente turno</strong>, nunca en el mismo turno en que los destruiste.</p>",
+"text": "La carta A04 · Destrucción Latente destruye hasta 3 bloques de cualquier muralla. Los bloques que le arrebatas a un rival pasan a tu Prisión de Guerra, cuentan como prisioneros y quedan bloqueados para los demás jugadores, y podrás construirlos dentro de tu propio reino a partir de tu siguiente turno, nunca en el mismo turno en que los destruiste.",
+"parent": "13"
+},
+{
+"id": "13.8",
+"anchor": "r-13-8",
+"level": 2,
+"title": "Expandir la muralla",
+"chapter": "13",
+"html": "<p>Con la carta <strong>E07 · Expansión Relámpago</strong> o con el evento <strong>Expansión Defensiva</strong> se habilitan casillas frontales adicionales en las que podrás seguir construyendo.</p>",
+"text": "Con la carta E07 · Expansión Relámpago o con el evento Expansión Defensiva se habilitan casillas frontales adicionales en las que podrás seguir construyendo.",
+"parent": "13"
+},
+{
+"id": "14",
+"anchor": "r-14",
+"level": 1,
+"title": "La caída de un reino y el Reino Necrovante",
+"chapter": "14",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "14.1",
+"anchor": "r-14-1",
+"level": 2,
+"title": "Cómo cae un reino",
+"chapter": "14",
+"html": "<p>Un reino cae por la <strong>captura de su Gobernante</strong>, por una carta de <strong>Aniquilación</strong> —ya sea <strong>X01 · Juicio Final</strong> o <strong>X02 · Ritual de Sacrificio</strong>—, y no hay ninguna otra forma de derribarlo.</p>",
+"text": "Un reino cae por la captura de su Gobernante, por una carta de Aniquilación —ya sea X01 · Juicio Final o X02 · Ritual de Sacrificio—, y no hay ninguna otra forma de derribarlo.",
+"parent": "14"
+},
+{
+"id": "14.1.1",
+"anchor": "r-14-1-1",
+"level": 3,
+"title": "Las dos Aniquilaciones",
+"chapter": "14",
+"html": "<p><strong>X01 · Juicio Final</strong> es una ruleta: el reino de quien la activa es el número 1 y los demás se numeran hacia su derecha; se tira el dado según el número de jugadores —<strong>D6 hasta 6 jugadores, D8 con 7 u 8</strong>— y el reino que sale deja de existir, y sus piezas pasan a quien activó la carta. Si sale el 1, quien la activó pierde su propio reino y conserva sus capturas para cuando sea Reino Necrovante. <strong>X02 · Ritual de Sacrificio</strong>, que lleva Furia, obliga a <strong>cada jugador a tirar un D6</strong> y perder la pieza indicada, que pasa a los prisioneros de su propio reino: 1 Gobernante, 2 Conquistador, 3 Atacante, 4 Contendiente, 5 Defensor, 6 Explorador. <strong>Quien saque 1 pierde todo su reino</strong>, porque su Gobernante ha muerto. Conviene tener presente que en Dizaster <strong>no existe ningún aviso previo</strong>: nadie está obligado a advertirte de que tu Gobernante está en peligro, así que mira tu trono antes de mover y no después.</p>",
+"text": "X01 · Juicio Final es una ruleta: el reino de quien la activa es el número 1 y los demás se numeran hacia su derecha; se tira el dado según el número de jugadores —D6 hasta 6 jugadores, D8 con 7 u 8— y el reino que sale deja de existir, y sus piezas pasan a quien activó la carta. Si sale el 1, quien la activó pierde su propio reino y conserva sus capturas para cuando sea Reino Necrovante. X02 · Ritual de Sacrificio, que lleva Furia, obliga a cada jugador a tirar un D6 y perder la pieza indicada, que pasa a los prisioneros de su propio reino: 1 Gobernante, 2 Conquistador, 3 Atacante, 4 Contendiente, 5 Defensor, 6 Explorador. Quien saque 1 pierde todo su reino, porque su Gobernante ha muerto. Conviene tener presente que en Dizaster no existe ningún aviso previo: nadie está obligado a advertirte de que tu Gobernante está en peligro, así que mira tu trono antes de mover y no después.",
+"parent": "14.1"
+},
+{
+"id": "14.2",
+"anchor": "r-14-2",
+"level": 2,
+"title": "Qué ocurre al caer",
+"chapter": "14",
+"html": "<p>Todas las piezas del reino caído pasan a la Prisión de Guerra del atacante —el jugador que capturó al Gobernante o activó la carta—, y a continuación su dueño decide si prefiere <strong>retirarse de la partida</strong> o <strong>continuar convertido en Reino Necrovante</strong>.</p>",
+"text": "Todas las piezas del reino caído pasan a la Prisión de Guerra del atacante —el jugador que capturó al Gobernante o activó la carta—, y a continuación su dueño decide si prefiere retirarse de la partida o continuar convertido en Reino Necrovante.",
+"parent": "14"
+},
+{
+"id": "14.3",
+"anchor": "r-14-3",
+"level": 2,
+"title": "El Reino Necrovante",
+"chapter": "14",
+"html": "",
+"text": "",
+"parent": "14"
+},
+{
+"id": "14.3.1",
+"anchor": "r-14-3-1",
+"level": 3,
+"title": "Cómo nace",
+"chapter": "14",
+"html": "<p>Coloca <strong>8 Necrovantes</strong> sobre tus casillas de origen, y si alguna de ellas estuviera ocupada por piezas enemigas, esas piezas <strong>quedan capturadas</strong> y pasan a tu prisión antes de que coloques a los tuyos.</p><p>Las ocho casillas son las de origen del <strong>Gobernante</strong>, el <strong>Conquistador</strong>, los dos <strong>Atacantes</strong>, los dos <strong>Contendientes</strong> y los <strong>dos Exploradores de los costados</strong> —1+1+2+2+2 = 8—, de modo que quedan fuera <strong>los dos Defensores y el Explorador central</strong>. El Defensor es la única pieza que salta y el Necrovante la única que no puede saltar nada, por eso su casilla queda vacía. Son <strong>casillas del reino</strong>, no de las piezas, así que da igual cuáles siguieran vivas en el momento de caer: un reino que llega al final con solo su trono y sus Exploradores se levanta con los mismos ocho Necrovantes que uno intacto.</p><p><em>«Central» se reconoce sin listas: de los tres Exploradores, el central es el que queda <strong>en línea recta con el trono</strong>, y los otros dos son los costados.</em></p>",
+"text": "Coloca 8 Necrovantes sobre tus casillas de origen, y si alguna de ellas estuviera ocupada por piezas enemigas, esas piezas quedan capturadas y pasan a tu prisión antes de que coloques a los tuyos. Las ocho casillas son las de origen del Gobernante, el Conquistador, los dos Atacantes, los dos Contendientes y los dos Exploradores de los costados —1+1+2+2+2 = 8—, de modo que quedan fuera los dos Defensores y el Explorador central. El Defensor es la única pieza que salta y el Necrovante la única que no puede saltar nada, por eso su casilla queda vacía. Son casillas del reino, no de las piezas, así que da igual cuáles siguieran vivas en el momento de caer: un reino que llega al final con solo su trono y sus Exploradores se levanta con los mismos ocho Necrovantes que uno intacto. «Central» se reconoce sin listas: de los tres Exploradores, el central es el que queda en línea recta con el trono, y los otros dos son los costados.",
+"parent": "14.3"
+},
+{
+"id": "14.3.2",
+"anchor": "r-14-3-2",
+"level": 3,
+"title": "Durante el turno",
+"chapter": "14",
+"html": "<p>Los Necrovantes se desplazan en <strong>Marcha Espectral</strong>: <strong>hasta 7 casillas continuas</strong>, pudiendo cambiar de dirección en cada una. Lo hacen <strong>siempre</strong>, sin tirar dado jamás; a cambio no saltan sobre otras piezas, no capturan en cadena y no cruzan ninguna muralla. Un Reino Necrovante <strong>roba cartas como cualquier otro</strong>: su carta de <strong>Asalto</strong> al inicio del turno y <strong>1 carta de Dominio</strong> cada vez que uno de sus Necrovantes termina su movimiento en una casilla de Dominio. De lo robado, solo puede quedarse las cartas que tengan descrita la habilidad «Necrovante»; las demás las descarta o las regala.</p><p><em>«Continuas» pide dos cosas a la vez, y conviene leerlas por separado: cada paso va a una <strong>casilla vecina</strong> —nunca un salto— y <strong>ninguna casilla del camino puede estar ocupada</strong>. Solo la casilla de destino puede tener una pieza, y entonces es una captura. El Necrovante anda mucho, pero anda.</em></p>",
+"text": "Los Necrovantes se desplazan en Marcha Espectral: hasta 7 casillas continuas, pudiendo cambiar de dirección en cada una. Lo hacen siempre, sin tirar dado jamás; a cambio no saltan sobre otras piezas, no capturan en cadena y no cruzan ninguna muralla. Un Reino Necrovante roba cartas como cualquier otro: su carta de Asalto al inicio del turno y 1 carta de Dominio cada vez que uno de sus Necrovantes termina su movimiento en una casilla de Dominio. De lo robado, solo puede quedarse las cartas que tengan descrita la habilidad «Necrovante»; las demás las descarta o las regala. «Continuas» pide dos cosas a la vez, y conviene leerlas por separado: cada paso va a una casilla vecina —nunca un salto— y ninguna casilla del camino puede estar ocupada. Solo la casilla de destino puede tener una pieza, y entonces es una captura. El Necrovante anda mucho, pero anda.",
+"parent": "14.3"
+},
+{
+"id": "14.3.3",
+"anchor": "r-14-3-3",
+"level": 3,
+"title": "Revivir un Necrovante",
+"chapter": "14",
+"html": "<p>Cuesta lo mismo que cualquier otra pieza —<strong>7 prisioneros</strong> en Primigenio y <a class=\"rref\" href=\"#r-9\">9</a> en Superviviente y Forjado— y la pieza aparece en <strong>cualquier casilla libre</strong> de tu reino, sin la restricción de casilla de origen que se aplica al resto.</p><p><strong>Y es lo único que un Reino Necrovante puede revivir.</strong> Un reino caído <strong>no recupera su vieja línea de combate</strong>: por muchos prisioneros que acumulen sus muertos, no puede devolver al tablero Conquistadores, Atacantes, Contendientes, Defensores ni Exploradores. Solo Necrovantes. Es la misma restricción que pesa sobre sus Invocaciones, extendida a la resurrección con prisioneros: lo que la caída vació no vuelve a llenarse. La única puerta que queda abierta sigue siendo <strong>I04 · Renacer del Fénix</strong>.</p>",
+"text": "Cuesta lo mismo que cualquier otra pieza —7 prisioneros en Primigenio y 9 en Superviviente y Forjado— y la pieza aparece en cualquier casilla libre de tu reino, sin la restricción de casilla de origen que se aplica al resto. Y es lo único que un Reino Necrovante puede revivir. Un reino caído no recupera su vieja línea de combate: por muchos prisioneros que acumulen sus muertos, no puede devolver al tablero Conquistadores, Atacantes, Contendientes, Defensores ni Exploradores. Solo Necrovantes. Es la misma restricción que pesa sobre sus Invocaciones, extendida a la resurrección con prisioneros: lo que la caída vació no vuelve a llenarse. La única puerta que queda abierta sigue siendo I04 · Renacer del Fénix.",
+"parent": "14.3"
+},
+{
+"id": "14.3.4",
+"anchor": "r-14-3-4",
+"level": 3,
+"title": "Si solo gobiernas reinos Necrovantes",
+"chapter": "14",
+"html": "<p>Mueves <strong>2 Necrovantes</strong> por turno, sin repetir pieza, y solo puedes activar las cartas que tengan descrita la habilidad <strong>«Necrovante»</strong>. Tus Invocaciones solo sirven para revivir Necrovantes, con la única excepción de <strong>I04 · Renacer del Fénix</strong>, que devuelve tu reino a la condición de reino real. Toda carta que llegue a tu mano sin habilidad «Necrovante» deberás <strong>descartarla o regalarla</strong>.</p>",
+"text": "Mueves 2 Necrovantes por turno, sin repetir pieza, y solo puedes activar las cartas que tengan descrita la habilidad «Necrovante». Tus Invocaciones solo sirven para revivir Necrovantes, con la única excepción de I04 · Renacer del Fénix, que devuelve tu reino a la condición de reino real. Toda carta que llegue a tu mano sin habilidad «Necrovante» deberás descartarla o regalarla.",
+"parent": "14.3"
+},
+{
+"id": "14.3.5",
+"anchor": "r-14-3-5",
+"level": 3,
+"title": "Si gobiernas un reino real y otro Necrovante",
+"chapter": "14",
+"html": "<p>Recuperas el uso de <strong>todas</strong> las cartas sin restricción alguna y repartes tus movimientos entre todos tus reinos, incluidos los Necrovantes.</p>",
+"text": "Recuperas el uso de todas las cartas sin restricción alguna y repartes tus movimientos entre todos tus reinos, incluidos los Necrovantes.",
+"parent": "14.3"
+},
+{
+"id": "14.3.6",
+"anchor": "r-14-3-6",
+"level": 3,
+"title": "Cómo pierde",
+"chapter": "14",
+"html": "<p>Un Reino Necrovante pierde la partida cuando <strong>se queda sin Necrovantes</strong> sobre el tablero.</p>",
+"text": "Un Reino Necrovante pierde la partida cuando se queda sin Necrovantes sobre el tablero.",
+"parent": "14.3"
+},
+{
+"id": "14.4",
+"anchor": "r-14-4",
+"level": 2,
+"title": "Renacer del Fénix",
+"chapter": "14",
+"html": "<p>La carta <strong>I04 · Renacer del Fénix</strong>, del mazo de Dominio, es la única que devuelve un reino a la vida y con él a su Gobernante, entregando <strong>un Gobernante, un Atacante, un Defensor y un Explorador</strong>.</p>",
+"text": "La carta I04 · Renacer del Fénix, del mazo de Dominio, es la única que devuelve un reino a la vida y con él a su Gobernante, entregando un Gobernante, un Atacante, un Defensor y un Explorador.",
+"parent": "14"
+},
+{
+"id": "14.4.1",
+"anchor": "r-14-4-1",
+"level": 3,
+"title": "Sus cuatro usos",
+"chapter": "14",
+"html": "<p>Puede emplearse para <strong>salvar tu reino en el instante en que cae</strong>, en la ventana de salvación, justo después de la captura de tu Gobernante; para <strong>devolver tu Reino Necrovante a la condición de reino real</strong>, sin importar cuántas rondas lleve caído; para <strong>revivir el reino caído de otro jugador y pasar a gobernarlo tú</strong>; y para <strong>reclamar un reino sin dueño</strong> cuando la mesa haya pactado dejarlos. Nada impide, por tanto, que termines gobernando dos reinos a la vez, aunque eso <strong>no te da más movimientos</strong> por turno de los que ya te correspondían.</p>",
+"text": "Puede emplearse para salvar tu reino en el instante en que cae, en la ventana de salvación, justo después de la captura de tu Gobernante; para devolver tu Reino Necrovante a la condición de reino real, sin importar cuántas rondas lleve caído; para revivir el reino caído de otro jugador y pasar a gobernarlo tú; y para reclamar un reino sin dueño cuando la mesa haya pactado dejarlos. Nada impide, por tanto, que termines gobernando dos reinos a la vez, aunque eso no te da más movimientos por turno de los que ya te correspondían.",
+"parent": "14.4"
+},
+{
+"id": "14.4.2",
+"anchor": "r-14-4-2",
+"level": 3,
+"title": "La ventana de salvación",
+"chapter": "14",
+"html": "<p>Si capturan a tu Gobernante puedes activar esta carta <strong>inmediatamente después de la captura</strong>, antes de que se ejecute cualquier otra acción de la partida, y con ello detienes la caída y conservas tu reino como reino normal. Pero esa ventana se cierra en cuanto <strong>ocurra cualquier otra cosa</strong> —un movimiento, la activación de otra carta, el paso del turno—, y a partir de ese momento tu reino se transforma <strong>de manera irreversible</strong> en Reino Necrovante, sin que esta carta pueda ya rescatarlo.</p>",
+"text": "Si capturan a tu Gobernante puedes activar esta carta inmediatamente después de la captura, antes de que se ejecute cualquier otra acción de la partida, y con ello detienes la caída y conservas tu reino como reino normal. Pero esa ventana se cierra en cuanto ocurra cualquier otra cosa —un movimiento, la activación de otra carta, el paso del turno—, y a partir de ese momento tu reino se transforma de manera irreversible en Reino Necrovante, sin que esta carta pueda ya rescatarlo.",
+"parent": "14.4"
+},
+{
+"id": "15",
+"anchor": "r-15",
+"level": 1,
+"title": "La victoria",
+"chapter": "15",
+"html": "",
+"text": "",
+"parent": null
+},
+{
+"id": "15.1",
+"anchor": "r-15-1",
+"level": 2,
+"title": "Gana el último jugador en pie",
+"chapter": "15",
+"html": "<p><strong>Gana el último jugador en pie</strong>, y conviene subrayar que se cuentan <strong>jugadores</strong> y no reinos, porque un mismo jugador puede llegar a controlar varios y porque perder un reino no elimina a su dueño de la partida.</p>",
+"text": "Gana el último jugador en pie, y conviene subrayar que se cuentan jugadores y no reinos, porque un mismo jugador puede llegar a controlar varios y porque perder un reino no elimina a su dueño de la partida.",
+"parent": "15"
+},
+{
+"id": "15.2",
+"anchor": "r-15-2",
+"level": 2,
+"title": "Cuándo termina la partida",
+"chapter": "15",
+"html": "<p>La partida se acaba en el instante en que <strong>solo un jugador conserva un reino real</strong> con su Gobernante vivo, y ese jugador gana aunque sobre el tablero queden Reinos Necrovantes ajenos todavía en pie.</p>",
+"text": "La partida se acaba en el instante en que solo un jugador conserva un reino real con su Gobernante vivo, y ese jugador gana aunque sobre el tablero queden Reinos Necrovantes ajenos todavía en pie.",
+"parent": "15"
+},
+{
+"id": "15.3",
+"anchor": "r-15-3",
+"level": 2,
+"title": "Si no queda ningún reino real",
+"chapter": "15",
+"html": "<p>Entonces los Necrovantes se disputan el mundo entre ellos, y gana <strong>el último jugador que conserve piezas</strong> sobre el tablero, de manera que <strong>un Reino Necrovante puede ganar Dizaster</strong>.</p>",
+"text": "Entonces los Necrovantes se disputan el mundo entre ellos, y gana el último jugador que conserve piezas sobre el tablero, de manera que un Reino Necrovante puede ganar Dizaster.",
+"parent": "15"
+},
+{
+"id": "15.4",
+"anchor": "r-15-4",
+"level": 2,
+"title": "Un solo ganador",
+"chapter": "15",
+"html": "<p>No existe segundo puesto ni premio de consolación de ninguna clase: hay un trono, y sobra gente.</p>",
+"text": "No existe segundo puesto ni premio de consolación de ninguna clase: hay un trono, y sobra gente.",
+"parent": "15"
+},
+{
+"id": "16",
+"anchor": "r-16",
+"level": 1,
+"title": "Votaciones",
+"chapter": "16",
+"html": "<p>Todo aquello que el juego somete a votación —la <strong>Muerte Súbita</strong>, la <strong>Invocación Suprema</strong> y el <strong>rebarajado del mazo de Dominio</strong>, entre otros— se decide por <strong>mayoría de los jugadores activos</strong>, contando <strong>un voto por jugador y no por reino</strong>, con los Necrovantes votando igual que cualquier otro. En caso de empate, <strong>decide el Canciller</strong>.</p>",
+"text": "Todo aquello que el juego somete a votación —la Muerte Súbita, la Invocación Suprema y el rebarajado del mazo de Dominio, entre otros— se decide por mayoría de los jugadores activos, contando un voto por jugador y no por reino, con los Necrovantes votando igual que cualquier otro. En caso de empate, decide el Canciller.",
+"parent": null
+},
+{
+"id": "17",
+"anchor": "r-17",
+"level": 1,
+"title": "Reglas personalizadas",
+"chapter": "17",
+"html": "<p>Dizaster está pensado para que la mesa pueda ampliarlo, y por eso durante la preparación podéis añadir reglas adicionales al Core, expansiones, reglas locales y restricciones propias. Para que una regla personalizada sea válida deben cumplirse dos condiciones: que se <strong>cree una carta de regla</strong> que la recoja por escrito, y que <strong>todos los jugadores estén de acuerdo</strong> con ella. A partir de ese momento será el Canciller quien resuelva cuanto surja de esa regla nueva, porque lo que no está escrito en el Core es lo único que el Canciller decide.</p>",
+"text": "Dizaster está pensado para que la mesa pueda ampliarlo, y por eso durante la preparación podéis añadir reglas adicionales al Core, expansiones, reglas locales y restricciones propias. Para que una regla personalizada sea válida deben cumplirse dos condiciones: que se cree una carta de regla que la recoja por escrito, y que todos los jugadores estén de acuerdo con ella. A partir de ese momento será el Canciller quien resuelva cuanto surja de esa regla nueva, porque lo que no está escrito en el Core es lo único que el Canciller decide.",
+"parent": null
+},
+{
+"id": "18",
+"anchor": "r-18",
+"level": 1,
+"title": "Ajustes del tablero Ko'resh",
+"chapter": "18",
+"html": "<p>El tablero de 8 reinos emplea el mismo Core que Vunnar, con <strong>4 casillas de Dominio</strong> y <strong>1 casilla de Poder</strong> en su zona central.</p>",
+"text": "El tablero de 8 reinos emplea el mismo Core que Vunnar, con 4 casillas de Dominio y 1 casilla de Poder en su zona central.",
+"parent": null
+},
+{
+"id": "18.1",
+"anchor": "r-18-1",
+"level": 2,
+"title": "Dados con 7 u 8 jugadores",
+"chapter": "18",
+"html": "<p>Cuando una carta sortea entre reinos, como <strong>X01 · Juicio Final</strong>, con 7 u 8 jugadores se tira el <strong>dado de 8 caras</strong> en lugar del de 6.</p>",
+"text": "Cuando una carta sortea entre reinos, como X01 · Juicio Final, con 7 u 8 jugadores se tira el dado de 8 caras en lugar del de 6.",
+"parent": "18"
+}
+]
+}

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dizaster · Reglamento v1.5 y Cartas</title>
+<meta name="description" content="Dizaster: juego de guerra y conquista para 2 a 8 jugadores. Resumen, inicio rápido, reglamento v1.5 con buscador, glosario y las 97 cartas.">
+<meta name="theme-color" content="#07080b">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/germania-one.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/barlow-sc-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/card.css">
+</head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="Dizaster, inicio">
+    <svg class="brand-bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+    <span class="brand-name">Dizaster</span><span class="brand-ver">v1.5</span>
+  </a>
+  <button class="navtoggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">☰</button>
+  <nav id="nav" class="nav" aria-label="Secciones">
+    <a href="#inicio" data-sec="inicio">Inicio</a>
+    <a href="#inicio-rapido" data-sec="inicio-rapido">Inicio rápido</a>
+    <a href="#reglamento" data-sec="reglamento">Reglamento</a>
+    <a href="#glosario" data-sec="glosario">Glosario</a>
+    <a href="#cartas" data-sec="cartas">Cartas</a>
+  </nav>
+  <button id="fxtoggle" class="iconbtn" aria-pressed="true" title="Animación del fondo">✦</button>
+</header>
+
+<main id="main">
+<!-- ═════════════ 1 · INICIO / RESUMEN ═════════════ -->
+<section id="inicio" class="sec hero-sec">
+  <div class="hero">
+    <p class="kicker">Juego de guerra y conquista · Reglamento v1.5 · edición final</p>
+    <h1 class="hero-title">Dizaster</h1>
+    <p class="hero-lead">De <strong>2 a 8 jugadores</strong> sobre un gran tablero de casillas hexagonales. Gobiernas uno o varios reinos, mueves tus piezas, juegas cartas capaces de dar la vuelta a la partida y proteges a tu Gobernante. La meta: <strong>ser el último jugador en pie</strong>. <a class="rref" href="#r-1-1">1.1</a></p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#inicio-rapido">Inicio rápido</a>
+      <a class="btn" href="#cartas">Explorar las 97 cartas</a>
+      <a class="btn btn-ghost" href="#reglamento">Leer el reglamento</a>
+    </div>
+  </div>
+
+  <div class="stats" role="list">
+    <div class="stat" role="listitem"><b>2–8</b><span>jugadores <a class="rref" href="#r-2-1-1">2.1.1</a></span></div>
+    <div class="stat" role="listitem"><b>2</b><span>tableros: Vunnar y Ko'resh</span></div>
+    <div class="stat" role="listitem"><b>3</b><span>modos de partida</span></div>
+    <div class="stat" role="listitem"><b>11</b><span>piezas por reino <a class="rref" href="#r-4-2">4.2</a></span></div>
+    <div class="stat" role="listitem"><b>97</b><span>cartas distintas · 136 ejemplares</span></div>
+  </div>
+
+  <div class="grid2">
+    <article class="panel">
+      <h2 class="h2">Los tableros</h2>
+      <div class="board-row">
+        <div class="board">
+          <svg viewBox="0 0 100 100" class="board-ico" aria-hidden="true"><polygon points="50,4 90,27 90,73 50,96 10,73 10,27"/></svg>
+          <div><h3>Vunnar · 6 reinos</h3><p>Hexagonal, de 2 a 6 jugadores. Reinos Azul, Morado, Rojo, Naranja, Amarillo y Verde. Centro: <strong>3 casillas de Dominio</strong> y <strong>1 de Poder</strong>. <a class="rref" href="#r-2-2-1">2.2.1</a></p></div>
+        </div>
+        <div class="board">
+          <svg viewBox="0 0 100 100" class="board-ico" aria-hidden="true"><polygon points="32,4 68,4 96,32 96,68 68,96 32,96 4,68 4,32"/></svg>
+          <div><h3>Ko'resh · 8 reinos</h3><p>Octogonal, de 2 a 8 jugadores. Reinos Blanco, Verde, Azul, Morado, Negro, Rojo, Naranja y Amarillo. Centro: <strong>4 de Dominio</strong> y 1 de Poder. <a class="rref" href="#r-2-2-2">2.2.2</a> <a class="rref" href="#r-18">18</a></p></div>
+        </div>
+      </div>
+      <p class="muted small">Los reinos nunca se tocan: siempre hay zona común entre ellos. <a class="rref" href="#r-6-2">6.2</a></p>
+    </article>
+
+    <article class="panel">
+      <h2 class="h2">Los tres modos</h2>
+      <ul class="modes">
+        <li class="mode is-focus"><span class="mode-name">Primigenio</span><span class="badge">movimiento con dado</span><p>Partidas casuales e introductorias: todos mueven con dado, sin aprenderse los patrones. <a class="rref" href="#r-2-3-1">2.3.1</a> <a class="rref" href="#r-7-4">7.4</a></p></li>
+        <li class="mode"><span class="mode-name">Superviviente</span><span class="badge">movimiento específico</span><p>El modo de la estrategia: cada pieza sigue su patrón, sin dados. <a class="rref" href="#r-2-3-2">2.3.2</a> <a class="rref" href="#r-7-5">7.5</a></p></li>
+        <li class="mode"><span class="mode-name">Forjado</span><span class="badge">específico + casilla de Poder</span><p>Estrategia extrema: movimiento específico y la casilla central funciona como casilla de Poder. <a class="rref" href="#r-2-3-3">2.3.3</a></p></li>
+      </ul>
+      <p class="muted small">El modo se elige antes de empezar y no se cambia a mitad de partida. <a class="rref" href="#r-5-1">5.1</a></p>
+    </article>
+  </div>
+
+  <article class="panel">
+    <h2 class="h2">Las piezas de cada reino</h2>
+    <div class="tbl"><table class="pieces">
+      <thead><tr><th>Pieza</th><th>Cant.</th><th>Cat.</th><th>Movimiento</th><th>Dado</th><th>Revivir<br><small>Primigenio · Superv./Forjado</small></th></tr></thead>
+      <tbody>
+        <tr><td><b>Gobernante</b></td><td>1</td><td>A</td><td>Hasta 3 casillas continuas; 7 si es la penúltima pieza de su reino.</td><td>—</td><td>Solo con I04</td></tr>
+        <tr><td><b>Conquistador</b></td><td>1</td><td>B</td><td>Línea recta, sin límite.</td><td>D8</td><td>7 · 9</td></tr>
+        <tr><td><b>Atacante</b></td><td>2</td><td>B</td><td>Línea recta, de 1 a 8 casillas.</td><td>D8</td><td>7 · 9</td></tr>
+        <tr><td><b>Contendiente</b></td><td>2</td><td>C</td><td>Línea recta, de 1 a 3 casillas.</td><td>D6</td><td>7 · 9</td></tr>
+        <tr><td><b>Defensor</b></td><td>2</td><td>C</td><td>En «J». Único que salta piezas.</td><td>D6</td><td>7 · 9</td></tr>
+        <tr><td><b>Explorador</b></td><td>3</td><td>C</td><td>Hasta 2 casillas continuas.</td><td>—</td><td>7 · 9</td></tr>
+        <tr class="necro-row"><td><b>Necrovante</b></td><td>(8)</td><td>B</td><td>Marcha Espectral: 7 continuas, sin saltar ni cruzar murallas.</td><td>—</td><td>7 · 9</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted small">Fuente: <a class="rref" href="#r-4-2">4.2</a> <a class="rref" href="#r-7-2">7.2</a> <a class="rref" href="#r-14-3-2">14.3.2</a>. El Necrovante solo aparece cuando un reino cae.</p>
+  </article>
+
+  <article class="panel">
+    <h2 class="h2">Los mazos</h2>
+    <div class="decks" id="decks"></div>
+    <p class="muted small">Cada mazo se baraja boca abajo con su propia pila de descarte, y nunca se mezclan. <a class="rref" href="#r-4-3">4.3</a></p>
+  </article>
+</section>
+
+<!-- ═════════════ 2 · INICIO RÁPIDO ═════════════ -->
+<section id="inicio-rapido" class="sec">
+  <header class="sec-head">
+    <p class="kicker">Paso a paso</p>
+    <h2 class="h1">Inicio rápido</h2>
+    <p class="lead">Resumen del Core para tu primera partida en <strong>modo Primigenio</strong> (movimiento con dado). Cada paso enlaza a su regla completa.</p>
+  </header>
+
+  <div class="qs">
+    <div class="qs-col">
+      <h3 class="qs-phase"><span>I</span> Preparación</h3>
+      <ol class="steps">
+        <li><b>Elige tablero y modo.</b> Vunnar (2–6 jugadores) o Ko'resh (hasta 8). Primigenio, Superviviente o Forjado; el modo no cambia en toda la partida. <a class="rref" href="#r-2-2">2.2</a> <a class="rref" href="#r-5-1">5.1</a></li>
+        <li><b>Reparte los reinos.</b> Con 1–2 jugadores, de 1 a 3 reinos cada uno en Vunnar (1 a 4 en Ko'resh); con 3, de 1 a 2; con 4 o más, 1 cada uno. Cada jugador tiene <em>una sola mano y un solo turno</em>. <a class="rref" href="#r-5-2-1">5.2.1</a></li>
+        <li><b>Elige al Canciller.</b> Todos tiran el D8; el más alto es Canciller y además empieza. Si hay empate, se vuelve a tirar. <a class="rref" href="#r-3-7">3.7</a></li>
+        <li><b>Forma tus piezas</b> desde la punta hacia el centro: Gobernante · 2 Atacantes · Contendiente, Conquistador, Contendiente · Defensor, Explorador, Explorador, Defensor · el tercer Explorador en vanguardia. <a class="rref" href="#r-5-4">5.4</a></li>
+        <li><b>Prepara la mesa.</b> Asalto, Dominio y Evento barajados boca abajo, cada uno con su descarte. Los dos dados, los bloques de muralla, una Prisión de Guerra por jugador y la Fosa Común en el centro. <a class="rref" href="#r-5-5">5.5</a></li>
+      </ol>
+    </div>
+
+    <div class="qs-col">
+      <h3 class="qs-phase"><span>II</span> Cada ronda</h3>
+      <ol class="steps" start="6">
+        <li><b>El Canciller revela un Evento.</b> Su efecto cae sobre todos, él incluido. Si lo olvida, recibe una penalización y esa ronda no hay Evento. <a class="rref" href="#r-3-5">3.5</a> <a class="rref" href="#r-8-4">8.4</a> <a class="rref" href="#r-8-5">8.5</a></li>
+      </ol>
+      <h3 class="qs-phase"><span>III</span> Tu turno</h3>
+      <ol class="steps" start="7">
+        <li class="hot"><b>Roba 1 carta de Asalto, primero.</b> Cualquier acción previa anula el robo de ese turno. <a class="rref" href="#r-8-1">8.1</a></li>
+        <li><b>Mueve 2 piezas distintas</b> (3 o 4 si gestionas más reinos). Una pieza ya movida no repite. <a class="rref" href="#r-8-2-1">8.2.1</a> <a class="rref" href="#r-7-3">7.3</a>
+          <ul class="sub">
+            <li><b>Tira antes de mover:</b> el resultado es el máximo de casillas continuas, cambiando de dirección si quieres. D8 para Conquistador y Atacantes; D6 para Contendientes y Defensores. <a class="rref" href="#r-7-4-1">7.4.1</a></li>
+            <li>Gobernante, Explorador y Necrovante <b>no tiran</b>: usan su patrón fijo. <a class="rref" href="#r-7-4-2">7.4.2</a></li>
+            <li>Puedes tirar por adelantado todos tus movimientos. Una tirada sin camino legal se pierde y consume el movimiento. <a class="rref" href="#r-7-4-3">7.4.3</a> <a class="rref" href="#r-7-4-4">7.4.4</a></li>
+            <li>Solo se captura en la casilla de destino. Tu muralla la cruzas gratis; la ajena te bloquea. <a class="rref" href="#r-7-6">7.6</a></li>
+          </ul>
+        </li>
+        <li><b>Activa cartas:</b> 1 Precursora por turno, hasta 2 Instantáneas por ronda y todas las Nexo que quieras dentro de una Fase abierta. <a class="rref" href="#r-8-2-2">8.2.2</a> <a class="rref" href="#r-10-7">10.7</a></li>
+        <li><b>Otras acciones:</b> revivir con prisioneros, construir o mover tu muralla, regalar o intercambiar cartas y tu Carta Oculta (1 por partida). <a class="rref" href="#r-8-2-3">8.2.3</a></li>
+        <li class="hot"><b>Cierra con 5 cartas o menos:</b> descarta tú las que sobren hasta quedarte con 5. Anuncia el final; el turno pasa a tu derecha. <a class="rref" href="#r-8-3">8.3</a></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="grid3">
+    <article class="panel">
+      <h3 class="h3">La Fase de Resolución</h3>
+      <ol class="mini">
+        <li>Al activar una Precursora (o una Instantánea respondible) el juego se detiene. <a class="rref" href="#r-11-2">11.2</a></li>
+        <li>Anuncias objetivos y <b>reparto completo</b> de una vez. <a class="rref" href="#r-11-3">11.3</a></li>
+        <li>Las respuestas se apilan encima. <a class="rref" href="#r-11-4">11.4</a></li>
+        <li>Se resuelve de arriba abajo: la última jugada se aplica primero. <a class="rref" href="#r-11-7">11.7</a></li>
+        <li>Lo cancelado se pierde y no se reasigna. <a class="rref" href="#r-11-6">11.6</a> La Furia se resuelve en el acto. <a class="rref" href="#r-11-9">11.9</a></li>
+      </ol>
+    </article>
+    <article class="panel">
+      <h3 class="h3">Lo que más se olvida</h3>
+      <ul class="mini">
+        <li><b>Casillas de Dominio:</b> terminar el movimiento ahí da 1 carta de Dominio. <a class="rref" href="#r-6-5">6.5</a></li>
+        <li><b>Revivir:</b> cualquier pieza cuesta 7 prisioneros en Primigenio (9 en Superviviente y Forjado). <a class="rref" href="#r-12-3">12.3</a></li>
+        <li><b>La mano se ve, pero no se lee.</b> <a class="rref" href="#r-9-1">9.1</a></li>
+      </ul>
+    </article>
+    <article class="panel">
+      <h3 class="h3">Cómo se gana</h3>
+      <ul class="mini">
+        <li>Gana el <b>último jugador</b> que conserva un reino real con su Gobernante vivo. <a class="rref" href="#r-15-1">15.1</a> <a class="rref" href="#r-15-2">15.2</a></li>
+        <li>Si no queda ningún reino real, gana el último que conserve piezas: un Reino Necrovante puede ganar. <a class="rref" href="#r-15-3">15.3</a></li>
+        <li>Un reino cae por captura de su Gobernante o por una carta de Aniquilación. <a class="rref" href="#r-14-1">14.1</a></li>
+        <li>Máximo 100 rondas; si nadie gana, la partida fracasa. <a class="rref" href="#r-8-4-1">8.4.1</a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ═════════════ 3 · REGLAMENTO ═════════════ -->
+<section id="reglamento" class="sec">
+  <header class="sec-head">
+    <p class="kicker">Core completo</p>
+    <h2 class="h1">Reglamento v1.5</h2>
+    <p class="lead">Texto íntegro del reglamento, organizado por apartados. Cada número es un enlace directo (por ejemplo <a class="rref" href="#r-11-9">11.9</a>).</p>
+  </header>
+  <div class="rules-layout">
+    <aside class="rules-toc" aria-label="Índice del reglamento">
+      <div class="searchbox">
+        <input id="rq" type="search" placeholder="Buscar en el reglamento…" aria-label="Buscar en el reglamento" autocomplete="off">
+        <span id="rcount" class="count" aria-live="polite"></span>
+      </div>
+      <ol id="toc" class="toc"></ol>
+    </aside>
+    <div id="rules" class="rules" aria-live="polite"><p class="muted">Cargando reglamento…</p></div>
+  </div>
+</section>
+
+<!-- ═════════════ 3b · GLOSARIO ═════════════ -->
+<section id="glosario" class="sec">
+  <header class="sec-head">
+    <p class="kicker">Términos A–Z</p>
+    <h2 class="h1">Glosario</h2>
+    <p class="lead">Cada término resume lo que dice el reglamento y enlaza a sus apartados.</p>
+  </header>
+  <div class="gl-tools">
+    <input id="gq" type="search" placeholder="Filtrar términos…" aria-label="Filtrar el glosario" autocomplete="off">
+    <nav id="az" class="az" aria-label="Letras"></nav>
+  </div>
+  <dl id="gloss" class="gloss"></dl>
+</section>
+
+<!-- ═════════════ 4 · CARTAS ═════════════ -->
+<section id="cartas" class="sec">
+  <header class="sec-head">
+    <p class="kicker">Asalto · Dominio · Evento</p>
+    <h2 class="h1">Cartas</h2>
+    <p class="lead">Las 97 cartas con su texto oficial final, el mismo del set impreso. Busca por código, título o texto y abre una carta para ver su uso, sus reglas y recomendaciones.</p>
+  </header>
+  <div class="filters" role="search">
+    <input id="cq" type="search" placeholder="Código, título o texto… (p. ej. D02, Fénix, muralla)" aria-label="Buscar cartas" autocomplete="off">
+    <div class="chips" id="fdeck" role="group" aria-label="Mazo">
+      <button class="chip on" data-v="">Todos</button>
+      <button class="chip" data-v="asalto" style="--c:#35D0DF">Asalto</button>
+      <button class="chip" data-v="dominio" style="--c:#8347B6">Dominio</button>
+      <button class="chip" data-v="evento" style="--c:#E9E4D4">Evento</button>
+    </div>
+    <label class="sel"><span>Clase</span><select id="fclase"><option value="">Todas</option></select></label>
+    <label class="sel"><span>Tipo</span><select id="ftipo"><option value="">Todos</option><option value="precursora">𖨰 Precursora</option><option value="nexo">𐋄 Nexo</option><option value="instantaneo">⚶ Instantánea</option><option value="evento">Evento</option></select></label>
+    <label class="sel"><span>Modificador</span><select id="fmod"><option value="">Cualquiera</option><option value="furia">𖤗 Furia</option><option value="vestigio">𖢑 Vestigio</option><option value="none">Sin modificador</option></select></label>
+    <label class="sel"><span>Modo</span><select id="fmodo"><option value="">Todos</option><option value="primigenio">Primigenio (dado)</option><option value="superviviente">Superviviente / Forjado</option></select></label>
+    <label class="chk"><input type="checkbox" id="favisos"> Solo con avisos</label>
+    <span id="ccount" class="count" aria-live="polite"></span>
+  </div>
+  <div id="grid" class="cgrid"></div>
+</section>
+</main>
+
+<footer class="foot">
+  <p><b>Dizaster</b> · Reglamento v1.5 (edición final) · Textos del set impreso (Expansión I). Sitio de consulta generado desde los documentos fuente; las <em>Recomendaciones</em> son consejos de juego, no reglas.</p>
+  <p class="muted small">Tipografías: Germania One, Barlow Semi Condensed, Michroma y Noto Sans (SIL OFL).</p>
+</footer>
+
+<dialog id="detail" class="detail" aria-labelledby="d-title">
+  <div class="d-wrap">
+    <button class="d-close iconbtn" data-close aria-label="Cerrar">✕</button>
+    <div class="d-card"><div id="d-face"></div>
+      <div class="d-texttabs" id="d-tabs" role="tablist" aria-label="Versión del texto"></div>
+      <div class="d-nav"><button class="btn btn-sm" id="d-prev">← Anterior</button><button class="btn btn-sm" id="d-next">Siguiente →</button></div>
+    </div>
+    <div class="d-info" id="d-info"></div>
+  </div>
+</dialog>
+
+<script src="assets/js/card.js" defer></script>
+<script src="assets/js/fx.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

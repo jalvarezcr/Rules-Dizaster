@@ -1,0 +1,416 @@
+{
+"version": "1.5",
+"terms": [
+{
+"termino": "Aniquilación",
+"def": "Clase de carta más letal: puede derribar un reino entero de un golpe. Son X01 · Juicio Final y X02 · Ritual de Sacrificio.",
+"reglas": [
+"10.3",
+"14.1"
+]
+},
+{
+"termino": "Asalto (mazo)",
+"def": "Mazo de acción principal. Robas una carta de Asalto al inicio de cada turno, antes que cualquier otra acción; si no la tomas primero, la pierdes hasta tu siguiente turno.",
+"reglas": [
+"4.3.1",
+"8.1",
+"10.2.1"
+]
+},
+{
+"termino": "Atacante",
+"def": "Pieza de categoría B (2 por reino). Se mueve en línea recta de 1 a 8 casillas; con dado tira D8. Revivirlo cuesta 7 en Primigenio y 9 en Superviviente y Forjado.",
+"reglas": [
+"4.2",
+"7.2"
+]
+},
+{
+"termino": "Ataque",
+"def": "Clase de carta ofensiva cuyo efecto puede repartirse entre varios reinos a la vez.",
+"reglas": [
+"10.3",
+"11.3"
+]
+},
+{
+"termino": "Bloque de muralla",
+"def": "Pieza de construcción que ocupa una casilla frontal de tu reino. Solo sale de E01 · Fortaleza de Hierro (6) o del evento Fortificación (3 a todos). En la prisión cuenta como prisionero.",
+"reglas": [
+"13.1",
+"13.3",
+"12.3"
+]
+},
+{
+"termino": "Canciller",
+"def": "Representante de las reglas: no es árbitro. Vela por el orden, invoca los Eventos y solo decide ante lo que no está escrito. Se elige con el D8 y quien gana además empieza.",
+"reglas": [
+"3.1",
+"3.4",
+"3.5",
+"3.7"
+]
+},
+{
+"termino": "Carta de referencia",
+"def": "Carta de cada reino con las etapas del turno, la guía de acomodo de piezas y la habilidad especial del reino.",
+"reglas": [
+"5.2.4"
+]
+},
+{
+"termino": "Carta Oculta",
+"def": "Una vez por partida puedes poner una carta boca abajo; en tu siguiente turno la activas o la descartas revelándola.",
+"reglas": [
+"9.4"
+]
+},
+{
+"termino": "Casilla de Dominio",
+"def": "Casillas junto al centro (3 en Vunnar, 4 en Ko'resh). Terminar el movimiento sobre una da 1 carta de Dominio; pasar por encima no da nada.",
+"reglas": [
+"6.5",
+"4.3.2"
+]
+},
+{
+"termino": "Casilla de Muralla",
+"def": "Casillas frontales de tu reino, marcadas en el tablero: el único lugar donde construyes bloques.",
+"reglas": [
+"6.4",
+"13.2"
+]
+},
+{
+"termino": "Casilla de origen",
+"def": "Las 11 casillas donde empiezan tus piezas y a donde vuelven al revivir. La punta es siempre del Gobernante.",
+"reglas": [
+"6.3",
+"12.6"
+]
+},
+{
+"termino": "Casilla Dual",
+"def": "El centro exacto del tablero. En Forjado es la casilla de Poder; en Superviviente es el destino de la Fuga del Saqueador; en Primigenio no tiene uso.",
+"reglas": [
+"6.6"
+]
+},
+{
+"termino": "Categoría (A, B, C)",
+"def": "Rango de cada pieza: decide qué dado tira (el coste de revivir depende solo del modo: 7 o 9). A: Gobernante; B: Conquistador, Atacante, Necrovante; C: Contendiente, Defensor, Explorador.",
+"reglas": [
+"7.1",
+"7.2"
+]
+},
+{
+"termino": "Conjuro",
+"def": "Clase de carta: efectos que un jugador lanza sobre la partida para modificar su curso.",
+"reglas": [
+"10.3"
+]
+},
+{
+"termino": "Conquistador",
+"def": "Pieza de categoría B. Se mueve en línea recta sin límite; con dado tira D8. Revivirlo cuesta 7 en Primigenio y 9 en Superviviente y Forjado.",
+"reglas": [
+"4.2",
+"7.2"
+]
+},
+{
+"termino": "Contendiente",
+"def": "Pieza de categoría C (2 por reino). Línea recta de 1 a 3 casillas; con dado tira D6. Revivirlo cuesta 7 en Primigenio y 9 en Superviviente y Forjado.",
+"reglas": [
+"4.2",
+"7.2"
+]
+},
+{
+"termino": "Core",
+"def": "El núcleo de reglas de este reglamento, sobre el que se construyen modos avanzados, catálogos y reglas personalizadas sin modificarlo.",
+"reglas": [
+"17"
+]
+},
+{
+"termino": "Dados (D6 y D8)",
+"def": "Un dado de 6 y uno de 8 caras: sirven para elegir al Canciller y para el movimiento con dado.",
+"reglas": [
+"4.4",
+"7.4"
+]
+},
+{
+"termino": "Defensa",
+"def": "Clase de carta orientada a proteger o resistir: tus piezas, tu reino o tu muralla.",
+"reglas": [
+"10.3"
+]
+},
+{
+"termino": "Defensor",
+"def": "Pieza de categoría C (2 por reino). Se mueve en «J» y es la única que salta. Con dado tira D6, salta como máximo 2 piezas y cada casilla saltada gasta un punto.",
+"reglas": [
+"7.2",
+"7.4.5"
+]
+},
+{
+"termino": "Dominio (mazo)",
+"def": "Mazo de efectos superiores. No se roba por turno: es la recompensa por terminar el movimiento en una casilla de Dominio (1 carta cada vez). Si se agota, la mesa vota si se rebaraja su descarte.",
+"reglas": [
+"4.3.2",
+"10.2.2"
+]
+},
+{
+"termino": "Efecto",
+"def": "Clase de carta que altera el estado del juego sin ser ataque ni defensa directos.",
+"reglas": [
+"10.3"
+]
+},
+{
+"termino": "Evento (mazo)",
+"def": "43 cartas únicas; al agotarse, el Canciller rebaraja su descarte. El Canciller abre cada ronda con un Evento y su efecto cae sobre todos, él incluido.",
+"reglas": [
+"4.3.3",
+"10.2.3",
+"3.5"
+]
+},
+{
+"termino": "Explorador",
+"def": "Pieza de categoría C (3 por reino). Hasta 2 casillas continuas cambiando de dirección; nunca tira dado. Revivirlo cuesta 7 en Primigenio y 9 en Superviviente y Forjado.",
+"reglas": [
+"4.2",
+"7.2",
+"7.4.2"
+]
+},
+{
+"termino": "Fase de Resolución",
+"def": "Pausa que abre una Precursora (o una Instantánea respondible): se declaran objetivos y reparto, se apilan respuestas y se resuelve de arriba abajo.",
+"reglas": [
+"11.1",
+"11.2",
+"11.7"
+]
+},
+{
+"termino": "Fosa Común",
+"def": "Espacio común en el centro de la mesa donde bajan los prisioneros entregados para revivir y las piezas eliminadas sin captor.",
+"reglas": [
+"12.4",
+"4.5"
+]
+},
+{
+"termino": "Fuga del Saqueador",
+"def": "Rito de Superviviente: la pieza B o C que cobra Dominio puede teletransportarse de inmediato a la Casilla Dual y tirar D6 (impar: sacrificio; par: huida de D4 casillas).",
+"reglas": [
+"6.6.1",
+"6.6.2"
+]
+},
+{
+"termino": "Furia",
+"def": "Modificador 𖤗: la carta no puede ser cancelada, redirigida, copiada ni reactivada; se resuelve en el acto y no abre Fase.",
+"reglas": [
+"10.5.1",
+"11.9",
+"11.2"
+]
+},
+{
+"termino": "Gobernante",
+"def": "Pieza de categoría A. Hasta 3 casillas continuas (7 si es la penúltima de su reino); nunca tira dado. Si cae, cae su reino. Solo vuelve con I04.",
+"reglas": [
+"4.2",
+"7.2",
+"14.1"
+]
+},
+{
+"termino": "Instantánea (tipo)",
+"def": "Tipo ⚶: se activa en cualquier momento si se cumple su condición. Máximo 2 por jugador y por ronda, contando también las Reacciones de ese tipo.",
+"reglas": [
+"10.4.3",
+"10.7"
+]
+},
+{
+"termino": "Invocación",
+"def": "Clase de carta que trae piezas al tablero o las devuelve a la vida, como I04 · Renacer del Fénix.",
+"reglas": [
+"10.3"
+]
+},
+{
+"termino": "Ko'resh",
+"def": "Tablero octogonal de 8 reinos (2 a 8 jugadores): 4 casillas de Dominio y 1 de Poder en el centro.",
+"reglas": [
+"2.2.2",
+"18"
+]
+},
+{
+"termino": "Límite de mano",
+"def": "Al cerrar tu turno debes tener 5 cartas o menos: descartas tú las que sobren hasta quedarte con 5. Fuera de tu turno, pasarte de 5 sí cuesta la mano entera si otro lo señala.",
+"reglas": [
+"8.3",
+"9.2"
+]
+},
+{
+"termino": "Marcha Espectral",
+"def": "Movimiento del Necrovante: hasta 7 casillas continuas cambiando de dirección, sin saltar, sin capturar en cadena y sin cruzar murallas.",
+"reglas": [
+"14.3.2"
+]
+},
+{
+"termino": "Modo Forjado",
+"def": "Movimiento específico; la casilla central funciona como casilla de Poder. El modo de la estrategia extrema.",
+"reglas": [
+"2.3.3"
+]
+},
+{
+"termino": "Modo Primigenio",
+"def": "Todos mueven con dado. El modo casual e introductorio.",
+"reglas": [
+"2.3.1",
+"7.4"
+]
+},
+{
+"termino": "Modo Superviviente",
+"def": "Todos mueven con movimiento específico, sin dados. El modo de la estrategia.",
+"reglas": [
+"2.3.2",
+"7.5"
+]
+},
+{
+"termino": "Movimiento con dado",
+"def": "Tiras antes de mover; el resultado es el máximo de casillas continuas, cambiando de dirección en cada una. Gobernante, Explorador y Necrovante no tiran.",
+"reglas": [
+"7.4.1",
+"7.4.2"
+]
+},
+{
+"termino": "Movimiento específico",
+"def": "Cada pieza se mueve exactamente según su patrón de la tabla de piezas, sin dados.",
+"reglas": [
+"7.5"
+]
+},
+{
+"termino": "Necrovante",
+"def": "Pieza de categoría B del Reino Necrovante. Se mueve en Marcha Espectral, nunca tira dado y revivirlo cuesta 7 en Primigenio y 9 en Superviviente y Forjado.",
+"reglas": [
+"7.2",
+"14.3"
+]
+},
+{
+"termino": "Nexo (tipo)",
+"def": "Tipo 𐋄: solo existe dentro de una Fase de Resolución abierta y siempre como respuesta. Puede jugarla cualquiera y no consume tu Precursora.",
+"reglas": [
+"10.4.2"
+]
+},
+{
+"termino": "Precursora (tipo)",
+"def": "Tipo 𖨰: solo en tu turno, una por turno, y abre la Fase de Resolución.",
+"reglas": [
+"10.4.1"
+]
+},
+{
+"termino": "Prisión de Guerra",
+"def": "Zona delante de cada jugador donde quedan sus prisioneros (piezas capturadas y bloques), que sirven para pagar resurrecciones.",
+"reglas": [
+"12.2",
+"12.3"
+]
+},
+{
+"termino": "Reacción",
+"def": "Clase de carta que se juega en respuesta a otra carta o a otra acción, incluso fuera de tu turno.",
+"reglas": [
+"10.3"
+]
+},
+{
+"termino": "Reino Necrovante",
+"def": "Reino caído que continúa con 8 Necrovantes. Solo revive Necrovantes y solo activa cartas con habilidad «Necrovante».",
+"reglas": [
+"14.3.1",
+"14.3.3",
+"14.3.4"
+]
+},
+{
+"termino": "Renacer del Fénix (I04)",
+"def": "La única carta que devuelve un reino a la vida con su Gobernante, incluso en la ventana de salvación justo después de la captura.",
+"reglas": [
+"14.4",
+"14.4.2"
+]
+},
+{
+"termino": "Reparto",
+"def": "Cuando el efecto se puede repartir, el atacante declara el reparto entre reinos completo y de una vez; lo cancelado no se reasigna.",
+"reglas": [
+"11.3",
+"11.5",
+"11.6"
+]
+},
+{
+"termino": "Revivir",
+"def": "Solo en tu turno y entregando tus propios prisioneros: cualquier pieza cuesta 7 en Primigenio y 9 en Superviviente y Forjado. La pieza vuelve a su casilla de origen.",
+"reglas": [
+"12.3",
+"12.6"
+]
+},
+{
+"termino": "Ronda",
+"def": "Empieza cuando el Canciller activa un Evento y termina con el turno del último jugador. Una partida dura como máximo 100 rondas.",
+"reglas": [
+"8.4",
+"8.4.1"
+]
+},
+{
+"termino": "Ventana de salvación",
+"def": "Instante justo después de la captura de tu Gobernante en el que aún puedes jugar I04; se cierra en cuanto ocurre cualquier otra cosa.",
+"reglas": [
+"14.4.2"
+]
+},
+{
+"termino": "Vestigio",
+"def": "Modificador 𖢑: el efecto se vuelve permanente el resto de la partida, salvo que otra carta lo destruya expresamente.",
+"reglas": [
+"10.5.2",
+"11.10"
+]
+},
+{
+"termino": "Vunnar",
+"def": "Tablero hexagonal de 6 reinos (2 a 6 jugadores): 3 casillas de Dominio y 1 de Poder.",
+"reglas": [
+"2.2.1"
+]
+}
+]
+}
